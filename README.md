@@ -4,14 +4,16 @@ Localización fan, no oficial, de **Night Call** (Monkey Moon / BlackMuffin, pub
 
 ## Instalación (jugadores)
 
-1. Descargá `NightCallEspanol_Setup.exe` desde la [última versión (Releases)](../../releases/latest) de este repositorio.
-2. Ejecutalo y seguí el asistente (Siguiente → elegir carpeta → Instalar → Finalizar). Detecta tu instalación de Night Call sola (Steam); si no la encuentra, te deja elegir la carpeta a mano.
-3. Si no tenés [BepInEx](https://github.com/BepInEx/BepInEx) instalado, el instalador lo instala solo junto con la traducción, no hace falta instalarlo por separado.
-4. Abrí el juego. La traducción reemplaza al inglés: dejá el idioma del juego en English (el que viene por defecto).
+1. Descarga `NightCallEspanol_vX.Y.Z.zip` desde la [última versión (Releases)](../../releases/latest) de este repositorio y descomprímelo.
+2. Ejecuta `NightCallEspanol_Setup.exe` y sigue el asistente (Siguiente → elegir carpeta → Instalar → Finalizar). Detecta tu instalación de Night Call sola (Steam); si no la encuentra, te deja elegir la carpeta a mano.
+3. Si no tienes [BepInEx](https://github.com/BepInEx/BepInEx) instalado (o está incompleto), el instalador lo instala junto con la traducción; no hace falta instalarlo por separado.
+4. Abre el juego. La traducción reemplaza al inglés: deja el idioma del juego en English (el que viene por defecto).
 
-**Para desinstalar:** desde "Agregar o quitar programas" de Windows, buscá "Night Call - Traducción al español" (o corré `unins000.exe` en la carpeta del juego). Saca la traducción sin tocar tus partidas guardadas.
+**Para actualizar:** instala la versión nueva encima; no hace falta desinstalar antes.
 
-¿Preferís un instalador por consola/texto en vez del asistente gráfico? También está `NightCallEspanol_Instalador_Consola.exe` en la misma Release, con el mismo resultado, sin ventanas.
+**Para desinstalar:** desde "Agregar o quitar programas" de Windows, busca "Night Call - Traducción al español" (o ejecuta `unins000.exe` en la carpeta del juego). Quita la traducción sin tocar tus partidas guardadas; si BepInEx ya estaba instalado antes, tampoco lo toca.
+
+¿Prefieres un instalador por consola en vez del asistente gráfico? En el mismo zip está `NightCallEspanol_Instalador_Consola.exe`, con el mismo resultado y sin ventanas. Usa siempre el mismo instalador para instalar, actualizar y desinstalar.
 
 Requiere Windows. El instalador no modifica archivos del juego en sí, solo agrega un plugin de BepInEx y reemplaza los textos de UI/diálogos por su traducción.
 

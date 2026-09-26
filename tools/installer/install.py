@@ -43,7 +43,7 @@ def safe_input(prompt, default=""):
 
 def pause_exit(code):
     try:
-        input("\nPresioná Enter para salir...")
+        input("\nPresiona Enter para salir...")
     except EOFError:
         pass
     sys.exit(code)
@@ -93,8 +93,8 @@ def find_game_folder():
 
 def ask_game_folder():
     print("No pude encontrar la carpeta de Night Call automáticamente.")
-    print("Buscá la carpeta donde está 'Night Call.exe' (normalmente en")
-    print(r"...\SteamLibrary\steamapps\common\Night Call) y pegá la ruta acá.")
+    print("Busca la carpeta donde está 'Night Call.exe' (normalmente en")
+    print(r"...\SteamLibrary\steamapps\common\Night Call) y pega la ruta aquí.")
     while True:
         path = safe_input("Ruta de la carpeta de Night Call: ").strip(' "')
         if path and os.path.isfile(os.path.join(path, "Night Call.exe")):
@@ -102,7 +102,7 @@ def ask_game_folder():
         if not path:
             print("No se pudo leer una ruta (sin consola interactiva). Cancelo.")
             pause_exit(1)
-        print("Esa carpeta no tiene 'Night Call.exe'. Probá de nuevo.\n")
+        print("Esa carpeta no tiene 'Night Call.exe'. Prueba de nuevo.\n")
 
 
 def copytree_force(src, dst):
@@ -118,13 +118,22 @@ def write_uninstaller(game, installed_bepinex):
         f'rmdir /s /q "{game}\\Spanish_UI" 2>nul',
         f'rmdir /s /q "{game}\\Spanish_Texts" 2>nul',
         f'del /f /q "{game}\\{MARKER_NAME}" 2>nul',
+        f'del /f /q "{game}\\BepInEx\\config\\com.nightcall.spanish.cfg" 2>nul',
     ]
     if installed_bepinex:
+        # Igual que el asistente (Inno): solo se quita lo que instaló esta traducción.
+        # Los plugins de otros mods en BepInEx\plugins no se tocan; las carpetas vacías sí se van.
         lines += [
             "echo Tambien se instalo BepInEx junto con la traduccion: se va a quitar.",
             f'del /f /q "{game}\\winhttp.dll" 2>nul',
             f'del /f /q "{game}\\doorstop_config.ini" 2>nul',
-            f'rmdir /s /q "{game}\\BepInEx" 2>nul',
+            f'rmdir /s /q "{game}\\BepInEx\\core" 2>nul',
+            f'rmdir /s /q "{game}\\BepInEx\\cache" 2>nul',
+            f'del /f /q "{game}\\BepInEx\\LogOutput.log" 2>nul',
+            f'del /f /q "{game}\\BepInEx\\config\\BepInEx.cfg" 2>nul',
+            f'rmdir "{game}\\BepInEx\\config" 2>nul',
+            f'rmdir "{game}\\BepInEx\\plugins" 2>nul',
+            f'rmdir "{game}\\BepInEx" 2>nul',
         ]
     else:
         lines.append("echo BepInEx no se toca (ya estaba instalado antes de esta traduccion).")
@@ -181,13 +190,22 @@ def main():
         shutil.rmtree(dst, ignore_errors=True)
         copytree_force(os.path.join(payload, "mod", folder), dst)
 
-    with open(os.path.join(game, MARKER_NAME), "w", encoding="utf-8") as f:
-        json.dump({"installed_bepinex": not had_bepinex}, f)
-    write_uninstaller(game, not had_bepinex)
+    # Si una instalación anterior de esta traducción ya había puesto BepInEx, se conserva
+    # esa marca: al actualizar, BepInEx aparece "completo", pero sigue siendo nuestro.
+    installed_bepinex = not had_bepinex
+    marker = os.path.join(game, MARKER_NAME)
+    try:
+        with open(marker, encoding="utf-8") as f:
+            installed_bepinex = installed_bepinex or bool(json.load(f).get("installed_bepinex"))
+    except (OSError, ValueError):
+        pass
+    with open(marker, "w", encoding="utf-8") as f:
+        json.dump({"installed_bepinex": installed_bepinex}, f)
+    write_uninstaller(game, installed_bepinex)
 
     print("\n¡Listo! La traducción quedó instalada.")
-    print("Abrí el juego. La traducción reemplaza al inglés: dejá el idioma del juego en English (el que viene por defecto).")
-    print(f'Para desinstalarla, corré "{UNINSTALL_NAME}" en la carpeta del juego.')
+    print("Abre el juego. La traducción reemplaza al inglés: deja el idioma del juego en English (el que viene por defecto).")
+    print(f'Para desinstalarla, ejecuta "{UNINSTALL_NAME}" en la carpeta del juego.')
     pause_exit(0)
 
 

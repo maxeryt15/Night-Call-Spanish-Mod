@@ -109,6 +109,11 @@ def run_innosetup():
 
 if __name__ == "__main__":
     game = sys.argv[1] if len(sys.argv) > 1 else GAME_DEFAULT
+    # BepInEx original de referencia si el juego local no lo tiene (p. ej. tras reinstalarlo)
+    ref = os.path.join(ROOT, "ref-russian", "data")
+    if not os.path.exists(os.path.join(game, "winhttp.dll")) and os.path.exists(os.path.join(ref, "winhttp.dll")):
+        print(f"el juego no tiene BepInEx: lo tomo de {ref}")
+        game = ref
     check_validation()
     stage_payload(game)
     if os.path.isdir(DIST):

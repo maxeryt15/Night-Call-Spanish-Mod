@@ -2,31 +2,38 @@ Night Call - Traducción al español (no oficial)
 =================================================
 
 CÓMO INSTALAR (opción recomendada)
-1. Ejecutá NightCallEspanol_Setup.exe (Windows).
-2. Seguí el asistente: Siguiente → elegir carpeta → Instalar → Finalizar.
+1. Ejecuta NightCallEspanol_Setup.exe (Windows).
+2. Sigue el asistente: Siguiente → elegir carpeta → Instalar → Finalizar.
    Detecta tu instalación de Night Call sola (Steam); si no la
-   encuentra, elegí la carpeta a mano en esa misma pantalla.
-3. Si no tenés BepInEx instalado, el instalador lo instala solo
-   junto con la traducción — no hace falta bajarlo aparte.
-4. Abrí el juego. La traducción reemplaza al inglés: dejá el
+   encuentra, elige la carpeta a mano en esa misma pantalla.
+3. Si no tienes BepInEx instalado (o está incompleto), el instalador lo
+   instala junto con la traducción; no hace falta bajarlo aparte.
+4. Abre el juego. La traducción reemplaza al inglés: deja el
    idioma del juego en English (el que viene por defecto).
 
-¿Preferís texto en vez de ventanas? Usá
-NightCallEspanol_Instalador_Consola.exe en su lugar — mismo resultado,
-sin gráficos.
+¿Prefieres texto en vez de ventanas? Usa
+NightCallEspanol_Instalador_Consola.exe en su lugar: mismo resultado,
+sin gráficos. Usa siempre el mismo instalador para instalar,
+actualizar y desinstalar.
 
 No hace falta ningún otro archivo: los instaladores ya tienen todo
 adentro (el plugin, los textos traducidos y BepInEx).
 
+CÓMO ACTUALIZAR
+Instala la versión nueva encima; no hace falta desinstalar antes.
+
 CÓMO DESINSTALAR
 Si usaste NightCallEspanol_Setup.exe: desde "Agregar o quitar
-programas" de Windows, buscá "Night Call - Traducción al español".
-También podés correr "unins000.exe" directamente en la carpeta del
+programas" de Windows, busca "Night Call - Traducción al español".
+También puedes ejecutar "unins000.exe" directamente en la carpeta del
 juego. No toca tus partidas guardadas.
 
-Si usaste el instalador de consola: corré
-"Desinstalar traduccion al espanol.bat", que deja en la carpeta del
+Si usaste el instalador de consola: ejecuta
+"Desinstalar traduccion al espanol.bat", que queda en la carpeta del
 juego.
+
+Si BepInEx ya estaba instalado antes que la traducción, ninguno de los
+dos desinstaladores lo quita.
 
 AVISOS DE TERCEROS
 Ver NOTICE.md (incluye BepInEx, LGPL-2.1, sin modificar).

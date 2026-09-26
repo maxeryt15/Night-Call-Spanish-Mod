@@ -5,7 +5,7 @@
 ; No se versiona el .exe resultante: se genera en dist/.
 
 #define MyAppName "Night Call - Traducción al español"
-#define MyAppVersion "1.0.1"
+#define MyAppVersion "1.0.2"
 #define MyAppPublisher "Traducción fan (no oficial)"
 #define Payload "payload"
 
@@ -13,6 +13,8 @@
 AppId={{6E3F0B7C-6C6A-4B7B-9F0C-9A6E1F5B3A11}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
+VersionInfoVersion={#MyAppVersion}.0
+VersionInfoProductVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 DefaultDirName={code:GetDefaultDir}
 DefaultGroupName=Night Call - Traducción al español
@@ -42,6 +44,16 @@ Source: "{#Payload}\BepInEx\core\*"; DestDir: "{app}\BepInEx\core"; Flags: ignor
 Source: "{#Payload}\mod\NightCallSpanish.dll"; DestDir: "{app}\BepInEx\plugins"; Flags: ignoreversion
 Source: "{#Payload}\mod\Spanish_UI\*"; DestDir: "{app}\Spanish_UI"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "{#Payload}\mod\Spanish_Texts\*"; DestDir: "{app}\Spanish_Texts"; Flags: ignoreversion recursesubdirs createallsubdirs
+
+[InstallDelete]
+; Al actualizar, quitar textos de versiones anteriores antes de copiar (igual que el
+; instalador de consola): así no quedan archivos obsoletos mezclados con los nuevos.
+Type: filesandordirs; Name: "{app}\Spanish_UI"
+Type: filesandordirs; Name: "{app}\Spanish_Texts"
+
+[UninstallDelete]
+; Configuración que genera el plugin al primer arranque (no la instala el setup).
+Type: files; Name: "{app}\BepInEx\config\com.nightcall.spanish.cfg"
 
 [Icons]
 Name: "{group}\Desinstalar traducción al español"; Filename: "{uninstallexe}"

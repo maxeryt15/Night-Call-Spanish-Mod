@@ -28,9 +28,9 @@ def port_cs(s):
     s = sub(s, "NightCallRussian", "NightCallSpanish")
     s = sub(s, "RussianLocalization", "SpanishLocalization", count=10)
     s = sub(s, '"com.nightcall.russian", "Night Call Russian", "8.1.0"',
-            '"com.nightcall.spanish", "Night Call Spanish", "1.0.1"')
+            '"com.nightcall.spanish", "Night Call Spanish", "1.0.2"')
     s = sub(s, 'new Harmony("com.nightcall.russian")', 'new Harmony("com.nightcall.spanish")')
-    s = sub(s, "Night Call Russian Localization v8.1.0", "Night Call Spanish Localization v1.0.1")
+    s = sub(s, "Night Call Russian Localization v8.1.0", "Night Call Spanish Localization v1.0.2")
     s = sub(s, '"Russian_UI"', '"Spanish_UI"', count=2)
     s = sub(s, '"Russian_Texts"', '"Spanish_Texts"', count=2)
     s = sub(s, '"Russian_Texts_backup"', '"Spanish_Texts_backup"')
