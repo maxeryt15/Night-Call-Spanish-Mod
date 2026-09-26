@@ -16,3 +16,4 @@
 {"id": "100_cop_06|gameover-arrested-01-start|L23", "type": "NARRATION", "en": "You’re fucked.", "passage": "gameover-arrested-01-start", "es": "Estás jodido.", "status": "TRANSLATED", "locked": false, "hint": "Estás en un buen lío.", "hint_origin": "direct"}
 {"id": "100_cop_06|gameover-arrested-01-start|L24", "type": "NARRATION", "en": "Fucked…", "passage": "gameover-arrested-01-start", "es": "Jodido…", "status": "TRANSLATED", "locked": false, "hint": "\"Estás en un buen lío.\"", "hint_origin": "direct"}
 {"id": "100_cop_06|gameover-arrested-01-start|L25", "type": "NARRATION", "en": "…", "passage": "gameover-arrested-01-start", "es": "…", "status": "TRANSLATED", "locked": false, "hint": "Se está tirando a alguien...", "hint_origin": "direct"}
+{"id": "100_cop_06|userdata|U0", "type": "CALL", "en": "N/A", "passage": "userdata", "es": "N/A", "status": "TRANSLATED", "locked": false}

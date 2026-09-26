@@ -2087,6 +2087,7 @@ namespace NightCallSpanish
 
             processedTextKeys.Clear();
             StartCoroutine(TranslateSceneDelayed());
+            if (scene.name == "splashscreen") StartCoroutine(TranslateSplash());
         }
 
         IEnumerator TranslateSceneDelayed()
@@ -3759,6 +3760,37 @@ namespace NightCallSpanish
             catch (Exception e)
             {
                 Log.LogError(string.Format("Error loading translations: {0}", e.Message));
+            }
+        }
+
+        static readonly string[][] SplashLines = {
+            new[] { "Text - Warning - EN", "UI.SPLASHSCREEN.WARNING" },
+            new[] { "Text - Mature Content - EN", "UI.SPLASHSCREEN.MATURE" } };
+
+        IEnumerator TranslateSplash()
+        {
+            // dos pasadas: al cargar y un instante después (por si algo reescribe el texto)
+            for (int pass = 0; pass < 2; pass++)
+            {
+                yield return new WaitForSeconds(pass == 0 ? 0.05f : 0.5f);
+                try
+                {
+                    foreach (var comp in Resources.FindObjectsOfTypeAll<Component>())
+                    {
+                        if (comp == null || !comp.gameObject.scene.IsValid()) continue;
+                        foreach (var sl in SplashLines)
+                        {
+                            string es;
+                            if (comp.name != sl[0] || !KeyTranslations.TryGetValue(sl[1], out es)) continue;
+                            PropertyInfo textProp = comp.GetType().GetProperty("text", BindingFlags.Public | BindingFlags.Instance);
+                            if (object.ReferenceEquals(textProp, null) || !textProp.CanWrite) continue;
+                            foreach (var b in comp.GetComponents<Behaviour>())
+                                if (b != null && b.GetType().FullName == "NC.I18N.LocalizedText") b.enabled = false;
+                            textProp.SetValue(comp, es, null);
+                        }
+                    }
+                }
+                catch (Exception e) { Log.LogWarning("TranslateSplash: " + e.Message); }
             }
         }
 

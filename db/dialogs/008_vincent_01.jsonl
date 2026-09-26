@@ -84,3 +84,4 @@
 {"id": "008_vincent_01|vincent-end|L11", "type": "DIALOGUE", "en": "« Your compensation. »", "passage": "vincent-end", "speaker": "VINCENT", "es": "« Su compensación. »", "status": "TRANSLATED", "locked": false}
 {"id": "008_vincent_01|vincent-end|L14", "type": "NARRATION", "en": "He gets out and walks away quickly without turning back.", "passage": "vincent-end", "es": "Baja y se aleja rápido sin mirar atrás.", "status": "TRANSLATED", "locked": false}
 {"id": "008_vincent_01|vincent-end2|L0", "type": "NARRATION", "en": "You open the window to air out the cab.", "passage": "vincent-end2", "es": "Abres la ventanilla para airear el taxi.", "status": "TRANSLATED", "locked": false, "hint": "Abres la ventanilla para ventilar la cabina.", "hint_origin": "aligned+verified"}
+{"id": "008_vincent_01|userdata|U0", "type": "CALL", "en": "« I need a man I can trust… »", "passage": "userdata", "es": "« Necesito un hombre de confianza… »", "status": "TRANSLATED", "locked": false}

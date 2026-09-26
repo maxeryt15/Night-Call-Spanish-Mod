@@ -116,6 +116,45 @@ def port_cs(s):
     s = sub(s, "                ReplaceTextAssetContents();", "                if (LayerTextAssets) ReplaceTextAssetContents();")
     s = sub(s, "                PatchTMPText();", "                if (LayerTMP) PatchTMPText();")
     s = sub(s, "                PatchLocalizationManager(HarmonyInstance);", "                if (LayerUIKeys) PatchLocalizationManager(HarmonyInstance);")
+    # --- pantalla de aviso (splashscreen): cada idioma es un TMP propio con un LocalizedText
+    #     cuya "clave" no existe; se reemplaza SOLO el texto de las líneas EN por el español,
+    #     sin tocar tamaño/estilo, y se apaga su LocalizedText para que no lo pise ---
+    s = sub(s, "            processedTextKeys.Clear();\n            StartCoroutine(TranslateSceneDelayed());",
+            "            processedTextKeys.Clear();\n"
+            "            StartCoroutine(TranslateSceneDelayed());\n"
+            "            if (scene.name == \"splashscreen\") StartCoroutine(TranslateSplash());")
+    s = sub(s, "        void BuildSpanishValues()",
+            "        static readonly string[][] SplashLines = {\n"
+            "            new[] { \"Text - Warning - EN\", \"UI.SPLASHSCREEN.WARNING\" },\n"
+            "            new[] { \"Text - Mature Content - EN\", \"UI.SPLASHSCREEN.MATURE\" } };\n\n"
+            "        IEnumerator TranslateSplash()\n"
+            "        {\n"
+            "            // dos pasadas: al cargar y un instante después (por si algo reescribe el texto)\n"
+            "            for (int pass = 0; pass < 2; pass++)\n"
+            "            {\n"
+            "                yield return new WaitForSeconds(pass == 0 ? 0.05f : 0.5f);\n"
+            "                try\n"
+            "                {\n"
+            "                    foreach (var comp in Resources.FindObjectsOfTypeAll<Component>())\n"
+            "                    {\n"
+            "                        if (comp == null || !comp.gameObject.scene.IsValid()) continue;\n"
+            "                        foreach (var sl in SplashLines)\n"
+            "                        {\n"
+            "                            string es;\n"
+            "                            if (comp.name != sl[0] || !KeyTranslations.TryGetValue(sl[1], out es)) continue;\n"
+            "                            PropertyInfo textProp = comp.GetType().GetProperty(\"text\", BindingFlags.Public | BindingFlags.Instance);\n"
+            "                            if (object.ReferenceEquals(textProp, null) || !textProp.CanWrite) continue;\n"
+            "                            foreach (var b in comp.GetComponents<Behaviour>())\n"
+            "                                if (b != null && b.GetType().FullName == \"NC.I18N.LocalizedText\") b.enabled = false;\n"
+            "                            textProp.SetValue(comp, es, null);\n"
+            "                        }\n"
+            "                    }\n"
+            "                }\n"
+            "                catch (Exception e) { Log.LogWarning(\"TranslateSplash: \" + e.Message); }\n"
+            "            }\n"
+            "        }\n\n"
+            "        void BuildSpanishValues()")
+
     # --- F5: recargar traducciones sin reiniciar el juego ---
     s = sub(s, "        private static Dictionary<string, string> TranslationsLower = null;",
             "        internal static Dictionary<string, string> TranslationsLower = null;")
