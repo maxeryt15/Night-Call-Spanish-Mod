@@ -1,0 +1,905 @@
+{"id": "KEY", "type": "UI", "en": "ENG", "es": "ENG", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.TICKET_CASH", "type": "UI", "en": "« Cash! Cash! Cash! »", "es": "« ¡Cash! ¡Cash! ¡Cash! »", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.TICKET_JOYEUX_SOURIRE", "type": "UI", "en": "« Joyeux Sourire »", "es": "« Joyeux Sourire »", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.TICKET_VERSAILLES", "type": "UI", "en": "« Versailles »", "es": "« Versailles »", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.COMPANYCUT.DESC", "type": "UI", "en": "({0}% of fares)", "es": "({0}% de las tarifas)", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.BONUS.DESC", "type": "UI", "en": "(far destinations)", "es": "(destinos lejanos)", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.SPENDING.DESC", "type": "UI", "en": "(rent, food, cigarettes)", "es": "(alquiler, comida, cigarrillos)", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.MAINTENANCE.DESC", "type": "UI", "en": "(cleaning, taxi licence)", "es": "(limpieza, licencia de taxi)", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.CLUES.DISCOVERED", "type": "UI", "en": "{0} clues discovered", "es": "{0} pistas descubiertas", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.POIS.DISCOVERED", "type": "UI", "en": "{0} locations discovered", "es": "{0} ubicaciones descubiertas", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.TICKET.WON", "type": "UI", "en": "You win {0}€!", "es": "¡Ganaste {0}€!", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.PICKUP.REFUSE", "type": "UI", "en": "Refuse", "es": "Rechazar", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ade_01.source", "type": "UI", "en": "Ade’s Vision", "es": "Visión de Ade", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ade_02.source", "type": "UI", "en": "Ade’s Vision", "es": "Visión de Ade", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ade_01.source", "type": "UI", "en": "Ade’s Vision", "es": "Visión de Ade", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ade_02.source", "type": "UI", "en": "Ade’s Vision", "es": "Visión de Ade", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ade_01.source", "type": "UI", "en": "Ade’s Vision", "es": "Visión de Ade", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ade_02.source", "type": "UI", "en": "Ade’s Vision", "es": "Visión de Ade", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.END.MONEY.BANK", "type": "UI", "en": "Current Balance", "es": "Saldo actual", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.BANK.ACCOUNT", "type": "UI", "en": "Current balance", "es": "Saldo actual", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow02_01.title", "type": "UI", "en": "Albatros Fire = good for Groupe Diamant’s business", "es": "Incendio del Albatros = bueno para el negocio de Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_06.title", "type": "UI", "en": "Albatros Fire = millions in insurance money", "es": "Incendio del Albatros = millones en dinero del seguro", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_01_01.title", "type": "UI", "en": "Albatros Fire = millions in insurance money", "es": "Incendio del Albatros = millones en dinero del seguro", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_02.title", "type": "UI", "en": "Albatros Fire = pushed Victim 4 to sell shares", "es": "Incendio del Albatros = empujó a Víctima 4 a vender sus acciones", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_02_01.title", "type": "UI", "en": "Albatros Fire = accident due to bad state of building", "es": "Incendio del Albatros = accidente por el mal estado del edificio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_04.title", "type": "UI", "en": "Albatros Fire = criminal act", "es": "Incendio del Albatros = acto criminal", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_03_01.title", "type": "UI", "en": "Albatros Fire = criminal act", "es": "Incendio del Albatros = acto criminal", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cemetery_01.title", "type": "UI", "en": "Alexandre = doctor in French Army", "es": "Alexandre = médico en el Ejército francés", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cemetery_02.title", "type": "UI", "en": "Alexandre = lost medical licence back in the 50s", "es": "Alexandre = perdió la licencia médica en los años 50", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_mireille_01.title", "type": "UI", "en": "Alexandre = soldier in Indochina War", "es": "Alexandre = soldado en la Guerra de Indochina", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_suspectsintel_01.title", "type": "UI", "en": "Alexandre’s grandson died from in Albatros Fire", "es": "El nieto de Alexandre murió en el Incendio del Albatros", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.NAME.ALICIA", "type": "UI", "en": "Alicia", "es": "Alicia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ludwig_02.title", "type": "UI", "en": "Alcohol vapors while talking to Ludwig", "es": "Vapores de alcohol al hablar con Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.GENERAL", "type": "UI", "en": "General", "es": "General", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_01.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_02.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_03.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_04.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_05.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_01.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_02.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_03.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_04.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_05.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_01.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_02.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_03.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_04.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_05.source", "type": "UI", "en": "Heard at a gas station…", "es": "Escuchado en una gasolinera…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews05_01.title", "type": "UI", "en": "Bullet case found on crime scene 4 = police gun", "es": "Casquillo hallado en escena del crimen 4 = arma policial", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.TOOLTIP.ACCUSE.SUSPECT.CANCEL", "type": "UI", "en": "Select another suspect", "es": "Seleccionar otro sospechoso", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.TALK", "type": "UI", "en": "Clerk", "es": "Empleado", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_suspectsintel_02.title", "type": "UI", "en": "Anita's husband = dentist with access to muscle relaxant", "es": "El esposo de Anita = dentista con acceso a relajantes musculares", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.PICKUP.ACCEPT", "type": "UI", "en": "Accept", "es": "Aceptar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.FULLSCREEN", "type": "UI", "en": "Display", "es": "Pantalla", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.BURGLARY.REPORT", "type": "UI", "en": "Victim 1 and 2’s apartments were burglarised through balcony.", "es": "Los apartamentos de las Víctimas 1 y 2 fueron allanados por el balcón.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_03.title", "type": "UI", "en": "Apollonie « hunting » young people", "es": "Apollonie «cazando» gente joven", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_04.title", "type": "UI", "en": "Apollonie member of the Moon Flesh Cult", "es": "Apollonie, miembro del Culto de la Carne Lunar", "status": "TRANSLATED", "locked": false}
+{"id": "poi_judge_embassy.title", "type": "UI", "en": "Argentinian Embassy", "es": "Embajada Argentina", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.NEWSPAPER05.ARCHBISHOP", "type": "UI", "en": "An article about the first victim of the Angel of Death. In the past, the victim would have protected priests accused of sexual abuses on kids", "es": "Un artículo sobre la primera víctima del Ángel de la Muerte. En el pasado, la víctima habría protegido a sacerdotes acusados de abusos sexuales contra niños.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.NEWSPAPER06.AOE", "type": "UI", "en": "An article about the second victim of the Angel of Death, an actress forgotten by everyone.", "es": "Un artículo sobre la segunda víctima del Ángel de la Muerte, una actriz olvidada por todos.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.AUDIO", "type": "UI", "en": "Audio", "es": "Audio", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.RESOLUTION", "type": "UI", "en": "Resolution", "es": "Resolución", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_01.source", "type": "UI", "en": "From the Secret Escort 75 database", "es": "De la base de datos de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_02.source", "type": "UI", "en": "From the Secret Escort 75 database", "es": "De la base de datos de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_03.source", "type": "UI", "en": "From the Secret Escort 75 database", "es": "De la base de datos de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_04.source", "type": "UI", "en": "From the Secret Escort 75 database", "es": "De la base de datos de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_hacker_01.source", "type": "UI", "en": "From hacker source", "es": "De una fuente hacker", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_hacker_02.source", "type": "UI", "en": "From hacker source", "es": "De una fuente hacker", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_hacker_03.source", "type": "UI", "en": "From hacker source", "es": "De una fuente hacker", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.SPENDING", "type": "UI", "en": "Spending", "es": "Gastos", "status": "TRANSLATED", "locked": false}
+{"id": "DIFFICULTY.NORMAL", "type": "UI", "en": "Balanced", "es": "Equilibrado", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.TOOLTIP.ACCUSE.SUSPECT", "type": "UI", "en": "CONFIRM SELECTION", "es": "CONFIRMAR SELECCIÓN", "status": "TRANSLATED", "locked": false}
+{"id": "UI.SELECT", "type": "UI", "en": "Select", "es": "Seleccionar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.MAINTENANCE", "type": "UI", "en": "Car Maintenance", "es": "Mantenimiento del auto", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.TEXT_SPEED", "type": "UI", "en": "Text auto speed", "es": "Velocidad del texto", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.DIALOGUE.AUTOMODE", "type": "UI", "en": "Auto Mode", "es": "Modo automático", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.REPORT02.VICTIM2", "type": "UI", "en": "The autopsy report of the second victim. Even more mysterious than the first one. The report puts some light on links between the two murders", "es": "El informe de autopsia de la segunda víctima. Aún más misterioso que el primero. El informe arroja algo de luz sobre los vínculos entre los dos asesinatos.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy01_01.source", "type": "UI", "en": "Autopsy Report, Victim 1", "es": "Informe de autopsia, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy01_02.source", "type": "UI", "en": "Autopsy Report, Victim 1", "es": "Informe de autopsia, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_autopsy01.title", "type": "UI", "en": "Autopsy Report, Victim 1", "es": "Informe de autopsia, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy02_01.source", "type": "UI", "en": "Autopsy Report, Victim 2", "es": "Informe de autopsia, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy02_02.source", "type": "UI", "en": "Autopsy Report, Victim 2", "es": "Informe de autopsia, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_autopsy02.title", "type": "UI", "en": "Autopsy Report, Victim 2", "es": "Informe de autopsia, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy03_01.source", "type": "UI", "en": "Autopsy Report, Victim 3", "es": "Informe de autopsia, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy03_02.source", "type": "UI", "en": "Autopsy Report, Victim 3", "es": "Informe de autopsia, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy03_01.source", "type": "UI", "en": "Autopsy Report, Victim 3", "es": "Informe de autopsia, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy03_02.source", "type": "UI", "en": "Autopsy Report, Victim 3", "es": "Informe de autopsia, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_autopsy03.title", "type": "UI", "en": "Autopsy Report, Victim 3", "es": "Informe de autopsia, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_autopsy03.title", "type": "UI", "en": "Autopsy Report, Victim 3", "es": "Informe de autopsia, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy04_01.source", "type": "UI", "en": "Autopsy Report, Victim 4", "es": "Informe de autopsia, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy04_02.source", "type": "UI", "en": "Autopsy Report, Victim 4", "es": "Informe de autopsia, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy04_03.source", "type": "UI", "en": "Autopsy Report, Victim 4", "es": "Informe de autopsia, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_autopsy04.title", "type": "UI", "en": "Autopsy Report, Victim 4", "es": "Informe de autopsia, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.BURGLARY.BALCONY", "type": "UI", "en": "Balcony: easy access", "es": "Balcón: acceso fácil", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.BANKFEES", "type": "UI", "en": "Bank fees", "es": "Comisiones bancarias", "status": "TRANSLATED", "locked": false}
+{"id": "UI.SPLASHSCREEN.WARNING", "type": "UI", "en": "Do not turn off the game or your computer when this symbol is on screen.", "es": "No apagues el juego ni la computadora mientras este símbolo esté en pantalla.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.QUIT", "type": "UI", "en": "Quit", "es": "Salir", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_escort_01.source", "type": "UI", "en": "Stolen at Secret Escort 75", "es": "Robado en Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_01.title", "type": "UI", "en": "Weapon used on you = WW2 gun", "es": "Arma usada = de 2ª Guerra Mundial", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.ROBBED.NO.VIC02", "type": "UI", "en": "Victim 2 had nothing stolen.", "es": "A la Víctima 2 no le robaron nada.", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_salim.source", "type": "UI", "en": "Stolen from Salim", "es": "Robado a Salim", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.GAS", "type": "UI", "en": "Gas", "es": "Gasolina", "status": "TRANSLATED", "locked": false}
+{"id": "UI.BOARD.DESCRIPTION", "type": "UI", "en": "Description", "es": "Descripción", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.SHOP.PROMPT", "type": "UI", "en": "Enter", "es": "Entrar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.TOOLTIP.ACCUSE.SUSPECT.CONFIRM", "type": "UI", "en": "Accuse", "es": "Acusar", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic01_01.source", "type": "UI", "en": "Picture of Crime Scene 1", "es": "Foto de la escena del crimen 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic01_02.source", "type": "UI", "en": "Picture of Crime Scene 1", "es": "Foto de la escena del crimen 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic01_01.source", "type": "UI", "en": "Picture of Crime Scene 1", "es": "Foto de la escena del crimen 1", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_pic01.title", "type": "UI", "en": "Picture of Crime Scene 1", "es": "Foto de la escena del crimen 1", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic01.title", "type": "UI", "en": "Picture of Crime Scene 1", "es": "Foto de la escena del crimen 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic02_02.source", "type": "UI", "en": "Picture of Crime Scene 2", "es": "Foto de la escena del crimen 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic02_01.source", "type": "UI", "en": "Picture of Crime Scene 2", "es": "Foto de la escena del crimen 2", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_pic02.title", "type": "UI", "en": "Picture of Crime Scene 2", "es": "Foto de la escena del crimen 2", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic02.title", "type": "UI", "en": "Picture of Crime Scene 2", "es": "Foto de la escena del crimen 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic03_01.source", "type": "UI", "en": "Picture of Crime Scene 3", "es": "Foto de la escena del crimen 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic03_01.source", "type": "UI", "en": "Picture of Crime Scene 3", "es": "Foto de la escena del crimen 3", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_pic03.title", "type": "UI", "en": "Picture of Crime Scene 3", "es": "Foto de la escena del crimen 3", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic03.title", "type": "UI", "en": "Picture of Crime Scene 3", "es": "Foto de la escena del crimen 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic04_01.source", "type": "UI", "en": "Picture of Crime Scene 4", "es": "Foto de la escena del crimen 4", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic04.title", "type": "UI", "en": "Picture of Crime Scene 4", "es": "Foto de la escena del crimen 4", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.BONUS", "type": "UI", "en": "Bonus", "es": "Bono", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.TT.JONAS", "type": "UI", "en": "This brilliant physicist was arrested twice for assault and domestic violence. His last companion reached the police, saying he was sure Jonas was the Angel of Death. His passion: ﬁshing.", "es": "Este brillante físico fue arrestado dos veces por agresión y violencia doméstica. Su última pareja acudió a la policía, diciendo que estaba segura de que Jonas era el Ángel de la Muerte. Su pasión: la pesca.", "status": "TRANSLATED", "locked": false}
+{"id": "poi_angel_bar.title", "type": "UI", "en": "Belvédère Café", "es": "Belvédère Café", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_03.title", "type": "UI", "en": "Camille = heir to Victim 4’s fortune", "es": "Camille = heredera de la fortuna de la Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_01.title", "type": "UI", "en": "Chris = escort for Secret Escort 75 website", "es": "Chris = acompañante del sitio Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_03.title", "type": "UI", "en": "Chris seen near crime scene 2 months before", "es": "Chris visto cerca de la escena del crimen, 2 meses antes", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_02.title", "type": "UI", "en": "Chris probably seen near crime scene 1", "es": "Chris posiblemente cerca de escena del crimen 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_04.title", "type": "UI", "en": "Chris seen near crime scene 3 days before", "es": "Chris visto cerca de la escena del crimen, 3 días antes", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_claudia_01.title", "type": "UI", "en": "Claudia = parents died during the junta", "es": "Claudia = sus padres murieron durante la dictadura", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.PICKUP.DURATION", "type": "UI", "en": "Duration", "es": "Duración", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.JUDGE.TITLE", "type": "UI", "en": "The Judge", "es": "El Juez", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.SANDMAN.TITLE", "type": "UI", "en": "The Sandman", "es": "Hombre de Arena", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.ANGEL.TITLE", "type": "UI", "en": "The Angel of Death", "es": "El Ángel de la Muerte", "status": "TRANSLATED", "locked": false}
+{"id": "GER", "type": "UI", "en": "Deutsch", "es": "Deutsch", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.TT.ALICIA", "type": "UI", "en": "A poetess who has been been a part of the same cult as the second victim in the 80s. Alicia has long been suspected of killing her husband back in 1979 but she came out clean.", "es": "Una poetisa que formó parte del mismo culto que la segunda víctima en los años 80. Desde hace tiempo se sospecha que Alicia mató a su esposo en 1979, pero salió limpia.", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.JUDGE.DESCRIPTION", "type": "UI", "en": "Victims have all something in common and the motives seem clear. But which suspect could have done it? Balanced case, perfect for a first run.", "es": "Todas las víctimas tienen algo en común y los motivos parecen claros. Pero, ¿qué sospechoso pudo haberlo hecho? Un caso equilibrado, perfecto para una primera partida.", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.SANDMAN.DESCRIPTION", "type": "UI", "en": "The victims may feel random at first, but there’s a connection. Yet the motives might be hard to find. Dark and twisted case.", "es": "Las víctimas pueden parecer aleatorias al principio, pero hay una conexión. Sin embargo, los motivos pueden ser difíciles de encontrar. Un caso oscuro y retorcido.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.PICKUP.DISTANCE", "type": "UI", "en": "Distance", "es": "Distancia", "status": "TRANSLATED", "locked": false}
+{"id": "UI.PRESS.BEFORE", "type": "UI", "en": "Press", "es": "Presiona", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CREDITS.INTRO.GAMEBY", "type": "UI", "en": "a game by", "es": "un juego de", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.BURGLARY.QUIET", "type": "UI", "en": "Burglars don't leave traces.", "es": "Los ladrones no dejan rastros.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.BURGLARY.QUIET", "type": "UI", "en": "Burglars lay low", "es": "Ladrones cautelosos", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.BURGLARY.EMPTY", "type": "UI", "en": "Burglars wait for flat to be empty.", "es": "Ladrones esperan apartamento vacío.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.BURGLARY.REPORT", "type": "UI", "en": "Burglary through balcony", "es": "Robo por el balcón", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.BURGLARY.COMMON", "type": "UI", "en": "Burglaries more common than ever.", "es": "Los robos son más comunes que nunca.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews07_01.title", "type": "UI", "en": "Break-ins were done by a pro", "es": "Allanamientos: obra de un profesional", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.BURGLARY.COMMON", "type": "UI", "en": "Burglaries widespread", "es": "Robos generalizados", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.END.PROFITS", "type": "UI", "en": "Profits", "es": "Ganancias", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.PROFITS", "type": "UI", "en": "Profits", "es": "Ganancias", "status": "TRANSLATED", "locked": false}
+{"id": "ENG", "type": "UI", "en": "English", "es": "English", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.END.TITLE", "type": "UI", "en": "RECEIPT", "es": "RECIBO", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.PASSIDEX", "type": "UI", "en": "Passidex", "es": "Passidex", "status": "TRANSLATED", "locked": false}
+{"id": "UI.REVEALS.TITLE", "type": "UI", "en": "Passidex", "es": "Passidex", "status": "TRANSLATED", "locked": false, "origin": "tm"}
+{"id": "UI.ENDSHIFT.SUMUP.INVESTIGATION", "type": "UI", "en": "Investigation", "es": "Investigación", "status": "TRANSLATED", "locked": false}
+{"id": "STORYSELECT.TITLE.CHOOSE.INVESTIGATION", "type": "UI", "en": "Choose the investigation", "es": "Elige la investigación", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report03_01.title", "type": "UI", "en": "Left spare key under door mat.", "es": "Dejó llave de repuesto bajo el felpudo.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_archiv_01.title", "type": "UI", "en": "First 3 victims files = NOT part of police leak", "es": "Archivos de víctimas 1-3 = NO son parte de la filtración policial", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_02.title", "type": "UI", "en": "First 3 victims files = NOT part of police leak", "es": "Archivos de víctimas 1-3 = NO son parte de la filtración policial", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal08_01.title", "type": "UI", "en": "First 3 victims = suspected but never arrested", "es": "Las primeras 3 víctimas = sospechosas pero nunca arrestadas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal08_02.title", "type": "UI", "en": "First 3 victims files = part of police leak 2 years ago", "es": "Archivos de víctimas 1-3 = parte de filtración policial de hace 2 años", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews01_01.title", "type": "UI", "en": "First 3 victims files = part of police leak 2 years ago", "es": "Archivos de víctimas 1-3 = parte de filtración policial de hace 2 años", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_03.title", "type": "UI", "en": "Death by injection of muscle relaxant leading to asphyxia", "es": "Muerte por inyección de relajante muscular que provocó asfixia", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.FULL.DESCRIPTION", "type": "UI", "en": "The game will randomly pick an investigation, no matter if solved or unsolved.", "es": "El juego elegirá una investigación al azar, sin importar si está resuelta o no.", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.RANDOM.DESCRIPTION", "type": "UI", "en": "The game will randomly pick an unsolved investigation.", "es": "El juego elegirá al azar una investigación sin resolver.", "status": "TRANSLATED", "locked": false}
+{"id": "poi_angel_hacker.title", "type": "UI", "en": "Étienne’s Flat", "es": "Apartamento de Étienne", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.PICKUP.FEE", "type": "UI", "en": "Fare", "es": "Tarifa", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.FARE", "type": "UI", "en": "Fares", "es": "Tarifas", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.REPORT03.AOD.CASE", "type": "UI", "en": "The case folder... Well, what the cop gave you. It's really long, really accurate... and at the same time really fuzzy. However, it contains informations about the murderer.", "es": "La carpeta del caso... Bueno, lo que te dio el policía. Es muy larga, muy precisa... y, al mismo tiempo, muy confusa. Sin embargo, contiene información sobre el asesino.", "status": "TRANSLATED", "locked": false}
+{"id": "WINDOWED", "type": "UI", "en": "Windowed", "es": "Ventana", "status": "TRANSLATED", "locked": false}
+{"id": "poi_angel_fire.title", "type": "UI", "en": "Montrouge Fire Station", "es": "Bomberos de Montrouge", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.COMPANYCUT", "type": "UI", "en": "Company cut", "es": "Comisión de la empresa", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_church_01.title", "type": "UI", "en": "Fish = original symbol for Christianity", "es": "El pez = símbolo original del cristianismo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_12.title", "type": "UI", "en": "Fish = original symbol for Christianity", "es": "El pez = símbolo original del cristianismo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_13.title", "type": "UI", "en": "Fish symbol = linked to a cult", "es": "El símbolo del pez = vinculado a un culto", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_church_02.title", "type": "UI", "en": "Fish symbol seen in Gilda’s church", "es": "Símbolo del pez visto en la iglesia de Gilda", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.CHURCH.LINK.PHOTO", "type": "UI", "en": "Symbol is a fish and an early Christian symbol", "es": "El símbolo es un pez, un símbolo cristiano primitivo.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic01_02.title", "type": "UI", "en": "Fish symbol drawn on wall with blood", "es": "Símbolo del pez dibujado en la pared con sangre", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.KNIFE.STANDARD", "type": "UI", "en": "Fish knife: standard material for fishermen.", "es": "Cuchillo de pesca: equipo estándar para pescadores.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.PHOTOGRAPHY07.FISH", "type": "UI", "en": "A photo taken by the scientific police at the scene of the second murder.", "es": "Una foto tomada por la policía científica en la escena del segundo asesinato.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.PHOTOGRAPHY07.FISH", "type": "UI", "en": "Photography: Fish Symbol", "es": "Fotografía: Símbolo del pez", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.RUMOR08.BURGLARS", "type": "UI", "en": "Fragonard, retired cop, shared with you his experience about burglars.", "es": "Fragonard, policía retirado, compartió contigo su experiencia sobre los ladrones.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_03.title", "type": "UI", "en": "Fragonard’s first case = child molester", "es": "El primer caso de Fragonard = abusador de menores", "status": "TRANSLATED", "locked": false}
+{"id": "FRA", "type": "UI", "en": "Français", "es": "Français", "status": "TRANSLATED", "locked": false}
+{"id": "poi_sand_cemetery.title", "type": "UI", "en": "Batignolles Cemetery", "es": "Cementerio de Batignolles", "status": "TRANSLATED", "locked": false}
+{"id": "poi_angel_cemetery.title", "type": "UI", "en": "Passy Cemetery", "es": "Cementerio de Passy", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.END.MONEY.RECEIVED", "type": "UI", "en": "Money received", "es": "Dinero recibido", "status": "TRANSLATED", "locked": false}
+{"id": "DIFFICULTY.EASY.DESCRIPTION", "type": "UI", "en": "Money will be easy to get by. The investigation will be easier. Every action will take less time. For a chiller experience.", "es": "El dinero será fácil de conseguir. La investigación será más sencilla. Cada acción tomará menos tiempo. Para una experiencia más relajada.", "status": "TRANSLATED", "locked": false}
+{"id": "DIFFICULTY.HARD.DESCRIPTION", "type": "UI", "en": "Money will be tighter. The investigation will be harder to solve. Every action will cost more time. For a more challenging experience.", "es": "El dinero escaseará más. La investigación será más difícil de resolver. Cada acción costará más tiempo. Para una experiencia más desafiante.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_anita_01.title", "type": "UI", "en": "Géraldine lost her company to Groupe Diamant", "es": "Géraldine perdió su empresa a manos de Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_geraldine_01.title", "type": "UI", "en": "Géraldine lost her company to Groupe Diamant", "es": "Géraldine perdió su empresa a manos de Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_suspectsintel_03.title", "type": "UI", "en": "Géraldine lost her company to Groupe Diamant", "es": "Géraldine perdió su empresa a manos de Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.SMOKED.CIGS", "type": "UI", "en": "smoked cigs", "es": "cigarrillos fumados", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.RUMOR08.BURGLARS", "type": "UI", "en": "Rumor: Burglars are cowards.", "es": "Rumor: los ladrones son cobardes.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.TOTAL", "type": "UI", "en": "Total", "es": "Total", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_houssine_01.source", "type": "UI", "en": "Seen in a… dream?", "es": "¿Visto en un… sueño?", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_houssine_01.source", "type": "UI", "en": "Seen in a… dream?", "es": "¿Visto en un… sueño?", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_houssine_01.source", "type": "UI", "en": "Seen in a… dream?", "es": "¿Visto en un… sueño?", "status": "TRANSLATED", "locked": false}
+{"id": "UI.REVEALS.LOCKED", "type": "UI", "en": "Locked", "es": "Bloqueado", "status": "TRANSLATED", "locked": false}
+{"id": "UI.TUTORIAL.CLUES", "type": "UI", "en": "Talking to passengers might unlock new documents and clues for your investigation. You will find them back at your studio, after your shift.", "es": "Hablar con los pasajeros puede desbloquear nuevos documentos y pistas para tu investigación. Los encontrarás de vuelta en tu estudio, después de tu turno.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_gilda_01.title", "type": "UI", "en": "Gilda talks to Jesus", "es": "Gilda habla con Jesús", "status": "TRANSLATED", "locked": false}
+{"id": "poi_angel_church.title", "type": "UI", "en": "Gilda’s Church", "es": "Iglesia de Gilda", "status": "TRANSLATED", "locked": false}
+{"id": "096_gilda.bio", "type": "UI", "en": "Height = 1m67.\nSet designer for the Opera.\nWas hospitalized after her mother's death.\nDifficult relationship with her dad, also working at the Opera.\nCatholic and a member of the Korean community in Paris.", "es": "Altura = 1m67. Diseñadora de escenografía para la Ópera. Fue hospitalizada tras la muerte de su madre. Relación difícil con su padre, que también trabaja en la Ópera. Católica y miembro de la comunidad coreana de París.", "status": "TRANSLATED", "locked": false}
+{"id": "014_fragonard.bio", "type": "UI", "en": "Height = 1m69.\nRetired cop, joined the police in 1977.\nDivorced from a judge.\nBorn in the French Antilles. Moved to mainland France in 1976.", "es": "Altura = 1m69. Policía retirado, se unió a la fuerza en 1977. Divorciado de una jueza. Nacido en las Antillas Francesas. Se mudó a la Francia continental en 1976.", "status": "TRANSLATED", "locked": false}
+{"id": "059_pierrot.bio", "type": "UI", "en": "Height = 1m70.\nCop in Paris.\nDad was a cop (financial affairs). Died 2 years ago.\nMom got health issues after Rictodin health scandal.\nGay, in a relationship. Never disclosed this information at work.", "es": "Altura = 1m70. Policía en París. Su padre era policía (asuntos financieros). Murió hace 2 años. Su madre tuvo problemas de salud tras el escándalo sanitario del Rictodin. Es gay, tiene pareja. Nunca reveló esta información en el trabajo.", "status": "TRANSLATED", "locked": false}
+{"id": "023_apollonie.bio", "type": "UI", "en": "Height = 1m70.\nBlurry past. Weird woman… probably a rich heir or something.\nWas born in Guadeloupe (maybe). Night owl.", "es": "Altura = 1m70. Pasado confuso. Mujer extraña… probablemente una rica heredera o algo así. Nació en Guadalupe (tal vez). Trasnochadora.", "status": "TRANSLATED", "locked": false}
+{"id": "044_chris.bio", "type": "UI", "en": "Height = 1m71.\nA young drifter, drop-out of school.\nAverage physical state.\nArrested but always released (minor at the time). Reasons unknown.\nNo known address in Paris. Suspected to steal unlocked cars.\nPossible use of drugs.", "es": "Altura = 1m71. Un joven vagabundo, abandonó la escuela. Estado físico promedio. Arrestado pero siempre liberado (era menor de edad en ese entonces). Razones desconocidas. Sin domicilio conocido en París. Sospechoso de robar autos sin llave. Posible consumo de drogas.", "status": "TRANSLATED", "locked": false}
+{"id": "007_salim.bio", "type": "UI", "en": "Height = 1m75.\nWell-known lawyer from Saint-Ouen.\nDefender on the Douar case.\nDefender of several molested kids in poor neighbourhoods.\nWas a promising football player when he was 10.", "es": "Altura = 1m75. Abogado reconocido de Saint-Ouen. Defensor en el caso Douar. Defensor de varios niños abusados en barrios pobres. Fue un futbolista prometedor a los 10 años.", "status": "TRANSLATED", "locked": false}
+{"id": "019_herve.bio", "type": "UI", "en": "Height = 1m77.\nHomeless man with an unknown background.\nBriefly worked for Charles Bougrain (victim 2) in the 90s.\nGot health issues after Rictodin health scandal.\nA couple of arrests for breaking and entering.", "es": "Altura = 1m77. Hombre en situación de calle, de pasado desconocido. Trabajó brevemente para Charles Bougrain (víctima 2) en los años 90. Tuvo problemas de salud tras el escándalo sanitario del Rictodin. Un par de arrestos por allanamiento.", "status": "TRANSLATED", "locked": false}
+{"id": "053_camille.bio", "type": "UI", "en": "Height = 1m77.\nEntrepreneur. Heir of the fourth victim.\nYoung, fit, good physical state.\nAnger management issues. Attacked a cop the day of the first killing.\nNever arrested. Blurry past. Lives in a studio owned by her family… & the Groupe Diamant.", "es": "Altura = 1m77. Emprendedora. Heredera de la cuarta víctima. Joven, en forma, buen estado físico. Problemas para controlar la ira. Atacó a un policía el día del primer asesinato. Nunca arrestada. Pasado confuso. Vive en un estudio propiedad de su familia… & Groupe Diamant.", "status": "TRANSLATED", "locked": false}
+{"id": "032_anita.bio", "type": "UI", "en": "Height = 1m79.\nCEO of Groupe Diamant (owner of the Albatros building).\nExcellent physical state.\nHas been difficult to investigate, have friends in high places.\nDescribed as a shark by rivals… & friends. Ruthless & ready for anything.\nFather was linked to the Corsican mafia.", "es": "Altura = 1m79. Directora ejecutiva de Groupe Diamant (propietaria del edificio Albatros). Excelente estado físico. Ha sido difícil de investigar, tiene amigos en las altas esferas. Descrita como un tiburón por rivales… & amigos. Despiadada & lista para lo que sea. Su padre estaba vinculado a la mafia corsa.", "status": "TRANSLATED", "locked": false}
+{"id": "022_claudia.bio", "type": "UI", "en": "Height = 1m79.\nMedical examiner in Paris.\nEscaped from Argentina when she was young.\nLost her parents to the Argentinian junta (the Process).", "es": "Altura = 1m79. Forense en París. Escapó de Argentina cuando era joven. Perdió a sus padres durante la dictadura argentina (el Proceso).", "status": "TRANSLATED", "locked": false}
+{"id": "043_jonas.bio", "type": "UI", "en": "Height = 1m81.\nA brilliant programmer for several start-ups & companies.\nWrote books about the \"simulation we're all living in.\"\nDestroyed evidence when the police started investigating.", "es": "Altura = 1m81. Un brillante programador para varias startups & empresas. Escribió libros sobre \"la simulación en la que todos vivimos.\" Destruyó pruebas cuando la policía empezó a investigar.", "status": "TRANSLATED", "locked": false}
+{"id": "097_alexandre.bio", "type": "UI", "en": "Height = 1m81.\nRetired mailman. Good physical state despite his alcoholism.\nLost his grandson in the Albatros fire a few months ago.\nWas one of the more vocal protesters after the Albatros fire.\nAttacked Anita Ventimiglia during a protest. She never pressed charges.", "es": "Altura = 1m81. Cartero retirado. Buen estado físico a pesar de su alcoholismo. Perdió a su nieto en el incendio del Albatros hace unos meses. Fue uno de los manifestantes más vocales tras el incendio del Albatros. Atacó a Anita Ventimiglia durante una protesta. Ella nunca presentó cargos.", "status": "TRANSLATED", "locked": false}
+{"id": "031_geraldine.bio", "type": "UI", "en": "Height = 1m83.\nAn ex-partner of Groupe Diamant, recently fired from the board.\nGood physical state.\nLost her dad a year ago.\nDid her military service in Israel. Knows how to handle a gun.\nAnger management issues. Assaulted a cop a few months ago.", "es": "Altura = 1m83. Ex socia de Groupe Diamant, despedida recientemente de la junta directiva. Buen estado físico. Perdió a su padre hace un año. Hizo el servicio militar en Israel. Sabe manejar un arma. Problemas para controlar la ira. Agredió a un policía hace unos meses.", "status": "TRANSLATED", "locked": false}
+{"id": "072_pierrette.bio", "type": "UI", "en": "Height = 1m89.\nChef in La Pierre restaurant in Paris.\nIn financial troubles.\nWas an activist when she was younger.\nPart of the Moon Flesh cult.", "es": "Altura = 1m89. Chef en el restaurante La Pierre en París. Con problemas financieros. Fue activista de joven. Parte del Culto de la Carne Lunar.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_geraldine_02.title", "type": "UI", "en": "Groupe Diamant is shady", "es": "Groupe Diamant es turbio", "status": "TRANSLATED", "locked": false}
+{"id": "UI.INVESTIGATION.INVESTIGATE", "type": "UI", "en": "HOLD to investigate", "es": "MANTÉN para investigar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.TOOLTIP.DOCUMENT.INVESTIGATE", "type": "UI", "en": "Hold to investigate", "es": "Mantén para investigar", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.NAME.HERVE", "type": "UI", "en": "Hervé", "es": "Hervé", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fileherve_02.title", "type": "UI", "en": "Hervé allegedly robbed fishmonger.", "es": "Hervé presuntamente robó a un pescadero.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_04.title", "type": "UI", "en": "Hervé received money from the Rictodin’s trial", "es": "Hervé recibió dinero del juicio del Rictodin", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_park_02.title", "type": "UI", "en": "Hervé worked for Victim 2 in the 90s", "es": "Hervé trabajó para la Víctima 2 en los años 90", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_park_03.title", "type": "UI", "en": "Hervé used to ask money from Victim 2", "es": "Hervé solía pedirle dinero a la Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.TT.HERVE", "type": "UI", "en": "Homeless for the past decade, Hervé has been arrested and jailed several times for burglary and theft.", "es": "En situación de calle durante la última década, Hervé fue arrestado y encarcelado varias veces por allanamiento y robo.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fileherve_01.title", "type": "UI", "en": "Hervé suspected in many break-ins.", "es": "Hervé, sospechoso en muchos allanamientos.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fileherve_01.source", "type": "UI", "en": "Hervé’s police file", "es": "Ficha policial de Hervé", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fileherve_02.source", "type": "UI", "en": "Hervé’s police file", "es": "Ficha policial de Hervé", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_fileherve.title", "type": "UI", "en": "Hervé’s police file", "es": "Ficha policial de Hervé", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_herve_01.source", "type": "UI", "en": "Hervé's testimony", "es": "Testimonio de Hervé", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_herve_01.source", "type": "UI", "en": "Hervé's testimony", "es": "Testimonio de Hervé", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_herve_01.source", "type": "UI", "en": "Hervé's testimony", "es": "Testimonio de Hervé", "status": "TRANSLATED", "locked": false}
+{"id": "clue.source.driver", "type": "UI", "en": "Me", "es": "Yo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow01_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow02_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow02_02.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow03_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow03_02.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow01_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow01_02.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow02_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow03_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow04_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow04_02.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow01_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow02_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow03_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow04_01.source", "type": "UI", "en": "Heard on the radio…", "es": "Escuchado en la radio…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_01.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_02.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_03.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_04.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_05.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_06.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_07.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_08.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_09.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_10.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_11.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_12.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_13.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_14.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_01.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_02.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_03.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_04.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_05.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_06.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_07.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_08.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_09.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_10.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_01.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_02.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_03.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_04.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_05.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_06.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_07.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_08.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_09.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_10.source", "type": "UI", "en": "Heard in your taxi…", "es": "Escuchado en tu taxi…", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.CLUE.DISCOVERED.HELP", "type": "UI", "en": "Available in your room", "es": "Disponible en tu habitación", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal09_01.title", "type": "UI", "en": "Break-ins are on the rise", "es": "Los allanamientos van en aumento", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal04_01.title", "type": "UI", "en": "More and more far-right students in universities", "es": "Cada vez más estudiantes de extrema derecha en las universidades", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews01_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews02_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews03_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews04_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews05_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews06_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews06_02.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews06_03.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews07_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews08_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews01_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews02_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews03_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews04_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews05_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews06_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews07_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews08_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews08_02.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_01_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_02_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_03_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_04_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_04_02.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_05_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_06_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_07_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_08_01.source", "type": "UI", "en": "Heard on the news…", "es": "Oído en las noticias…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal01_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal02_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal03_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal04_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal05_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal06_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal07_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal08_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal09_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal10_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal01_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal01_02.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal02_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal03_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal04_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal05_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal05_02.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal06_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal07_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal08_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal08_02.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal01_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal02_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal03_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal04_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal05_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal06_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal07_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal08_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal09_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal10_01.source", "type": "UI", "en": "Read in a newspaper…", "es": "Leído en un periódico…", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_church_02.source", "type": "UI", "en": "At Gilda’s church", "es": "En la iglesia de Gilda", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.CHURCH.LINK.VIC01", "type": "UI", "en": "Linked to church", "es": "Vinculado a la iglesia", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.CHURCH.LINK.VIC02", "type": "UI", "en": "Linked to church", "es": "Vinculado a la iglesia", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CREDITS.INTRO.COLLABORATION", "type": "UI", "en": "in collaboration with", "es": "en colaboración con", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_claudia_01.source", "type": "UI", "en": "Info about Claudia", "es": "Información sobre Claudia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_suspectsintel_01.source", "type": "UI", "en": "Suspects Intel", "es": "Datos de sospechosos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_suspectsintel_02.source", "type": "UI", "en": "Suspects Intel", "es": "Datos de sospechosos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_suspectsintel_03.source", "type": "UI", "en": "Suspects Intel", "es": "Datos de sospechosos", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_suspectsintel.title", "type": "UI", "en": "Suspects Intel", "es": "Datos de sospechosos", "status": "TRANSLATED", "locked": false}
+{"id": "poi_sand_newsroom.title", "type": "UI", "en": "InfoTV Newsroom", "es": "Redacción de InfoTV", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus01_01.title", "type": "UI", "en": "Is the Killer a religious person?", "es": "¿El asesino es una persona religiosa?", "status": "TRANSLATED", "locked": false}
+{"id": "YES", "type": "UI", "en": "Yes", "es": "Sí", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.NAME.JONAS", "type": "UI", "en": "Jonas", "es": "Jonas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_hacker_02.title", "type": "UI", "en": "Jonas = leader of dark web group", "es": "Jonas = líder de un grupo de la dark web", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_hacker_01.title", "type": "UI", "en": "Jonas = dangerous man", "es": "Jonas = hombre peligroso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_hacker_03.title", "type": "UI", "en": "Jonas = testing his theory", "es": "Jonas = poniendo a prueba su teoría", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_jonas_01.title", "type": "UI", "en": "Jonas believes we’re in a simulation", "es": "Jonas cree que vivimos en una simulación", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_01.source", "type": "UI", "en": "Julian’s files", "es": "Archivos de Julian", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_02.source", "type": "UI", "en": "Julian’s files", "es": "Archivos de Julian", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_03.source", "type": "UI", "en": "Julian’s files", "es": "Archivos de Julian", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_04.source", "type": "UI", "en": "Julian’s files", "es": "Archivos de Julian", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_05.source", "type": "UI", "en": "Julian’s files", "es": "Archivos de Julian", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_julian.title", "type": "UI", "en": "Julian’s files", "es": "Archivos de Julian", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.SHOP.BUY", "type": "UI", "en": "Buy", "es": "Comprar", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_04.title", "type": "UI", "en": "MO = slit throat, words written in blood, blood missing", "es": "MO = garganta cortada, palabras escritas con sangre, falta sangre", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy03_01.title", "type": "UI", "en": "No sign of violence", "es": "Sin señales de violencia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy04_01.title", "type": "UI", "en": "No sign of violence", "es": "Sin señales de violencia", "status": "TRANSLATED", "locked": false}
+{"id": "UI.TAXI.NEWSPAPER.HOW", "type": "UI", "en": "No newspaper available", "es": "No hay periódico disponible", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ludwig_01.title", "type": "UI", "en": "Candle smell while talking to Ludwig", "es": "Olor a vela al hablar con Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.KM.TRAVELED", "type": "UI", "en": "km", "es": "km", "status": "TRANSLATED", "locked": false}
+{"id": "poi_sand_hospital.title", "type": "UI", "en": "Saint-Ouen Hospital", "es": "Hospital de Saint-Ouen", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.CULT.NEWS", "type": "UI", "en": "Cult was finally disbanded in the 2000s.", "es": "El culto finalmente fue disuelto en la década de 2000.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.DIALOG.CLIENT", "type": "UI", "en": "Client", "es": "Cliente", "status": "TRANSLATED", "locked": false}
+{"id": "clue.source.customer", "type": "UI", "en": "Customer", "es": "Cliente", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.CUSTOMERS", "type": "UI", "en": "Customers", "es": "Clientes", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_escort_01.title", "type": "UI", "en": "Secret Escort 75’s customer list", "es": "Lista de clientes de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "poi_sand_cafe.title", "type": "UI", "en": "L’Argentueil Bistrot", "es": "L’Argentueil Bistrot", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.SHOP", "type": "UI", "en": "Shop", "es": "Tienda", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cemetery_03.title", "type": "UI", "en": "Groupe Diamant plan on selling land", "es": "Groupe Diamant planea vender terrenos", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.TEXT_SPEED.SLOW", "type": "UI", "en": "Slower", "es": "Más lenta", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.BURGLARY.EMPTY", "type": "UI", "en": "Burglaries aim empty flats", "es": "Robos apuntan a apartamentos vacíos", "status": "TRANSLATED", "locked": false}
+{"id": "UI.VOLUME", "type": "UI", "en": "Volume", "es": "Volumen", "status": "TRANSLATED", "locked": false}
+{"id": "UI.DELETE", "type": "UI", "en": "Delete", "es": "Eliminar", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ludwig_01.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ludwig_02.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ludwig_01.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ludwig_02.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ludwig_03.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ludwig_01.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ludwig_02.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ludwig_03.source", "type": "UI", "en": "Ludwig’s Vision", "es": "Visión de Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic04_01.title", "type": "UI", "en": "Spent bullet case", "es": "Casquillo de bala usado", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.DIALOGUE.MANUALMODE", "type": "UI", "en": "Manual Mode", "es": "Modo manual", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.MASTER_VOLUME", "type": "UI", "en": "Master", "es": "General", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.RENT", "type": "UI", "en": "Rent", "es": "Alquiler", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.SHOP.TALK.PROMPT", "type": "UI", "en": "Talk with the clerk", "es": "Hablar con el empleado", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.SYMBOL.PHOTO", "type": "UI", "en": "Drawn using victim 2's thumb.", "es": "Dibujado con el pulgar de la Víctima 2.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.SYMBOL.BLOOD", "type": "UI", "en": "Drawn using victim 2's blood.", "es": "Dibujado con la sangre de la Víctima 2.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_09.title", "type": "UI", "en": "With pancuronium bromide, victim feels everything", "es": "Con bromuro de pancuronio, la víctima siente todo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_hospital_03.title", "type": "UI", "en": "With pancuronium bromide, victim feels everything", "es": "Con bromuro de pancuronio, la víctima siente todo", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.CREDITS", "type": "UI", "en": "Credits", "es": "Créditos", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.TT.SOPHIA", "type": "UI", "en": "Very mundane proﬁle (works as a set designer at the Opera, brilliant student, single)… until you realise she’s part of a Catholic group called the Church of Elijah, close to the far-right.", "es": "Un perfil muy común (trabaja como diseñadora de escenografía en la Ópera, estudiante brillante, soltera)… hasta que te das cuenta de que forma parte de un grupo católico llamado la Iglesia de Elías, cercano a la extrema derecha.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_cemetery_03.title", "type": "UI", "en": "Moon Flesh cult = planted flowers & trees illegally", "es": "Culto de la Carne Lunar = plantó flores & árboles ilegalmente", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_cemetery_02.title", "type": "UI", "en": "Moon Flesh cult = basically hippies", "es": "Culto de la Carne Lunar = básicamente hippies", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_06.title", "type": "UI", "en": "Moon Flesh Cult = crazy", "es": "Culto Carne Lunar = una locura", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus04_01.title", "type": "UI", "en": "Killing = pleasure for Killer?", "es": "¿Matar = placer para el asesino?", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.KILLER.SLOPPY.VIC01", "type": "UI", "en": "Murder = sloppy", "es": "Asesinato = chapucero", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.KILLER.SLOPPY.VIC02", "type": "UI", "en": "Murder = sloppy", "es": "Asesinato = chapucero", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus01_01.title", "type": "UI", "en": "Killing = painful for Killer?", "es": "¿Matar = doloroso para el asesino?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus03_01.title", "type": "UI", "en": "Killing = painful for Killer?", "es": "¿Matar = doloroso para el asesino?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus05_01.title", "type": "UI", "en": "Killing = painful for Killer?", "es": "¿Matar = doloroso para el asesino?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus03_01.title", "type": "UI", "en": "Killings = failed break-ins?", "es": "¿Asesinatos = allanamientos fallidos?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus02_02.title", "type": "UI", "en": "Killings = good for Groupe Diamant?", "es": "¿Asesinatos = buenos para Groupe Diamant?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus01_02.title", "type": "UI", "en": "Killings = vengeance?", "es": "¿Asesinatos = venganza?", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_05.title", "type": "UI", "en": "Murders = rituals?", "es": "¿Asesinatos = rituales?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus04_02.title", "type": "UI", "en": "Killings = satanic rituals?", "es": "¿Asesinatos = rituales satánicos?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus05_01.title", "type": "UI", "en": "Killings = satanic rituals?", "es": "¿Asesinatos = rituales satánicos?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus02_01.title", "type": "UI", "en": "Killings = cover up for criminal Albatros fire?", "es": "¿Asesinatos = encubrimiento del incendio criminal del Albatros?", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews07_01.title", "type": "UI", "en": "Killings could be linked to mafia", "es": "Asesinatos podrían estar vinculados a la mafia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews08_01.title", "type": "UI", "en": "Killings could be linked to mafia", "es": "Asesinatos podrían estar vinculados a la mafia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ade_02.title", "type": "UI", "en": "Killings not about money", "es": "Los asesinatos no son por dinero", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_02.title", "type": "UI", "en": "Murder weapon = fillet knife", "es": "Arma homicida = cuchillo de filetear", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.SHOP.TOMORROW", "type": "UI", "en": "Come back tomorrow", "es": "Vuelve mañana", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus05_01.title", "type": "UI", "en": "Motivation = Money?", "es": "¿Motivación = dinero?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus02_02.title", "type": "UI", "en": "Motivation = Justice?", "es": "¿Motivación = justicia?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus03_02.title", "type": "UI", "en": "Motivation = Justice?", "es": "¿Motivación = justicia?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus04_01.title", "type": "UI", "en": "Motivation = Personal Vengeance?", "es": "¿Motivación = venganza personal?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus05_03.title", "type": "UI", "en": "Motivation = Personal Vengeance?", "es": "¿Motivación = venganza personal?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus02_01.title", "type": "UI", "en": "Motivation = Social Justice?", "es": "¿Motivación = justicia social?", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus03_03.title", "type": "UI", "en": "Motivation = Social Justice?", "es": "¿Motivación = justicia social?", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.MUSIC_VOLUME", "type": "UI", "en": "Music", "es": "Música", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_02.title", "type": "UI", "en": "Muscle relaxant = pancuronium bromide", "es": "Relajante muscular = bromuro de pancuronio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_hospital_01.title", "type": "UI", "en": "Muscle relaxant disappeared from hospital night of the fire", "es": "El relajante muscular desapareció del hospital la noche del incendio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal02_01.title", "type": "UI", "en": "Muscle relaxant disappeared from hospital night of the fire", "es": "El relajante muscular desapareció del hospital la noche del incendio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic01_01.title", "type": "UI", "en": "Message on crime scene 1 = « JUSTICE »", "es": "Mensaje en la escena del crimen 1 = « JUSTICIA »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic01_01.title", "type": "UI", "en": "Message on crime scene 1 = « ONLY ONE GOD »", "es": "Mensaje en la escena del crimen 1 = « UN SOLO DIOS »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic02_01.title", "type": "UI", "en": "Message on crime scene 2 = « YOU DESERVE THIS »", "es": "Mensaje en la escena del crimen 2 = « TE LO MERECES »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic02_02.title", "type": "UI", "en": "Message on crime scene 2 = « HE WATCHES YOU »", "es": "Mensaje en la escena del crimen 2 = « ÉL TE OBSERVA »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_pic03_01.title", "type": "UI", "en": "Message on crime scene 3 = « TIME IS UP »", "es": "Mensaje en escena del crimen 3 = « SE ACABÓ EL TIEMPO »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_pic03_01.title", "type": "UI", "en": "Message on crime scene 3 = « LUST »", "es": "Mensaje en la escena del crimen 3 = « LUJURIA »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_embassy_01.title", "type": "UI", "en": "Message on crime scene 3 linked to the Process", "es": "Mensaje en la escena del crimen 3 vinculado al Proceso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews03_01.title", "type": "UI", "en": "Message on crime scene 3 linked to the Process", "es": "Mensaje en la escena del crimen 3 vinculado al Proceso", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.DOCUMENTS.SCROLL", "type": "UI", "en": "Next documents", "es": "Siguientes documentos", "status": "TRANSLATED", "locked": false}
+{"id": "UI.NIGHT", "type": "UI", "en": "Night", "es": "Noche", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.ROAM.ENDNIGHT", "type": "UI", "en": "End night", "es": "Terminar la noche", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.ROAM.ENDSHIFT", "type": "UI", "en": "End shift", "es": "Terminar turno", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.END.OK", "type": "UI", "en": "Take", "es": "Tomar", "status": "TRANSLATED", "locked": false}
+{"id": "NO", "type": "UI", "en": "No", "es": "No", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.REVEALS.NEW", "type": "UI", "en": "You now know more about your clients…", "es": "Ahora sabes más sobre tus clientes…", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.POI.DISCOVERED", "type": "UI", "en": "New investigation location", "es": "Nueva ubicación de investigación", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.CLUE.DISCOVERED", "type": "UI", "en": "New clue", "es": "Nueva pista", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.NEW", "type": "UI", "en": "New game", "es": "Nueva partida", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.PUMP.NOMONEY", "type": "UI", "en": "Not enough money", "es": "Dinero insuficiente", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.SHOP.NOMONEY", "type": "UI", "en": "Not enough money", "es": "Dinero insuficiente", "status": "TRANSLATED", "locked": false}
+{"id": "UI.INVESTIGATION.NOTENOUGHTIME", "type": "UI", "en": "Not enough time", "es": "Tiempo insuficiente", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.TICKET.LOST", "type": "UI", "en": "Perdu", "es": "Perdu", "status": "TRANSLATED", "locked": false}
+{"id": "UI.SPLASHSCREEN.MATURE", "type": "UI", "en": "Night Call is inspired by real life stories and therefore may disturb some players.", "es": "Night Call está inspirado en historias reales y, por lo tanto, puede resultar perturbador para algunos jugadores.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.TEXT_SPEED.NORMAL", "type": "UI", "en": "Normal", "es": "Normal", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_05.title", "type": "UI", "en": "Homeless man seen around crime scene 2 & 3", "es": "Indigente visto cerca de escena del crimen 2 y 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews04_01.title", "type": "UI", "en": "Homeless man seen around crime scene 2 & 3", "es": "Indigente visto cerca de escena del crimen 2 y 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal08_01.title", "type": "UI", "en": "Victims = connected through escort website", "es": "Víctimas = conectadas por sitio de acompañantes", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_07_01.title", "type": "UI", "en": "Victims = connected through escort website", "es": "Víctimas = conectadas por sitio de acompañantes", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_01.title", "type": "UI", "en": "Victims = wealthy", "es": "Víctimas = adineradas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow01_02.title", "type": "UI", "en": "Victims = wealthy", "es": "Víctimas = adineradas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cafe_03.title", "type": "UI", "en": "Victim 1 = arsonist", "es": "Víctima 1 = incendiaria", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_victimrecords_02.title", "type": "UI", "en": "Victim 1 = arsonist", "es": "Víctima 1 = incendiaria", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy01_01.title", "type": "UI", "en": "Victim 1 = burn marks on the body, done while alive", "es": "Víctima 1 = marcas de quemaduras en el cuerpo, hechas en vida", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_04.title", "type": "UI", "en": "Victim 1 = strict religious family", "es": "Víctima 1 = familia estrictamente religiosa", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_01.title", "type": "UI", "en": "Victim 1 = client of Belvédère Café", "es": "Víctima 1 = cliente del Belvédère Café", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_05.title", "type": "UI", "en": "Victim 1 = protected by Saint-Ouen mayor", "es": "Víctima 1 = protegida por el alcalde de Saint-Ouen", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal05_02.title", "type": "UI", "en": "Victim 1 = protected by Saint-Ouen mayor", "es": "Víctima 1 = protegida por el alcalde de Saint-Ouen", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_08.title", "type": "UI", "en": "Victim 1 = gorgeous, brave man", "es": "Víctima 1 = hombre apuesto y valiente", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_03.title", "type": "UI", "en": "Victim 1 = gorgeous, brave man", "es": "Víctima 1 = hombre apuesto y valiente", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_01.title", "type": "UI", "en": "Victim 1 = hero, loved by everyone", "es": "Víctima 1 = héroe, querido por todos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_04_02.title", "type": "UI", "en": "Victim 1 = no alibi for Albatros fire", "es": "Víctima 1 = sin coartada para incendio del Albatros", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_02.title", "type": "UI", "en": "Victim 1 = couldn’t save everyone in the Albatros, felt guilt", "es": "Víctima 1 = no pudo salvar a todos en el Albatros, sintió culpa", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.RICH.VIC01", "type": "UI", "en": "Victim 1 = rich", "es": "Víctima 1 = rica", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_stad_01.title", "type": "UI", "en": "Victim 1 = Salim’s coach when he was a kid", "es": "Víctima 1 = entrenador de Salim cuando este era niño", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.VICTIM.WEAK.VIC01", "type": "UI", "en": "Victim 1 = weak", "es": "Víctima 1 = débil", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.WEAK.NEWS.VIC01", "type": "UI", "en": "Victim 1 = weak", "es": "Víctima 1 = débil", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_04.title", "type": "UI", "en": "Victim 1 = great football coach", "es": "Víctima 1 = gran entrenador de fútbol", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow01_01.title", "type": "UI", "en": "Victim 1 = great football coach", "es": "Víctima 1 = gran entrenador de fútbol", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_07.title", "type": "UI", "en": "Victim 1’s death = scapegoat", "es": "Muerte de Víctima 1 = chivo expiatorio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_03.title", "type": "UI", "en": "Victim 1’s death = scapegoat", "es": "Muerte de Víctima 1 = chivo expiatorio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow01_01.title", "type": "UI", "en": "Victim 1’s death = scapegoat", "es": "Muerte de Víctima 1 = chivo expiatorio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_03.title", "type": "UI", "en": "Victim 1 = molester, never arrested", "es": "Víctima 1 = abusador, nunca arrestado", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_stad_02.title", "type": "UI", "en": "Victim 1 = molester, never arrested", "es": "Víctima 1 = abusador, nunca arrestado", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_04_01.title", "type": "UI", "en": "Victim 1 = suspect in Albatros fire", "es": "Víctima 1 = sospechosa en incendio del Albatros", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.RECLUSE.VIC01", "type": "UI", "en": "Victim 1 = recluse", "es": "Víctima 1 = solitaria", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.PAST.VIC01", "type": "UI", "en": "Victim 1 had tainted past", "es": "La Víctima 1 tenía un pasado turbio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cafe_02.title", "type": "UI", "en": "Victim 1 fired from Groupe Diamant years before Albatros", "es": "Víctima 1 despedida de Groupe Diamant años antes del Albatros", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal01_01.title", "type": "UI", "en": "Victim 1 fired from Groupe Diamant years before Albatros", "es": "Víctima 1 despedida de Groupe Diamant años antes del Albatros", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cafe_01.title", "type": "UI", "en": "Victim 1 worked for Groupe Diamant in the past", "es": "Víctima 1 trabajó para Groupe Diamant en el pasado", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.PAST.VIC01", "type": "UI", "en": "Victim 1 helped convicted priests in the 80s.", "es": "La Víctima 1 ayudó a sacerdotes condenados en los años 80.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_victimrecords_01.title", "type": "UI", "en": "Victim 1 used to work with mafia", "es": "Víctima 1 solía trabajar con la mafia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_stad_03.title", "type": "UI", "en": "Victim 1 met with Salim", "es": "Víctima 1 se reunió con Salim", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.RECLUSE.VIC01", "type": "UI", "en": "Victim 1 never left his home.", "es": "La Víctima 1 nunca salía de casa.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews08_02.title", "type": "UI", "en": "Victim 1 owed money to the mafia", "es": "Víctima 1 le debía dinero a la mafia", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.CHURCH.LINK.VIC01", "type": "UI", "en": "Victim 1 was linked to the Church.", "es": "La Víctima 1 estaba vinculada a la Iglesia.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.KNIFE.VIC01", "type": "UI", "en": "Victim 1 was gutted with a fish knife.", "es": "Víctima 1 destripada con cuchillo de pesca.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews04_01.title", "type": "UI", "en": "Victim 1 comes from very religious family", "es": "Víctima 1 viene de una familia muy religiosa", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.ROBBED.VIC01.VIC03", "type": "UI", "en": "Victims 1 and 3 robbed.", "es": "Víctimas 1 y 3 fueron robadas.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.KILLER.SLOPPY.VIC01", "type": "UI", "en": "The Victim 1's wounds were clumsy, killed was rushed or unexperienced.", "es": "Las heridas de la Víctima 1 fueron torpes; el asesino actuó con prisa o sin experiencia.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.VICTIM.WEAK.VIC01", "type": "UI", "en": "Victim 1 was weak, old", "es": "La Víctima 1 era débil, mayor", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.WEAK.NEWS.VIC01", "type": "UI", "en": "Victim 1 was sick", "es": "Víctima 1 estaba enferma", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.RICH.VIC01", "type": "UI", "en": "Victim 1 was wealthy.", "es": "La Víctima 1 era adinerada.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy01_02.title", "type": "UI", "en": "Victim 1 thought to be a suicide at first", "es": "Al principio se pensó que la Víctima 1 fue un suicidio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal06_01.title", "type": "UI", "en": "Victim 2 = best friend killed by skinhead during a protest", "es": "Víctima 2 = mejor amigo asesinado por un skinhead durante una protesta", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_02.title", "type": "UI", "en": "Victim 2 = client of Belvédère", "es": "Víctima 2 = cliente del Belvédère", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_01.title", "type": "UI", "en": "Victim 2 = member of Secret Escort 75 database", "es": "Víctima 2 = miembro de la base de datos de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_06.title", "type": "UI", "en": "Victim 2 = fierce politician", "es": "Víctima 2 = político feroz", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow02_01.title", "type": "UI", "en": "Victim 2 = fierce politician", "es": "Víctima 2 = político feroz", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal10_01.title", "type": "UI", "en": "Victim 2 = eco-terrorist", "es": "Víctima 2 = ecoterrorista", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow02_02.title", "type": "UI", "en": "Victim 2 = eco-terrorist", "es": "Víctima 2 = ecoterrorista", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report02_01.title", "type": "UI", "en": "Victim 2 = stolen wallet", "es": "Víctima 2 = billetera robada", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy02_01.title", "type": "UI", "en": "Victim 2 = strangled post-mortem", "es": "Víctima 2 = estrangulado post mortem", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow04_02.title", "type": "UI", "en": "Victim 2 = racist, homophobic far-right leader", "es": "Víctima 2 = líder racista, homofóbico y de extrema derecha", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.RICH.VIC02", "type": "UI", "en": "Victim 2 = rich", "es": "Víctima 2 = rico", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.VICTIM.WEAK.VIC02", "type": "UI", "en": "Victim 2 = weak", "es": "Víctima 2 = débil", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews05_01.title", "type": "UI", "en": "Victim 2 = vegan, against animal cruelty", "es": "Víctima 2 = vegana, en contra de la crueldad animal", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.FORGOT.NEWS.VIC02", "type": "UI", "en": "VIctim 2 = forgotten actress", "es": "Víctima 2 = actriz olvidada", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.RECLUSE.VIC02", "type": "UI", "en": "Victim 2 = recluse", "es": "Víctima 2 = reclusa", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report02_02.title", "type": "UI", "en": "Victim 2 killed in only spot without CCTV", "es": "Víctima 2 asesinada en único punto sin cámaras", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_newsroom_02.title", "type": "UI", "en": "Victim 2 received money to shut up about Albatros", "es": "Víctima 2 recibió dinero para callar sobre el Albatros", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_02.title", "type": "UI", "en": "Victim 2 felt he was followed", "es": "Víctima 2 sintió que la seguían", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_07.title", "type": "UI", "en": "Victim 2 killed an Algerian man, never arrested", "es": "Víctima 2 mató a un hombre argelino, nunca fue arrestada", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal04_01.title", "type": "UI", "en": "Victim 2 killed an Algerian man, never arrested", "es": "Víctima 2 mató a un hombre argelino, nunca fue arrestada", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow04_01.title", "type": "UI", "en": "Victim 2 killed an Algerian man, never arrested", "es": "Víctima 2 mató a un hombre argelino, nunca fue arrestada", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.SYMBOL.VIC02", "type": "UI", "en": "Victime 2 could have drew fish symbol: her thumb was covered in blood", "es": "La Víctima 2 podría haber dibujado el símbolo del pez: tenía el pulgar cubierto de sangre.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_03.title", "type": "UI", "en": "Victim 2 received death threats: « HE WATCHES YOU »", "es": "Víctima 2 recibió amenazas de muerte: « ÉL TE OBSERVA »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report02_02.title", "type": "UI", "en": "Victim 2 opened door to Killer", "es": "La Víctima 2 le abrió la puerta al asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_park_01.title", "type": "UI", "en": "Victim 2 had WW2 memento in his wallet, no money", "es": "Víctima 2: recuerdo de 2ª Guerra Mundial en billetera, sin dinero", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report02_01.title", "type": "UI", "en": "Victim 2 had garlic in her hand", "es": "La Víctima 2 tenía ajo en la mano", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.CHURCH.LINK.VIC02", "type": "UI", "en": "Victim 2 was linked to the church.", "es": "La Víctima 2 estaba vinculada a la iglesia.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.VICTIM.WEAK.VIC02", "type": "UI", "en": "Victim 2 had sleeping pills prior to attack", "es": "Víctima 2: pastillas para dormir antes del ataque", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_05.title", "type": "UI", "en": "Victim 2 corrupted, deserved to die", "es": "Víctima 2 corrupta, merecía morir", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.RECLUSE.VIC02", "type": "UI", "en": "Victim 2 lived as a recluse.", "es": "Víctima 2: vida de reclusión.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.KNIFE.VIC02", "type": "UI", "en": "Victim 2 was gutted with a fish knife.", "es": "Víctima 2 destripada con cuchillo de pesca.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.KILLER.SLOPPY.VIC02", "type": "UI", "en": "Victime 2's wounds were clumsy, killed was rushed or unexperienced.", "es": "Las heridas de la Víctima 2 fueron torpes; el asesino actuó con prisa o sin experiencia.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.FORGOT.NEWS.VIC02", "type": "UI", "en": "Victim 2 was famous in the 70s.", "es": "La Víctima 2 fue famosa en los años 70.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.PAST.VIC02", "type": "UI", "en": "Victim 2 joined cult in the 80s and 90s.", "es": "La Víctima 2 se unió a un culto en los años 80 y 90.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.RICH.VIC02", "type": "UI", "en": "Victim 2 was wealthy.", "es": "La Víctima 2 era adinerada.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_embassy_03.title", "type": "UI", "en": "Victim 3 = colonel of the Junta, the Process", "es": "Víctima 3 = coronel de la Junta, el Proceso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_03.title", "type": "UI", "en": "Victim 3 = colonel of the Junta, the Process", "es": "Víctima 3 = coronel de la Junta, el Proceso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_01.title", "type": "UI", "en": "Victim 3 = colonel of the Junta, the Process", "es": "Víctima 3 = coronel de la Junta, el Proceso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal03_01.title", "type": "UI", "en": "Victim 3 = fantastic journalist", "es": "Víctima 3 = periodista fantástica", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_05_01.title", "type": "UI", "en": "Victim 3 = fantastic journalist", "es": "Víctima 3 = periodista fantástica", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_04.title", "type": "UI", "en": "Victim 3 = received death threats", "es": "Víctima 3 = recibió amenazas de muerte", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_newsroom_01.title", "type": "UI", "en": "Victim 3 = received death threats", "es": "Víctima 3 = recibió amenazas de muerte", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_02.title", "type": "UI", "en": "Victim 3 = member of Secret Escort 75 database", "es": "Víctima 3 = miembro de la base de datos de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_09.title", "type": "UI", "en": "Victim 3 escaped from Argentina in the 80s", "es": "Víctima 3 = escapó de Argentina en los años 80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal01_02.title", "type": "UI", "en": "Victim 3 escaped from Argentina in the 80s", "es": "Víctima 3 = escapó de Argentina en los años 80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal05_01.title", "type": "UI", "en": "Victim 3 = attacked by far-right in the 90s", "es": "Víctima 3 = atacada por la extrema derecha en los 90", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal07_01.title", "type": "UI", "en": "Victim 3 = coins found in mouth", "es": "Víctima 3 = monedas encontradas en la boca", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_06_01.title", "type": "UI", "en": "Victim 3 = coins found in mouth", "es": "Víctima 3 = monedas encontradas en la boca", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_08.title", "type": "UI", "en": "Victim 3 = suspected member of the Process", "es": "Víctima 3 = sospechosa de ser miembro del Proceso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal01_01.title", "type": "UI", "en": "Victim 3 = suspected member of the Process", "es": "Víctima 3 = sospechosa de ser miembro del Proceso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_04.title", "type": "UI", "en": "Victim 3 = respected colonel & community pillar", "es": "Víctima 3 = coronel respetado y pilar de la comunidad", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radioshow03_01.title", "type": "UI", "en": "Victim 3 = respected colonel & community pillar", "es": "Víctima 3 = coronel respetado y pilar de la comunidad", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal06_01.title", "type": "UI", "en": "Victim 3 = bad journalist", "es": "Víctima 3 = mala periodista", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy03_01.title", "type": "UI", "en": "Victim 3 = newspaper in mouth (post-mortem)", "es": "Víctima 3 = periódico en la boca (post mortem)", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_04.title", "type": "UI", "en": "Victim 3 = Witness heard female voices", "es": "Víctima 3 = un testigo escuchó voces femeninas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal02_01.title", "type": "UI", "en": "Victim 3 = Witness heard female voices", "es": "Víctima 3 = un testigo escuchó voces femeninas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow03_01.title", "type": "UI", "en": "Victim 3 = Witness heard female voices", "es": "Víctima 3 = un testigo escuchó voces femeninas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_cemetery_01.title", "type": "UI", "en": "Victim 3 part of the « Moon Flesh » cult", "es": "Víctima 3, parte del culto «Carne Lunar»", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow03_02.title", "type": "UI", "en": "Victim 3 part of the « Moon Flesh » cult", "es": "Víctima 3, parte del culto «Carne Lunar»", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_embassy_02.title", "type": "UI", "en": "Victim 3 = known to have tortured prisoners", "es": "Víctima 3 = conocida por torturar prisioneros", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews06_01.title", "type": "UI", "en": "Victim 3 received death threats: « LUST »", "es": "Víctima 3 recibió amenazas de muerte: « LUJURIA »", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews06_02.title", "type": "UI", "en": "Victim 3 rarely left home", "es": "Víctima 3 rara vez salía de casa", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews06_03.title", "type": "UI", "en": "Victim 3 famous for her roles in the 60s", "es": "Víctima 3, famosa por sus papeles en los años 60", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.KILLED.OUTSIDE.VIC03", "type": "UI", "en": "Victim 3 was killed in a rush outside his building.", "es": "La Víctima 3 fue asesinada apresuradamente fuera de su edificio.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_05.title", "type": "UI", "en": "Victim 4 = bank notes stuffed in throat", "es": "Víctima 4 = billetes metidos en la garganta", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_05.title", "type": "UI", "en": "Victim 4 = host refugees in her hotel", "es": "Víctima 4 = alojó refugiados en su hotel", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow01_01.title", "type": "UI", "en": "Victim 4 = host refugees in her hotel", "es": "Víctima 4 = alojó refugiados en su hotel", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_10.title", "type": "UI", "en": "Victim 4 = fantastic politician", "es": "Víctima 4 = política extraordinaria", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_10.title", "type": "UI", "en": "Victim 4 = gave part of her fortune to charity", "es": "Víctima 4 = donó parte de su fortuna a la beneficencia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal01_01.title", "type": "UI", "en": "Victim 4 = gave part of her fortune to charity", "es": "Víctima 4 = donó parte de su fortuna a la beneficencia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews02_01.title", "type": "UI", "en": "Victim 4 = gave part of her fortune to charity", "es": "Víctima 4 = donó parte de su fortuna a la beneficencia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_01.title", "type": "UI", "en": "Victim 4 = gave part of her fortune to defend animal cause", "es": "Víctima 4 = donó parte de su fortuna para defender la causa animal", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_03.title", "type": "UI", "en": "Victim 4 was a member of Secret Escort 75 database", "es": "Víctima 4 era miembro de la base de datos de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal03_01.title", "type": "UI", "en": "Victim 4 = never trialed for Rictodin health scandal", "es": "Víctima 4 = nunca fue juzgada por el escándalo sanitario del Rictodin", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radioshow02_01.title", "type": "UI", "en": "Victim 4 = was a Russian spy", "es": "Víctima 4 = fue espía rusa", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_02.title", "type": "UI", "en": "Victim 4 = responsible for Rictodin scandal, never trialed", "es": "Víctima 4 = responsable del escándalo del Rictodin, nunca juzgada", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_09.title", "type": "UI", "en": "Victim 4 = wealthy widow", "es": "Víctima 4 = viuda adinerada", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews03_01.title", "type": "UI", "en": "Victim 4 = wealthy widow", "es": "Víctima 4 = viuda adinerada", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_10.title", "type": "UI", "en": "Victim 4 left money to his dog", "es": "Víctima 4 le dejó dinero a su perro", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_04.title", "type": "UI", "en": "Victim 4 changed will 2 days before death", "es": "Víctima 4 cambió su testamento 2 días antes de morir", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_newsroom_03.title", "type": "UI", "en": "Victim 4 refused to renovate Albatros before fire", "es": "Víctima 4 se negó a renovar el Albatros antes del incendio", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.ROBBED.VIC01.VIC03", "type": "UI", "en": "Victims robbed", "es": "Víctimas robadas", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.KILLED.OUTSIDE.VIC03", "type": "UI", "en": "Victim killed outside", "es": "Víctima asesinada afuera", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_14.title", "type": "UI", "en": "Victims let the killer in = must look inoffensive", "es": "Las víctimas dejaron entrar al asesino = debe parecer inofensivo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_04.title", "type": "UI", "en": "Victims let the killer in = must look inoffensive", "es": "Las víctimas dejaron entrar al asesino = debe parecer inofensivo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal07_01.title", "type": "UI", "en": "Victims let the killer in = must look inoffensive", "es": "Las víctimas dejaron entrar al asesino = debe parecer inofensivo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews08_01.title", "type": "UI", "en": "Victims let the killer in = must look inoffensive", "es": "Las víctimas dejaron entrar al asesino = debe parecer inofensivo", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report01_01.title", "type": "UI", "en": "Kitchen window left open by victim", "es": "Víctima dejó ventana de cocina abierta", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.CULT.NEWS", "type": "UI", "en": "Victim linked to cult", "es": "Víctima vinculada a un culto", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.PAST.VIC02", "type": "UI", "en": "Victim had a tainted past", "es": "La víctima tenía un pasado turbio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_04.title", "type": "UI", "en": "Victims killed with 1 bullet in the neck", "es": "Las víctimas fueron asesinadas con 1 bala en el cuello", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.ROBBED.NO.VIC02", "type": "UI", "en": "Victim not robbed", "es": "Víctima no robada", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_04.title", "type": "UI", "en": "Victims « surprised » by injection", "es": "Víctimas «sorprendidas» por inyección", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_03.title", "type": "UI", "en": "Victim deaths = bad for Groupe Diamant", "es": "Muertes de víctimas = malas para Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal09_01.title", "type": "UI", "en": "Victim deaths = bad for Groupe Diamant", "es": "Muertes de víctimas = malas para Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.OPTIONS", "type": "UI", "en": "Options", "es": "Opciones", "status": "TRANSLATED", "locked": false}
+{"id": "clue.source.location", "type": "UI", "en": "Location", "es": "Ubicación", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_hospital_02.title", "type": "UI", "en": "Pancuronium bromide used for executions in the US", "es": "El bromuro de pancuronio se usa para ejecuciones en Estados Unidos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow03_01.title", "type": "UI", "en": "Pancuronium bromide used for sexual pleasure", "es": "El bromuro de pancuronio usado para placer sexual", "status": "TRANSLATED", "locked": false}
+{"id": "poi_judge_park.title", "type": "UI", "en": "Bougrain’s Parking", "es": "Estacionamiento de Bougrain", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus01_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus03_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus04_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus04_02.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus05_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus01_03.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus02_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus02_02.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus02_03.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus03_02.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus03_03.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus04_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus05_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus05_03.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus01_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus01_02.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus02_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus02_02.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus03_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus04_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "guess_sand_sus05_01.source", "type": "UI", "en": "Personal theory", "es": "Teoría personal", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_pierrette_01.title", "type": "UI", "en": "Pierrette didn’t say anything about your scar", "es": "Pierrette no dijo nada sobre tu cicatriz", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_pierrette_01.source", "type": "UI", "en": "Pierrette’s Info", "es": "Información de Pierrette", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_julian_05.title", "type": "UI", "en": "Pierrot’s dad worked on Rictodin’s scandal", "es": "El padre de Pierrot trabajó en el escándalo del Rictodin", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.TRANSITION.BOARD", "type": "UI", "en": "check the board", "es": "revisar el tablero", "status": "TRANSLATED", "locked": false}
+{"id": "poi_judge_archiv.title", "type": "UI", "en": "Police Archives", "es": "Archivos Policiales", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report01_01.source", "type": "UI", "en": "Police Report, Victim 1", "es": "Informe policial, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report01_01.source", "type": "UI", "en": "Police Report, Victim 1", "es": "Informe policial, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report01_02.source", "type": "UI", "en": "Police Report, Victim 1", "es": "Informe policial, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_report01.title", "type": "UI", "en": "Police Report, Victim 1", "es": "Informe policial, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_report01.title", "type": "UI", "en": "Police Report, Victim 1", "es": "Informe policial, Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report02_01.source", "type": "UI", "en": "Police Report, Victim 2", "es": "Informe policial, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report02_02.source", "type": "UI", "en": "Police Report, Victim 2", "es": "Informe policial, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report02_01.source", "type": "UI", "en": "Police Report, Victim 2", "es": "Informe policial, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report02_02.source", "type": "UI", "en": "Police Report, Victim 2", "es": "Informe policial, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_report02.title", "type": "UI", "en": "Police Report, Victim 2", "es": "Informe policial, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_report02.title", "type": "UI", "en": "Police Report, Victim 2", "es": "Informe policial, Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_report03_01.source", "type": "UI", "en": "Police Report, Victim 3", "es": "Informe policial, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report03_01.source", "type": "UI", "en": "Police Report, Victim 3", "es": "Informe policial, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_report03.title", "type": "UI", "en": "Police Report, Victim 3", "es": "Informe policial, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_report03.title", "type": "UI", "en": "Police Report, Victim 3", "es": "Informe policial, Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_01.source", "type": "UI", "en": "Police Report, Victim 4", "es": "Informe policial, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_02.source", "type": "UI", "en": "Police Report, Victim 4", "es": "Informe policial, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_03.source", "type": "UI", "en": "Police Report, Victim 4", "es": "Informe policial, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_04.source", "type": "UI", "en": "Police Report, Victim 4", "es": "Informe policial, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_report04_05.source", "type": "UI", "en": "Police Report, Victim 4", "es": "Informe policial, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_report04.title", "type": "UI", "en": "Police Report, Victim 4", "es": "Informe policial, Víctima 4", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.REPORT01.VICTIM1", "type": "UI", "en": "Police Report: Autopsy, Victim # 1", "es": "Informe policial: autopsia, Víctima N.º 1", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.REPORT02.VICTIM2", "type": "UI", "en": "Police Report: Autopsy, Victim # 2", "es": "Informe policial: autopsia, Víctima N.º 2", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.REPORT03.AOD.CASE", "type": "UI", "en": "Police Report: Angel of Death Case", "es": "Informe policial: caso del Ángel de la Muerte", "status": "TRANSLATED", "locked": false}
+{"id": "clue.source.cop", "type": "UI", "en": "Cop", "es": "Policía", "status": "TRANSLATED", "locked": false}
+{"id": "UI.PRICE", "type": "UI", "en": "Price", "es": "Precio", "status": "TRANSLATED", "locked": false}
+{"id": "UI.BOARD.SOURCE", "type": "UI", "en": "Source", "es": "Fuente", "status": "TRANSLATED", "locked": false}
+{"id": "clue.source.radio", "type": "UI", "en": "Radio", "es": "Radio", "status": "TRANSLATED", "locked": false}
+{"id": "UI.TAXI.RADIO", "type": "UI", "en": "Listen to radio", "es": "Escuchar la radio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_houssine_01.title", "type": "UI", "en": "Killer was sorry", "es": "Asesino se arrepintió", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal02_01.title", "type": "UI", "en": "Rictodin victims still asking for retribution", "es": "Las víctimas del Rictodin siguen exigiendo reparación", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews02_01.title", "type": "UI", "en": "Rictodin victims still asking for retribution", "es": "Las víctimas del Rictodin siguen exigiendo reparación", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal05_01.title", "type": "UI", "en": "Salim = defended the mafia in a trial", "es": "Salim = defendió a la mafia en un juicio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_salim_01.title", "type": "UI", "en": "Salim = investigating the first 3 victims", "es": "Salim = investigando a las primeras 3 víctimas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_salim_01.source", "type": "UI", "en": "Salim’s files", "es": "Archivos de Salim", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_salim.title", "type": "UI", "en": "Salim’s files", "es": "Archivos de Salim", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ludwig_03.title", "type": "UI", "en": "Powder smell while talking to Ludwig", "es": "Olor a pólvora al hablar con Ludwig", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.TEXT_SPEED.FAST", "type": "UI", "en": "Faster", "es": "Más rápida", "status": "TRANSLATED", "locked": false}
+{"id": "DIFFICULTY.HARD", "type": "UI", "en": "Hard", "es": "Difícil", "status": "TRANSLATED", "locked": false}
+{"id": "STORYSELECT.TITLE.CHOOSE.DIFFICULTY", "type": "UI", "en": "Choose the difficulty mode", "es": "Elige el modo de dificultad", "status": "TRANSLATED", "locked": false}
+{"id": "poi_sand_escort.title", "type": "UI", "en": "Secret Escort 75", "es": "Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "DIFFICULTY.NORMAL.DESCRIPTION", "type": "UI", "en": "The way Night Call was designed.", "es": "Como Night Call fue diseñado originalmente.", "status": "TRANSLATED", "locked": false}
+{"id": "GC.SUSPECT.NAME.SOPHIA", "type": "UI", "en": "Sophia", "es": "Sophia", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.SFX_VOLUME", "type": "UI", "en": "Sound", "es": "Sonido", "status": "TRANSLATED", "locked": false}
+{"id": "UI.PAUSE.EXITGAME", "type": "UI", "en": "Quit Game", "es": "Salir del juego", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.LOAD", "type": "UI", "en": "Load game", "es": "Cargar partida", "status": "TRANSLATED", "locked": false}
+{"id": "UI.PLAYTIME", "type": "UI", "en": "Play time:", "es": "Tiempo de juego:", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.LANGUAGE", "type": "UI", "en": "Language", "es": "Idioma", "status": "TRANSLATED", "locked": false}
+{"id": "poi_judge_stad.title", "type": "UI", "en": "Stade Charléty", "es": "Stade Charléty", "status": "TRANSLATED", "locked": false}
+{"id": "DIFFICULTY.EASY", "type": "UI", "en": "Story", "es": "Historia", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_01.source", "type": "UI", "en": "Chris’ criminal records", "es": "Antecedentes penales de Chris", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_02.source", "type": "UI", "en": "Chris’ criminal records", "es": "Antecedentes penales de Chris", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_03.source", "type": "UI", "en": "Chris’ criminal records", "es": "Antecedentes penales de Chris", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_chrisrecords_04.source", "type": "UI", "en": "Chris’ criminal records", "es": "Antecedentes penales de Chris", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_chrisrecords.title", "type": "UI", "en": "Chris’ criminal records", "es": "Antecedentes penales de Chris", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_victimrecords_01.source", "type": "UI", "en": "Victim 1’s criminal records", "es": "Antecedentes penales de la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_victimrecords_02.source", "type": "UI", "en": "Victim 1’s criminal records", "es": "Antecedentes penales de la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_victimrecords_03.source", "type": "UI", "en": "Victim 1’s criminal records", "es": "Antecedentes penales de la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_victimrecords.title", "type": "UI", "en": "Victim 1’s criminal records", "es": "Antecedentes penales de la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.SYMBOL.NO.VIC02", "type": "UI", "en": "Symbot not drawn by victim 2", "es": "Símbolo no dibujado por Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.CHURCH.LINK.PHOTO", "type": "UI", "en": "Symbol linked to church", "es": "Símbolo vinculado a la iglesia", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.SYMBOL.CHURCH", "type": "UI", "en": "Symbol linked to Church", "es": "Símbolo vinculado a la Iglesia", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.SYMBOL.BLOOD", "type": "UI", "en": "Symbol drawn by victim 2?", "es": "¿Símbolo dibujado por la Víctima 2?", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.SYMBOL.PHOTO", "type": "UI", "en": "Symbol drawn by victim 2?", "es": "¿Símbolo dibujado por la Víctima 2?", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.SYMBOL.VIC02", "type": "UI", "en": "Symbol drawn by victim 2?", "es": "¿Símbolo dibujado por la Víctima 2?", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.SYMBOL.NO.VIC02", "type": "UI", "en": "Symbol drawn high.", "es": "Símbolo en alto.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.PUMP.PROMPT", "type": "UI", "en": "Fill the tank", "es": "Llenar el tanque", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.PUMP.PROMPT.FULL", "type": "UI", "en": "Tank full", "es": "Tanque lleno", "status": "TRANSLATED", "locked": false}
+{"id": "clue.source.gasstation", "type": "UI", "en": "Gas Station", "es": "Gasolinera", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.EXIT.PROMPT", "type": "UI", "en": "Leave the gas station", "es": "Salir de la gasolinera", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_herve_01.title", "type": "UI", "en": "Killer < 1m70", "es": "Asesino < 1m70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_01.title", "type": "UI", "en": "Killer < 1m70", "es": "Asesino < 1m70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_houssine_01.title", "type": "UI", "en": "Killer < 1m70", "es": "Asesino < 1m70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_radionews01_01.title", "type": "UI", "en": "Killer < 1m70", "es": "Asesino < 1m70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_01.title", "type": "UI", "en": "Killer < 1m80", "es": "Asesino < 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ade_01.title", "type": "UI", "en": "Killer = taking satisfaction in killing", "es": "Asesino = disfruta matando", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal06_01.title", "type": "UI", "en": "Killer = a professional", "es": "Asesino = un profesional", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_radionews06_01.title", "type": "UI", "en": "Killer = a professional", "es": "Asesino = un profesional", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_02.title", "type": "UI", "en": "Killer = religious freak", "es": "Asesino = fanático religioso", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_01.title", "type": "UI", "en": "Killer = low voice, sounded old", "es": "Asesino = voz grave, sonaba mayor", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal04_01.title", "type": "UI", "en": "Killer = low voice, sounded old", "es": "Asesino = voz grave, sonaba mayor", "status": "TRANSLATED", "locked": false}
+{"id": "guess_angel_sus04_01.title", "type": "UI", "en": "Killer = vampire?", "es": "¿Asesino = vampiro?", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_02.title", "type": "UI", "en": "Killer = female voice pretending to be male", "es": "Asesino = voz femenina fingiendo ser masculina", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal05_01.title", "type": "UI", "en": "Killer = female voice pretending to be male", "es": "Asesino = voz femenina fingiendo ser masculina", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_08.title", "type": "UI", "en": "Killer > 1m75", "es": "Asesino > 1m75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_01.title", "type": "UI", "en": "Killer > 1m75", "es": "Asesino > 1m75", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_05.title", "type": "UI", "en": "Killer > 1m80", "es": "Asesino > 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_herve_01.title", "type": "UI", "en": "Killer > 1m80", "es": "Asesino > 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_rumor_05.title", "type": "UI", "en": "Killer > 1m80", "es": "Asesino > 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_01.title", "type": "UI", "en": "Killer > 1m80", "es": "Asesino > 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radioshow04_01.title", "type": "UI", "en": "Killer > 1m80", "es": "Asesino > 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ade_02.title", "type": "UI", "en": "Killer believes murders are for the greater good", "es": "El asesino cree que los asesinatos son por el bien mayor", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ludwig_03.title", "type": "UI", "en": "Killer hates taking lives… did it in the past", "es": "El asesino odia quitar vidas… lo hizo en el pasado", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_03.title", "type": "UI", "en": "Killer left message in chalk on first 3 crime scenes", "es": "El asesino dejó un mensaje con tiza en las primeras 3 escenas del crimen", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ludwig_01.title", "type": "UI", "en": "Killer left their country", "es": "El asesino dejó su país", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report01_02.title", "type": "UI", "en": "Killer fought with Victim 1", "es": "El asesino peleó con la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report03_01.title", "type": "UI", "en": "Killer fought with Victim 3", "es": "El asesino peleó con la Víctima 3", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_ludwig_02.title", "type": "UI", "en": "Killer took great care of the gun", "es": "El asesino cuidaba mucho el arma", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_houssine_01.title", "type": "UI", "en": "Killer had wrinkles on their hands", "es": "El asesino tenía arrugas en las manos", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.MESSAGE.RUMOR", "type": "UI", "en": "Killer is leaving message", "es": "El asesino deja un mensaje", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_02.title", "type": "UI", "en": "Killer knew the victims or researched them", "es": "El asesino conocía a las víctimas o las investigó", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus01_03.title", "type": "UI", "en": "Killer would have known for the victims", "es": "El asesino habría sabido sobre las víctimas", "status": "TRANSLATED", "locked": false}
+{"id": "guess_judge_sus02_03.title", "type": "UI", "en": "Killer would have known for the victims", "es": "El asesino habría sabido sobre las víctimas", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ade_01.title", "type": "UI", "en": "Killer connected to a woman", "es": "Asesino está conectado con una mujer", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ludwig_01.title", "type": "UI", "en": "Killer linked to war", "es": "Asesino vinculado a la guerra", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ade_02.title", "type": "UI", "en": "Killer is killing for someone else", "es": "El asesino mata para alguien más", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_herve_01.title", "type": "UI", "en": "Killer wearing black gloves", "es": "El asesino usaba guantes negros", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.MESSAGE.RUMOR", "type": "UI", "en": "Killer wants to be seen.", "es": "El asesino quiere ser visto.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_ade_01.title", "type": "UI", "en": "Killer doesn't want to kill", "es": "El asesino no quiere matar", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_ludwig_02.title", "type": "UI", "en": "Killer is manipulated to kill", "es": "El asesino es manipulado para matar", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_gas_03.title", "type": "UI", "en": "Killer targeting political activists", "es": "El asesino ataca a activistas políticos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal03_01.title", "type": "UI", "en": "Killer targeting political activists", "es": "El asesino ataca a activistas políticos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_customer_rumor_01.title", "type": "UI", "en": "Killer's height < 1m70", "es": "Estatura del asesino < 1m70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_journal07_01.title", "type": "UI", "en": "Killer's height < 1m70", "es": "Estatura del asesino < 1m70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy04_03.title", "type": "UI", "en": "Killer's height < 1m80", "es": "Estatura del asesino < 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gas_02.title", "type": "UI", "en": "Killer’s height > 1m80", "es": "Estatura del asesino > 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_report01_01.title", "type": "UI", "en": "Killer’s height > 1m80", "es": "Estatura del asesino > 1m80", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_03.title", "type": "UI", "en": "Break-in for crime scenes 1 & 3", "es": "Allanamiento en escenas del crimen 1 y 3", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.EXIT", "type": "UI", "en": "Taxi", "es": "Taxi", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_journal10_01.title", "type": "UI", "en": "Victim 4's will blocking inheritance in case of murder", "es": "El testamento de la Víctima 4 bloquea la herencia en caso de asesinato", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_radionews_08_01.title", "type": "UI", "en": "Victim 4's will blocking inheritance in case of murder", "es": "El testamento de la Víctima 4 bloquea la herencia en caso de asesinato", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.TEXT_SIZE", "type": "UI", "en": "Text size", "es": "Tamaño del texto", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_01.title", "type": "UI", "en": "Death = execution", "es": "Muerte = ejecución", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy02_02.title", "type": "UI", "en": "Tears found on Victim 2, maybe Killer ?", "es": "Lágrimas en Víctima 2, ¿tal vez del asesino?", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_autopsy03_02.title", "type": "UI", "en": "Tears found on Victim 3, maybe Killer ?", "es": "Lágrimas en Víctima 3, ¿tal vez del asesino?", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_gilda_01.source", "type": "UI", "en": "Meeting Gilda", "es": "Encuentro con Gilda", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_jonas_01.source", "type": "UI", "en": "Meeting Jonas", "es": "Encuentro con Jonas", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.PASSENGER.END.TIP", "type": "UI", "en": "Tip", "es": "Propina", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.TIPS", "type": "UI", "en": "Tips", "es": "Propinas", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.RANDOM.TITLE", "type": "UI", "en": "\"Surprise\" Investigation", "es": "Investigación \"Sorpresa\"", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_01.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_02.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_03.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_04.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_kcase_05.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_01.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_02.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_03.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_kcase_04.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_01.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_02.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_03.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_kcase_04.source", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_kcase.title", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_kcase.title", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_kcase.title", "type": "UI", "en": "Killer Case", "es": "Caso Asesino", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_07.title", "type": "UI", "en": "Vampires are real… use knife to hide bite", "es": "Vampiros reales… usa cuchillo para ocultar la mordida", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_customer_rumor_11.title", "type": "UI", "en": "Vampires exist, is the real killer", "es": "Los vampiros existen, es el verdadero asesino", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.SYMBOL.CHURCH", "type": "UI", "en": "Linked to Church or religion.", "es": "Vinculado a la Iglesia o a la religión.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_escort_04.title", "type": "UI", "en": "Suspect 2 = Secret Escort 75 client", "es": "Sospechoso 2 = cliente de Secret Escort 75", "status": "TRANSLATED", "locked": false}
+{"id": "UI.SPECIFIC.XBOX.CONNECTEDPROFILE", "type": "UI", "en": "Connected Profile", "es": "Perfil conectado", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.LOSSES", "type": "UI", "en": "Losses", "es": "Pérdidas", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CREDITS.INTRO.PUBLISHED", "type": "UI", "en": "published by", "es": "publicado por", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.BOARD.MOVE", "type": "UI", "en": "Move", "es": "Mover", "status": "TRANSLATED", "locked": false}
+{"id": "UI.VERSION", "type": "UI", "en": "Version", "es": "Versión", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.VSYNC", "type": "UI", "en": "Vertical sync", "es": "Sincronización vertical", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.VIDEO", "type": "UI", "en": "Video", "es": "Vídeo", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.TEXT_SPEED.VERYSLOW", "type": "UI", "en": "Much slower", "es": "Mucho más lenta", "status": "TRANSLATED", "locked": false}
+{"id": "UI.OPTIONS.TEXT_SPEED.VERYFAST", "type": "UI", "en": "Much faster", "es": "Mucho más rápida", "status": "TRANSLATED", "locked": false}
+{"id": "FULLSCREEN", "type": "UI", "en": "Fullscreen", "es": "Pantalla completa", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cemetery_01.source", "type": "UI", "en": "From the visit at the Batignolles Cemetery", "es": "De la visita al Cementerio de Batignolles", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cemetery_02.source", "type": "UI", "en": "From the visit at the Batignolles Cemetery", "es": "De la visita al Cementerio de Batignolles", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cemetery_03.source", "type": "UI", "en": "From the visit at the Batignolles Cemetery", "es": "De la visita al Cementerio de Batignolles", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_park_01.source", "type": "UI", "en": "From Victim’s 2 concierge", "es": "Del portero de la Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_park_02.source", "type": "UI", "en": "From Victim’s 2 concierge", "es": "Del portero de la Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_park_03.source", "type": "UI", "en": "From Victim’s 2 concierge", "es": "Del portero de la Víctima 2", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gun_01.source", "type": "UI", "en": "From gun shop owner", "es": "Del dueño de la armería", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gun_02.source", "type": "UI", "en": "From gun shop owner", "es": "Del dueño de la armería", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_church_01.source", "type": "UI", "en": "From the priest at Gilda’s church", "es": "Del sacerdote de la iglesia de Gilda", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_anita_01.source", "type": "UI", "en": "From Anita", "es": "De Anita", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_fileherve.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_kcase.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_pic01.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_pic02.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_pic03.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_report01.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_report02.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_angel_report03.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_autopsy03.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_autopsy04.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_kcase.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic01.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic02.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic03.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_pic04.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_report01.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_report02.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_report03.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_autopsy01.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_autopsy02.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_autopsy03.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_chrisrecords.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_kcase.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_report04.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_suspectsintel.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "doc_sand_victimrecords.source", "type": "UI", "en": "Given by Busset", "es": "Entregado por Busset", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_01.source", "type": "UI", "en": "From the bartender at Belvédère", "es": "Del cantinero del Belvédère", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_02.source", "type": "UI", "en": "From the bartender at Belvédère", "es": "Del cantinero del Belvédère", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_03.source", "type": "UI", "en": "From the bartender at Belvédère", "es": "Del cantinero del Belvédère", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_bar_04.source", "type": "UI", "en": "From the bartender at Belvédère", "es": "Del cantinero del Belvédère", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_hospital_01.source", "type": "UI", "en": "From Djena at the Saint-Ouen Hospital", "es": "De Djena en el Hospital de Saint-Ouen", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_hospital_02.source", "type": "UI", "en": "From Djena at the Saint-Ouen Hospital", "es": "De Djena en el Hospital de Saint-Ouen", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_hospital_03.source", "type": "UI", "en": "From Djena at the Saint-Ouen Hospital", "es": "De Djena en el Hospital de Saint-Ouen", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_geraldine_01.source", "type": "UI", "en": "From Géraldine", "es": "De Géraldine", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_geraldine_02.source", "type": "UI", "en": "From Géraldine", "es": "De Géraldine", "status": "TRANSLATED", "locked": false}
+{"id": "doc_judge_julian.source", "type": "UI", "en": "Given by Julian", "es": "Entregado por Julian", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_cemetery_01.source", "type": "UI", "en": "From Marco at cemetery", "es": "De Marco, en el cementerio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_cemetery_02.source", "type": "UI", "en": "From Marco at cemetery", "es": "De Marco, en el cementerio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_cemetery_03.source", "type": "UI", "en": "From Marco at cemetery", "es": "De Marco, en el cementerio", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_stad_01.source", "type": "UI", "en": "From Marco, close to Victim 1", "es": "De Marco, cercano a la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_stad_02.source", "type": "UI", "en": "From Marco, close to Victim 1", "es": "De Marco, cercano a la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_stad_03.source", "type": "UI", "en": "From Marco, close to Victim 1", "es": "De Marco, cercano a la Víctima 1", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.REPORT01.VICTIM1", "type": "UI", "en": "Given by your \"friend\" from the police... the autopsy report of the first victim. A lot of pages were given to you but you don't understand much... You understand the sum-up better.", "es": "Entregado por tu \"amigo\" de la policía... el informe de autopsia de la primera víctima. Te dieron muchas páginas, pero no entiendes mucho... Entiendes mejor el resumen.", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_01.source", "type": "UI", "en": "From my source at the fire station", "es": "De mi fuente en la estación de bomberos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_02.source", "type": "UI", "en": "From my source at the fire station", "es": "De mi fuente en la estación de bomberos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_03.source", "type": "UI", "en": "From my source at the fire station", "es": "De mi fuente en la estación de bomberos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_fire_04.source", "type": "UI", "en": "From my source at the fire station", "es": "De mi fuente en la estación de bomberos", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cafe_01.source", "type": "UI", "en": "From my source inside Groupe Diamant", "es": "De mi fuente dentro de Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cafe_02.source", "type": "UI", "en": "From my source inside Groupe Diamant", "es": "De mi fuente dentro de Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_cafe_03.source", "type": "UI", "en": "From my source inside Groupe Diamant", "es": "De mi fuente dentro de Groupe Diamant", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_newsroom_01.source", "type": "UI", "en": "From my source at InfoTV", "es": "De mi fuente en InfoTV", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_newsroom_02.source", "type": "UI", "en": "From my source at InfoTV", "es": "De mi fuente en InfoTV", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_newsroom_03.source", "type": "UI", "en": "From my source at InfoTV", "es": "De mi fuente en InfoTV", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_customer_mireille_01.source", "type": "UI", "en": "From Mireille, Alexandre’s neighbor", "es": "De Mireille, vecina de Alexandre", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_archiv_01.source", "type": "UI", "en": "From source at police archives", "es": "De una fuente en los archivos policiales", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_embassy_01.source", "type": "UI", "en": "From source at Argentinian Embassy", "es": "De una fuente en la Embajada Argentina", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_embassy_02.source", "type": "UI", "en": "From source at Argentinian Embassy", "es": "De una fuente en la Embajada Argentina", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_embassy_03.source", "type": "UI", "en": "From source at Argentinian Embassy", "es": "De una fuente en la Embajada Argentina", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_victimrecords_03.title", "type": "UI", "en": "Victim 1’s usual MO similar to Albatros fire", "es": "MO habitual de Víctima 1 similar al incendio del Albatros", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.KNIFE.STANDARD", "type": "UI", "en": "Weapon = fisherman tool", "es": "Arma = herramienta de pescador", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.KNIFE.VIC01", "type": "UI", "en": "Weapon = fish knife", "es": "Arma = cuchillo de pesca", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.NAME.KNIFE.VIC02", "type": "UI", "en": "Weapon = fish knife", "es": "Arma = cuchillo de pesca", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gun_01.title", "type": "UI", "en": "Weapon = police gun in the 70s", "es": "Arma = pistola policial de los años 70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy03_02.title", "type": "UI", "en": "Weapon = rare gun, used in the 70s", "es": "Arma = pistola poco común, usada en los años 70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_autopsy04_02.title", "type": "UI", "en": "Weapon = rare gun, used in the 70s", "es": "Arma = pistola poco común, usada en los años 70", "status": "TRANSLATED", "locked": false}
+{"id": "clue_judge_gun_02.title", "type": "UI", "en": "Weapon = kept in perfect shape by a professional", "es": "Arma = mantenida en perfecto estado por un profesional", "status": "TRANSLATED", "locked": false}
+{"id": "poi_judge_gun.title", "type": "UI", "en": "Montparnasse Gun Shop", "es": "Armería de Montparnasse", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.CONTINUE", "type": "UI", "en": "Continue", "es": "Continuar", "status": "TRANSLATED", "locked": false, "origin": "tm"}
+{"id": "UI.MENU.CONTINUE", "type": "UI", "en": "Continue", "es": "Continuar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.PAUSE.RESUME", "type": "UI", "en": "Continue", "es": "Continuar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.CAR.DIALOGUE.SKIP", "type": "UI", "en": "Next", "es": "Siguiente", "status": "TRANSLATED", "locked": false}
+{"id": "UI.TUTORIAL.NEXT", "type": "UI", "en": "Next", "es": "Siguiente", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.REVEALS.MENU", "type": "UI", "en": "Check the Passidex menu for more details", "es": "Consulta el menú Passidex para más detalles", "status": "TRANSLATED", "locked": false}
+{"id": "UI.LOADING", "type": "UI", "en": "Loading", "es": "Cargando", "status": "TRANSLATED", "locked": false}
+{"id": "clue_angel_journal08_01.title", "type": "UI", "en": "Scientists reveal we live in a simulation", "es": "Científicos revelan que vivimos en una simulación", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.PUMP", "type": "UI", "en": "Gas pump", "es": "Surtidor de gasolina", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.TIMELINE", "type": "UI", "en": "Timeline", "es": "Cronología", "status": "TRANSLATED", "locked": false}
+{"id": "clue.source.newspaper", "type": "UI", "en": "Newspaper", "es": "Periódico", "status": "TRANSLATED", "locked": false}
+{"id": "UI.STATION.NEWSPAPER", "type": "UI", "en": "Newspaper", "es": "Periódico", "status": "TRANSLATED", "locked": false}
+{"id": "UI.TAXI.NEWSPAPER", "type": "UI", "en": "Read the newspaper", "es": "Leer el periódico", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.NEWSPAPER05.ARCHBISHOP", "type": "UI", "en": "Newspaper: \"Archbishop killed in Paris\"", "es": "Periódico: \"Arzobispo asesinado en París\"", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.NEWSPAPER04.BURGLARIES", "type": "UI", "en": "Newspaper: \"Burglaries on the rise!\"", "es": "Periódico: \"¡Aumentan los allanamientos!\"", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.NAME.NEWSPAPER06.AOE", "type": "UI", "en": "Newspaper: \"The Angel of Death strikes again!\"", "es": "Periódico: \"¡El Ángel de la Muerte ataca de nuevo!\"", "status": "TRANSLATED", "locked": false}
+{"id": "GC.DOCUMENT.TT.NEWSPAPER04.BURGLARIES", "type": "UI", "en": "A newspaper article talking about the significative rise of burglaries. The text describes techniques and tools necessaries to do a good burglary. It almost looks like a \"Burglaries for dummies\".", "es": "Un artículo de periódico que habla sobre el significativo aumento de los allanamientos. El texto describe técnicas y herramientas necesarias para hacer un buen allanamiento. Casi parece un \"Allanamientos para dummies\".", "status": "TRANSLATED", "locked": false}
+{"id": "clue_sand_gas_02.title", "type": "UI", "en": "Witness described Killer as old man or woman", "es": "El testigo describió al asesino como un hombre o mujer mayor", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.CIGS", "type": "UI", "en": "Cigarettes", "es": "Cigarrillos", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.ANGEL.DESCRIPTION", "type": "UI", "en": "Random victims. Unknown motive. Weird case, slightly more difficult than the others.", "es": "Víctimas al azar. Motivo desconocido. Un caso extraño, un poco más difícil que los demás.", "status": "TRANSLATED", "locked": false}
+{"id": "INVESTIGATION.FULL.TITLE", "type": "UI", "en": "Random investigation (all)", "es": "Investigación aleatoria (todas)", "status": "TRANSLATED", "locked": false}
+{"id": "GC.CLUE.TT.BURGLARY.BALCONY", "type": "UI", "en": "Very easy to enter flat through balcony.", "es": "Muy fácil entrar al apartamento por el balcón.", "status": "TRANSLATED", "locked": false}
+{"id": "UI.PAUSE.BACKTOMENU", "type": "UI", "en": "Back to menu", "es": "Volver al menú", "status": "TRANSLATED", "locked": false}
+{"id": "UI.PRESS.AFTER", "type": "UI", "en": "to start", "es": "para empezar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.PRESS", "type": "UI", "en": "PRESS TO START", "es": "PULSA PARA EMPEZAR", "status": "TRANSLATED", "locked": false}
+{"id": "UI.BACK", "type": "UI", "en": "Back", "es": "Volver", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ROOM.TRANSITION.DESK", "type": "UI", "en": "back to the desk", "es": "volver al escritorio", "status": "TRANSLATED", "locked": false}
+{"id": "JAP", "type": "UI", "en": "Japanese", "es": "日本語", "status": "TRANSLATED", "locked": false}
+{"id": "UI.APPLY", "type": "UI", "en": "Apply", "es": "Aplicar", "status": "TRANSLATED", "locked": false}
+{"id": "UI.ENDSHIFT.SUMUP.START", "type": "UI", "en": "Start balance", "es": "Saldo inicial", "status": "TRANSLATED", "locked": false}
+{"id": "UI.MENU.FREEROAM", "type": "UI", "en": "Free Roaming", "es": "Modo libre", "status": "TRANSLATED", "locked": false}

@@ -1,0 +1,49 @@
+name: Error de traducción o instalación
+description: Reportá una línea traducida mal, un texto cortado en pantalla, o un problema instalando el mod.
+labels: ["traducción"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar. Cuantos más datos des, más rápido se puede encontrar la línea exacta en `db/` y corregirla.
+
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de problema
+      options:
+        - Traducción incorrecta o poco natural
+        - Texto cortado / se sale de la pantalla
+        - Error de instalación (el instalador no encuentra el juego, falla, etc.)
+        - Falta traducir (texto en inglés)
+        - Otro
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Personaje o pantalla
+      description: ¿Quién habla, o en qué pantalla/menú aparece el texto?
+      placeholder: "Ej: Fragonard, en la escena del interrogatorio / Menú de pausa"
+
+  - type: textarea
+    attributes:
+      label: Texto en español que viste
+      description: Copiá el texto tal cual aparece en el juego (o transcribilo si no podés copiarlo).
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Captura de pantalla
+      description: Arrastrá una imagen acá si podés. Ayuda muchísimo a encontrar la fila exacta.
+
+  - type: textarea
+    attributes:
+      label: ¿Qué esperabas en vez de eso?
+      description: Opcional. Si tenés una sugerencia de cómo debería decir, dejala acá.
+
+  - type: input
+    attributes:
+      label: Versión del instalador
+      description: El nombre del .exe que usaste (Setup o Consola) y, si lo sabés, la versión (ej. v1.0.0).

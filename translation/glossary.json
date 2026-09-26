@@ -1,0 +1,65 @@
+{
+ "cab": {
+  "es": "taxi",
+  "notes": "también 'taxi' para 'taxi'"
+ },
+ "car": {
+  "es": "auto",
+  "avoid": [
+   "coche",
+   "carro"
+  ]
+ },
+ "cabbie": {
+  "es": "taxista"
+ },
+ "fare": {
+  "es": "tarifa",
+  "notes": "el dinero del viaje; 'pasajero' si se refiere a la persona"
+ },
+ "passenger": {
+  "es": "pasajero / pasajera"
+ },
+ "client": {
+  "es": "cliente"
+ },
+ "cop": {
+  "es": "policía",
+  "avoid": [
+   "poli",
+   "tira",
+   "cana",
+   "yuta"
+  ]
+ },
+ "the Judge": {
+  "es": "el Juez",
+  "notes": "asesino en serie de la historia; mayúscula"
+ },
+ "the Sandman": {
+  "es": "el Hombre de Arena"
+ },
+ "Commissioner": {
+  "es": "comisario",
+  "notes": "Fragonard es HOMBRE (he/him). Otros policías varían: verificar pronombres (en 100_cop_01 la policía es mujer)."
+ },
+ "suspect": {
+  "es": "sospechoso"
+ },
+ "clue": {
+  "es": "pista"
+ },
+ "shift": {
+  "es": "turno"
+ },
+ "gas station": {
+  "es": "gasolinera"
+ },
+ "the Angel of Death": {
+  "es": "el Ángel de la Muerte"
+ },
+ "Sir": {
+  "es": "señor",
+  "notes": "quien dice 'Sir'/'Monsieur' trata de usted (p. ej. la doctora de la intro)"
+ }
+}

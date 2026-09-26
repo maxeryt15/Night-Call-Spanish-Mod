@@ -1,0 +1,15 @@
+# Texto original del juego: no se publica
+source/
+# Referencia (repo ruso clonado)
+ref-russian/
+# Build
+**/bin/
+**/obj/
+work/
+build/
+backups/
+__pycache__/
+*.pyc
+# Instalador: payload se arma con tools/build_release.py, no se versiona
+dist/
+tools/installer/payload/
