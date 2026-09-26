@@ -13,3 +13,4 @@ __pycache__/
 # Instalador: payload se arma con tools/build_release.py, no se versiona
 dist/
 tools/installer/payload/
+source_contaminado*/

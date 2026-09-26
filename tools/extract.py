@@ -5,8 +5,10 @@ db/dialogs/<objeto>.jsonl  filas de narración, diálogo y choices
                             guiones TextAsset *_eng: id objeto|passage|T<nº de línea>)
 db/ui.jsonl                claves de LocalizationManager
 db/reveals.jsonl           descripciones del Passidex (source/reveals.json)
+db/assets.jsonl            títulos y orígenes de pistas (source/strings.jsonl)
 
 Re-ejecutable: conserva es/status/locked/notes de filas existentes cuyo inglés no cambió.
+Si más del 5% del inglés existente cambió, aborta sin escribir (volcado contaminado); --force lo fuerza.
 Uso: python tools/extract.py
 """
 import glob
@@ -20,8 +22,18 @@ from nc.common import (DB, DB_DIALOGS, SOURCE, is_structural, parse_choice, read
 KEEP = ("es", "status", "locked", "notes", "hint", "hint_origin", "hint_alt")
 
 
+CHANGED = [0, 0]  # [filas cuyo inglés cambió, filas existentes comparadas]
+MAX_CHANGED = 0.05  # más de 5% de cambios = volcado sospechoso (p. ej. hecho con el mod cargado)
+PENDING = []  # (ruta, filas): se escribe todo junto al final, solo si pasa el control
+
+
 def merge(new_rows, path):
     old = {r["id"]: r for r in read_jsonl(path)}
+    for r in new_rows:
+        o = old.get(r["id"])
+        if o:
+            CHANGED[1] += 1
+            CHANGED[0] += o.get("en") != r["en"]
     for r in new_rows:
         o = old.get(r["id"])
         if o and o.get("en") == r["en"]:
@@ -55,7 +67,7 @@ def extract_dialog(path):
             rows.append(row(f"{obj}|{title}|C{i}", "CHOICE", body,
                             passage=title, emote=emote, link=c["link"]))
     out = os.path.join(DB_DIALOGS, obj + ".jsonl")
-    write_jsonl(out, merge(rows, out))
+    PENDING.append((out, merge(rows, out)))
     return len(rows)
 
 
@@ -79,7 +91,7 @@ def extract_textasset(path):
         rows.append(row(f"{obj}|{passage}|T{n}", "DIALOGUE" if speaker else "NARRATION", body,
                         passage=passage, speaker=speaker, emote=emote, source="textasset"))
     out = os.path.join(DB_DIALOGS, obj + ".jsonl")
-    write_jsonl(out, merge(rows, out))
+    PENDING.append((out, merge(rows, out)))
     return len(rows)
 
 
@@ -92,7 +104,28 @@ def extract_reveals():
     rows = [row(r["reveal_id"], "REVEAL", r["text"][1].strip(), passenger=r["passenger"])
             for r in read_json(path) if len(r["text"]) > 1 and r["text"][1].strip()]
     out = os.path.join(DB, "reveals.jsonl")
-    write_jsonl(out, merge(rows, out))
+    PENDING.append((out, merge(rows, out)))
+    return len(rows)
+
+
+ASSET_FIELDS = (".title", ".source_name")  # texto visible de InvestigationClue
+
+
+def extract_assets():
+    """Pistas de investigación: source/strings.jsonl (volcado genérico de assets).
+    Solo clues[].title y clues[].source_name; los ids/rutas/sonidos no se muestran."""
+    path = os.path.join(SOURCE, "strings.jsonl")
+    if not os.path.exists(path):
+        return 0
+    seen, rows = set(), []
+    for r in read_jsonl(path):
+        p, v = r["path"], r["value"].strip()
+        if ".clues[" not in p or not p.endswith(ASSET_FIELDS) or not v or v in seen:
+            continue
+        seen.add(v)
+        rows.append(row("asset|" + v, "CLUE", v, field=p.rsplit(".", 1)[1]))
+    out = os.path.join(DB, "assets.jsonl")
+    PENDING.append((out, merge(rows, out)))
     return len(rows)
 
 
@@ -100,7 +133,7 @@ def extract_ui():
     loc = read_json(os.path.join(SOURCE, "localization_eng.json"))
     rows = [row(k, "UI", v) for k, v in loc.items() if v and v.strip()]
     out = os.path.join(DB, "ui.jsonl")
-    write_jsonl(out, merge(rows, out))
+    PENDING.append((out, merge(rows, out)))
     return len(rows)
 
 
@@ -121,3 +154,14 @@ if __name__ == "__main__":
     print(f"guiones textasset: {len(tas)} archivos, {sum(extract_textasset(f) for f in tas)} filas")
     print(f"ui: {extract_ui()} filas")
     print(f"passidex (reveals): {extract_reveals()} filas")
+    print(f"pistas (assets): {extract_assets()} filas")
+
+    changed, compared = CHANGED
+    ratio = changed / compared if compared else 0
+    print(f"control: {changed}/{compared} filas existentes cambiaron de inglés ({ratio:.1%})")
+    if ratio > MAX_CHANGED and "--force" not in sys.argv:
+        sys.exit("ABORTADO: demasiados cambios en el inglés original; ¿se volcó con el mod en español "
+                 "cargado? No se escribió nada. Usar --force solo si el juego se actualizó de verdad.")
+    for path, rows in PENDING:
+        write_jsonl(path, rows)
+    print(f"escritos {len(PENDING)} archivos en db/")

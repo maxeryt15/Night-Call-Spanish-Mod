@@ -114,9 +114,9 @@ if __name__ == "__main__":
         if usable(r):
             mapping.setdefault(r["en"], r["es"])
     write_json(os.path.join(OUT, "Spanish_UI", "key_based_translations.json"), ui)
-    # Passidex: el texto de cada reveal se muestra en un TextMeshPro -> va al mapping TMP
-    reveals = os.path.join(DB, "reveals.jsonl")
-    for r in (read_jsonl(reveals) if os.path.exists(reveals) else []):
+    # Passidex y pistas: se muestran en TextMeshPro -> van al mapping TMP
+    extra = [os.path.join(DB, n + ".jsonl") for n in ("reveals", "assets")]
+    for r in (x for f in extra if os.path.exists(f) for x in read_jsonl(f)):
         if usable(r):
             mapping.setdefault(r["en"], r["es"])
     # nombres de hablante que se muestran en pantalla (cargos/roles): translation/names.json

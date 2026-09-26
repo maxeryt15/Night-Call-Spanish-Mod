@@ -10,7 +10,7 @@ DB_DIALOGS = os.path.join(DB, "dialogs")
 REF_RU = os.path.join(ROOT, "ref-russian", "data")
 
 STATUSES = ("TODO", "TRANSLATED", "REVIEW", "TESTED")
-EXTRA_DBS = ("ui", "reveals")  # db/<nombre>.jsonl fuera de dialogs/ (claves de UI, Passidex)
+EXTRA_DBS = ("ui", "reveals", "assets")  # db/<nombre>.jsonl fuera de dialogs/ (UI, Passidex, pistas)
 
 
 def all_db_files():

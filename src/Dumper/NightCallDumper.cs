@@ -51,9 +51,16 @@ namespace NightCallSpanish.Dumper
         void DumpAll(string reason)
         {
             int d = 0, l = 0, t = 0;
-            try { d = DumpDialogs(); } catch (Exception e) { Logger.LogError("Dialogs: " + e); }
+            // Con el mod en español cargado, los diálogos y TextAssets en memoria ya están
+            // traducidos: volcarlos contaminaría el "original". Solo se vuelca lo que el mod no toca.
+            bool spanishLoaded = BepInEx.Bootstrap.Chainloader.PluginInfos.ContainsKey("com.nightcall.spanish");
+            if (spanishLoaded)
+                Logger.LogWarning("Mod en español cargado: NO se vuelcan diálogos ni TextAssets (quedarían en español). Desactivalo para volcar el original.");
+            if (!spanishLoaded)
+                try { d = DumpDialogs(); } catch (Exception e) { Logger.LogError("Dialogs: " + e); }
             try { l = DumpLocalization(); } catch (Exception e) { Logger.LogError("Localization: " + e); }
-            try { t = DumpTextAssets(); } catch (Exception e) { Logger.LogError("TextAssets: " + e); }
+            if (!spanishLoaded)
+                try { t = DumpTextAssets(); } catch (Exception e) { Logger.LogError("TextAssets: " + e); }
             try { DumpReveals(); } catch (Exception e) { Logger.LogError("Reveals: " + e); }
             try { DumpDeepStrings(); } catch (Exception e) { Logger.LogError("DeepStrings: " + e); }
             Logger.LogInfo(string.Format("[{0}] nuevos: dialogos={1} idiomas UI={2} textassets={3} | totales: {4}/{5}/{6}",
@@ -79,12 +86,38 @@ namespace NightCallSpanish.Dumper
         }
 
         // ---------- Diálogos ----------
+        // Los cargados en memoria + los referenciados por cada ficha de pasajero
+        // (intros = peticiones del mapa, encounters[].dialog_container), que el juego
+        // no siempre tiene "sueltos" en memoria.
+        List<UnityEngine.Object> DialogObjects(Type type)
+        {
+            var list = new List<UnityEngine.Object>(Resources.FindObjectsOfTypeAll(type));
+            var seen = new HashSet<int>();
+            foreach (var o in list) if (o != null) seen.Add(o.GetInstanceID());
+            var pType = FindType("NC.Passengers.PassengerObjectScript");
+            if (ReferenceEquals(pType, null)) return list;
+            foreach (var p in Resources.FindObjectsOfTypeAll(pType))
+            {
+                var refs = new List<object>();
+                var intros = Get(p, "intros") as IList;
+                if (intros != null) foreach (var i in intros) refs.Add(i);
+                var encs = Get(p, "encounters") as IList;
+                if (encs != null) foreach (var e in encs) refs.Add(Get(e, "dialog_container"));
+                foreach (var r in refs)
+                {
+                    var uo = r as UnityEngine.Object;
+                    if (uo != null && seen.Add(uo.GetInstanceID())) list.Add(uo);
+                }
+            }
+            return list;
+        }
+
         int DumpDialogs()
         {
             var type = FindType("NC.Dialogs.DialogObjectScript");
             if (ReferenceEquals(type, null)) return 0;
             int n = 0;
-            foreach (var obj in Resources.FindObjectsOfTypeAll(type))
+            foreach (var obj in DialogObjects(type))
             {
                 if (obj == null || string.IsNullOrEmpty(obj.name)) continue;
                 var list = Get(obj, "dialogs") as IList;
