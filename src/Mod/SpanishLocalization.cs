@@ -15,7 +15,7 @@ using UnityEngine.UI;
 
 namespace NightCallSpanish
 {
-    [BepInPlugin("com.nightcall.spanish", "Night Call Spanish", "0.1.0")]
+    [BepInPlugin("com.nightcall.spanish", "Night Call Spanish", "1.0.1")]
     public class SpanishLocalization : BaseUnityPlugin
     {
         internal static ManualLogSource Log;
@@ -61,7 +61,7 @@ namespace NightCallSpanish
         {
             Instance = this;
             Log = Logger;
-            Log.LogInfo("Night Call Spanish Localization v0.1.0 - Starting...");
+            Log.LogInfo("Night Call Spanish Localization v1.0.1 - Starting...");
 
             // Load font scale config
             FontReplacement = Config.Bind("Font", "EnableFontReplacement", false,

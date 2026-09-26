@@ -14,5 +14,7 @@ repositorio oficial.
 
 La arquitectura técnica de `src/Mod` está basada en
 [russian-localisation-night-call](https://github.com/4RH1T3CT0R7/russian-localisation-night-call)
-de Artem Lytkin (4RH1T3CT0R), publicado bajo CC BY 4.0 con condiciones adicionales del autor
+de Artem Lytkin (4RH1T3CT0R), publicado bajo [CC BY 4.0](https://github.com/4RH1T3CT0R7/russian-localisation-night-call/blob/main/LICENSE) con condiciones adicionales del autor
 (atribución obligatoria; uso no comercial sin su permiso).
+**Modificado** para el español: textos y rutas, detección de textos ya traducidos, fuentes,
+pantalla de aviso, recarga en vivo (F5) y herramientas propias de extracción y validación.

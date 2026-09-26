@@ -81,4 +81,4 @@ e Inno Setup, más una instalación local con BepInEx + el plugin compilado en R
 ## Licencias
 
 - [BepInEx](https://github.com/BepInEx/BepInEx) (LGPL-2.1), [HarmonyX](https://github.com/BepInEx/HarmonyX) (MIT) y [MonoMod](https://github.com/MonoMod/MonoMod) (MIT), incluidos en el instalador.
-- El plugin deriva de [russian-localisation-night-call](https://github.com/4RH1T3CT0R7/russian-localisation-night-call) de Artem Lytkin (4RH1T3CT0R), CC BY 4.0 (atribución obligatoria; uso no comercial sin permiso del autor).
+- El plugin deriva de [russian-localisation-night-call](https://github.com/4RH1T3CT0R7/russian-localisation-night-call) de Artem Lytkin (4RH1T3CT0R), bajo [CC BY 4.0](https://github.com/4RH1T3CT0R7/russian-localisation-night-call/blob/main/LICENSE) (atribución obligatoria; uso no comercial sin permiso del autor). **Modificado** para el español: textos, detección de traducciones, fuentes y herramientas propias.
