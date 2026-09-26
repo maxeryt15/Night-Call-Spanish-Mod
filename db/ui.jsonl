@@ -151,7 +151,7 @@
 {"id": "ENG", "type": "UI", "en": "English", "es": "English", "status": "TRANSLATED", "locked": false}
 {"id": "UI.CAR.PASSENGER.END.TITLE", "type": "UI", "en": "RECEIPT", "es": "RECIBO", "status": "TRANSLATED", "locked": false}
 {"id": "UI.MENU.PASSIDEX", "type": "UI", "en": "Passidex", "es": "Passidex", "status": "TRANSLATED", "locked": false}
-{"id": "UI.REVEALS.TITLE", "type": "UI", "en": "Passidex", "es": "Passidex", "status": "TRANSLATED", "locked": false, "origin": "tm"}
+{"id": "UI.REVEALS.TITLE", "type": "UI", "en": "Passidex", "es": "Passidex", "status": "TRANSLATED", "locked": false}
 {"id": "UI.ENDSHIFT.SUMUP.INVESTIGATION", "type": "UI", "en": "Investigation", "es": "Investigación", "status": "TRANSLATED", "locked": false}
 {"id": "STORYSELECT.TITLE.CHOOSE.INVESTIGATION", "type": "UI", "en": "Choose the investigation", "es": "Elige la investigación", "status": "TRANSLATED", "locked": false}
 {"id": "clue_angel_report03_01.title", "type": "UI", "en": "Left spare key under door mat.", "es": "Dejó llave de repuesto bajo el felpudo.", "status": "TRANSLATED", "locked": false}
@@ -872,7 +872,7 @@
 {"id": "clue_judge_autopsy04_02.title", "type": "UI", "en": "Weapon = rare gun, used in the 70s", "es": "Arma = pistola poco común, usada en los años 70", "status": "TRANSLATED", "locked": false}
 {"id": "clue_judge_gun_02.title", "type": "UI", "en": "Weapon = kept in perfect shape by a professional", "es": "Arma = mantenida en perfecto estado por un profesional", "status": "TRANSLATED", "locked": false}
 {"id": "poi_judge_gun.title", "type": "UI", "en": "Montparnasse Gun Shop", "es": "Armería de Montparnasse", "status": "TRANSLATED", "locked": false}
-{"id": "UI.ENDSHIFT.SUMUP.CONTINUE", "type": "UI", "en": "Continue", "es": "Continuar", "status": "TRANSLATED", "locked": false, "origin": "tm"}
+{"id": "UI.ENDSHIFT.SUMUP.CONTINUE", "type": "UI", "en": "Continue", "es": "Continuar", "status": "TRANSLATED", "locked": false}
 {"id": "UI.MENU.CONTINUE", "type": "UI", "en": "Continue", "es": "Continuar", "status": "TRANSLATED", "locked": false}
 {"id": "UI.PAUSE.RESUME", "type": "UI", "en": "Continue", "es": "Continuar", "status": "TRANSLATED", "locked": false}
 {"id": "UI.CAR.DIALOGUE.SKIP", "type": "UI", "en": "Next", "es": "Siguiente", "status": "TRANSLATED", "locked": false}

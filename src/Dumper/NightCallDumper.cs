@@ -61,6 +61,8 @@ namespace NightCallSpanish.Dumper
             try { l = DumpLocalization(); } catch (Exception e) { Logger.LogError("Localization: " + e); }
             if (!spanishLoaded)
                 try { t = DumpTextAssets(); } catch (Exception e) { Logger.LogError("TextAssets: " + e); }
+            if (!spanishLoaded)
+                try { DumpIntros(); } catch (Exception e) { Logger.LogError("Intros: " + e); }
             try { DumpReveals(); } catch (Exception e) { Logger.LogError("Reveals: " + e); }
             try { DumpDeepStrings(); } catch (Exception e) { Logger.LogError("DeepStrings: " + e); }
             Logger.LogInfo(string.Format("[{0}] nuevos: dialogos={1} idiomas UI={2} textassets={3} | totales: {4}/{5}/{6}",
@@ -245,6 +247,60 @@ namespace NightCallSpanish.Dumper
             File.WriteAllText(Path.Combine(_out, "reveals.json"), sb.ToString(), new UTF8Encoding(false));
             _dumpedReveals = true;
             Logger.LogInfo("Reveals volcadas: " + n);
+        }
+
+        // ---------- Peticiones del mapa: PassengerObjectScript.intros ----------
+        // Son DialogObjectScript propios (a veces con el mismo nombre que el diálogo principal,
+        // por eso no se filtran por nombre). Escribe intros.json con las líneas por idioma.
+        bool _dumpedIntros;
+
+        void DumpIntros()
+        {
+            if (_dumpedIntros) return;
+            var pType = FindType("NC.Passengers.PassengerObjectScript");
+            if (ReferenceEquals(pType, null)) return;
+            var sb = new StringBuilder("[\n");
+            int n = 0;
+            foreach (var p in Resources.FindObjectsOfTypeAll(pType))
+            {
+                var intros = Get(p, "intros") as IList;
+                if (intros == null) continue;
+                for (int i = 0; i < intros.Count; i++)
+                {
+                    var intro = intros[i] as UnityEngine.Object;
+                    if (intro == null) continue;
+                    var dialogs = Get(intro, "dialogs") as IList;
+                    if (dialogs == null) continue;
+                    sb.Append(n++ > 0 ? ",\n" : "")
+                      .Append("{\"passenger\":").Append(J(p.name))
+                      .Append(",\"index\":").Append(i)
+                      .Append(",\"object\":").Append(J(intro.name))
+                      .Append(",\"langs\":{");
+                    bool firstLang = true;
+                    foreach (var i18n in dialogs)
+                    {
+                        var dialog = Get(i18n, "dialog");
+                        var passages = Get(dialog, "_passages") as IList;
+                        if (passages == null) continue;
+                        var lines = new List<string>();
+                        foreach (var ps in passages)
+                        {
+                            var ls = Get(ps, "_lines") as IList;
+                            if (ls != null) foreach (var l in ls) lines.Add(Convert.ToString(l));
+                        }
+                        sb.Append(firstLang ? "" : ",").Append(J(Convert.ToString(Get(i18n, "lang")))).Append(":[");
+                        for (int k = 0; k < lines.Count; k++) sb.Append(k > 0 ? "," : "").Append(J(lines[k]));
+                        sb.Append("]");
+                        firstLang = false;
+                    }
+                    sb.Append("}}");
+                }
+            }
+            if (n == 0) return;
+            sb.Append("\n]\n");
+            File.WriteAllText(Path.Combine(_out, "intros.json"), sb.ToString(), new UTF8Encoding(false));
+            _dumpedIntros = true;
+            Logger.LogInfo("Intros de pasajeros volcadas: " + n);
         }
 
         // ---------- Diagnóstico: todos los textos de la escena (TMP y UI.Text) ----------
