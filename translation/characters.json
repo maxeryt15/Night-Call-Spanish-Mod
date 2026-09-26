@@ -1,0 +1,819 @@
+{
+ "ADA": {
+  "gender": "F",
+  "she": 37,
+  "he": 0,
+  "lines": 71,
+  "source": "pronouns"
+ },
+ "ADE": {
+  "gender": "F",
+  "she": 132,
+  "he": 7,
+  "lines": 275,
+  "source": "pronouns"
+ },
+ "AGNÈS": {
+  "gender": "F",
+  "she": 44,
+  "he": 1,
+  "lines": 81,
+  "source": "pronouns"
+ },
+ "ALARIC": {
+  "gender": "M",
+  "she": 0,
+  "he": 16,
+  "lines": 27,
+  "source": "pronouns"
+ },
+ "ALEXANDRE": {
+  "gender": "M",
+  "she": 6,
+  "he": 143,
+  "lines": 205,
+  "source": "pronouns"
+ },
+ "ALICE": {
+  "gender": "F",
+  "she": 12,
+  "he": 2,
+  "lines": 54,
+  "source": "pronouns"
+ },
+ "ALICIA": {
+  "gender": "F",
+  "she": 134,
+  "he": 0,
+  "lines": 222,
+  "source": "pronouns"
+ },
+ "ALPH": {
+  "gender": "M",
+  "she": 0,
+  "he": 41,
+  "lines": 72,
+  "source": "pronouns"
+ },
+ "AMIRA": {
+  "gender": "F",
+  "she": 22,
+  "he": 0,
+  "lines": 62,
+  "source": "pronouns"
+ },
+ "AMÉLIE": {
+  "gender": "F",
+  "she": 56,
+  "he": 1,
+  "lines": 84,
+  "source": "pronouns"
+ },
+ "ANGÉLIQUE": {
+  "gender": "F",
+  "she": 176,
+  "he": 0,
+  "lines": 265,
+  "source": "pronouns"
+ },
+ "ANITA": {
+  "gender": "F",
+  "she": 50,
+  "he": 0,
+  "lines": 46,
+  "source": "pronouns"
+ },
+ "ANNABELLE": {
+  "gender": "F",
+  "she": 87,
+  "he": 5,
+  "lines": 142,
+  "source": "pronouns"
+ },
+ "ANSWERING MACHINE": {
+  "gender": "N",
+  "she": 0,
+  "he": 0,
+  "lines": 1,
+  "source": "manual",
+  "note": "objeto"
+ },
+ "ANTOINE": {
+  "gender": "M",
+  "she": 1,
+  "he": 49,
+  "lines": 123,
+  "source": "pronouns"
+ },
+ "APOLLONIE": {
+  "gender": "F",
+  "she": 63,
+  "he": 2,
+  "lines": 78,
+  "source": "pronouns"
+ },
+ "ARIANE": {
+  "gender": "F",
+  "she": 30,
+  "he": 0,
+  "lines": 34,
+  "source": "pronouns"
+ },
+ "BARMAID": {
+  "gender": "F",
+  "she": 35,
+  "he": 0,
+  "lines": 26,
+  "source": "pronouns"
+ },
+ "BOSS": {
+  "gender": "M",
+  "she": 0,
+  "he": 39,
+  "lines": 54,
+  "source": "pronouns"
+ },
+ "BUSSET": {
+  "gender": "F",
+  "she": 135,
+  "he": 16,
+  "lines": 205,
+  "source": "pronouns"
+ },
+ "BÉRÉNICE": {
+  "gender": "F",
+  "she": 76,
+  "he": 0,
+  "lines": 105,
+  "source": "pronouns"
+ },
+ "CAMILLE": {
+  "gender": "F",
+  "she": 72,
+  "he": 0,
+  "lines": 155,
+  "source": "pronouns"
+ },
+ "CAMMY": {
+  "gender": "M",
+  "she": 0,
+  "he": 24,
+  "lines": 36,
+  "source": "pronouns"
+ },
+ "CARETAKER": {
+  "gender": "M",
+  "she": 1,
+  "he": 18,
+  "lines": 35,
+  "source": "pronouns"
+ },
+ "CARLO": {
+  "gender": "M",
+  "she": 2,
+  "he": 183,
+  "lines": 235,
+  "source": "pronouns"
+ },
+ "CAROLINA": {
+  "gender": "F",
+  "she": 38,
+  "he": 0,
+  "lines": 78,
+  "source": "pronouns"
+ },
+ "CHANTAL": {
+  "gender": "F",
+  "she": 26,
+  "he": 0,
+  "lines": 59,
+  "source": "pronouns"
+ },
+ "CHIARA": {
+  "gender": "F",
+  "she": 47,
+  "he": 0,
+  "lines": 78,
+  "source": "pronouns"
+ },
+ "CHILDERIC": {
+  "gender": "M",
+  "she": 0,
+  "he": 0,
+  "lines": 1,
+  "source": "manual",
+  "note": "variante de CHILDÉRIC"
+ },
+ "CHILDÉRIC": {
+  "gender": "M",
+  "she": 0,
+  "he": 17,
+  "lines": 67,
+  "source": "pronouns"
+ },
+ "CHRIS": {
+  "gender": "M",
+  "she": 5,
+  "he": 55,
+  "lines": 72,
+  "source": "pronouns"
+ },
+ "CHRISTOPHE": {
+  "gender": "M",
+  "she": 4,
+  "he": 134,
+  "lines": 277,
+  "source": "pronouns"
+ },
+ "CLAUDIA": {
+  "gender": "F",
+  "she": 106,
+  "he": 1,
+  "lines": 158,
+  "source": "pronouns"
+ },
+ "CLERK": {
+  "gender": "M",
+  "she": 0,
+  "he": 11,
+  "lines": 20,
+  "source": "pronouns"
+ },
+ "CONCIERGE": {
+  "gender": "M",
+  "she": 0,
+  "he": 19,
+  "lines": 22,
+  "source": "pronouns"
+ },
+ "DANIEL": {
+  "gender": "M",
+  "she": 0,
+  "he": 18,
+  "lines": 35,
+  "source": "pronouns"
+ },
+ "DENIS": {
+  "gender": "M",
+  "she": 0,
+  "he": 55,
+  "lines": 56,
+  "source": "pronouns"
+ },
+ "DJENA": {
+  "gender": "F",
+  "she": 86,
+  "he": 0,
+  "lines": 100,
+  "source": "pronouns"
+ },
+ "DOCTOR": {
+  "gender": "F",
+  "she": 5,
+  "he": 0,
+  "lines": 27,
+  "source": "pronouns"
+ },
+ "ESMERALDA": {
+  "gender": "F",
+  "she": 94,
+  "he": 2,
+  "lines": 84,
+  "source": "pronouns"
+ },
+ "FRAGONARD": {
+  "gender": "M",
+  "she": 5,
+  "he": 300,
+  "lines": 714,
+  "source": "pronouns"
+ },
+ "FRANCINE": {
+  "gender": "F",
+  "she": 41,
+  "he": 4,
+  "lines": 76,
+  "source": "pronouns"
+ },
+ "FRANÇOIS": {
+  "gender": "M",
+  "she": 0,
+  "he": 295,
+  "lines": 498,
+  "source": "pronouns"
+ },
+ "GILDA": {
+  "gender": "F",
+  "she": 121,
+  "he": 1,
+  "lines": 198,
+  "source": "pronouns"
+ },
+ "GRACE": {
+  "gender": "F",
+  "she": 41,
+  "he": 0,
+  "lines": 57,
+  "source": "pronouns"
+ },
+ "GUARD": {
+  "gender": "M",
+  "she": 0,
+  "he": 4,
+  "lines": 2,
+  "source": "pronouns"
+ },
+ "GÉRALDINE": {
+  "gender": "F",
+  "she": 45,
+  "he": 0,
+  "lines": 68,
+  "source": "pronouns"
+ },
+ "GÉRARD": {
+  "gender": "M",
+  "she": 0,
+  "he": 29,
+  "lines": 54,
+  "source": "pronouns"
+ },
+ "HENRI": {
+  "gender": "M",
+  "she": 3,
+  "he": 77,
+  "lines": 54,
+  "source": "pronouns"
+ },
+ "HERVÉ": {
+  "gender": "M",
+  "she": 1,
+  "he": 115,
+  "lines": 238,
+  "source": "pronouns"
+ },
+ "HUGO": {
+  "gender": "M",
+  "she": 0,
+  "he": 21,
+  "lines": 33,
+  "source": "pronouns"
+ },
+ "HYOGA": {
+  "gender": "M",
+  "she": 0,
+  "he": 0,
+  "lines": 18,
+  "source": "manual",
+  "note": "niño, hijo de Alice (\"a little boy\"; \"Take a good look at that man, Hyoga\")"
+ },
+ "HÉLÈNE": {
+  "gender": "F",
+  "she": 18,
+  "he": 0,
+  "lines": 18,
+  "source": "pronouns"
+ },
+ "JACQUIE": {
+  "gender": "F",
+  "she": 141,
+  "he": 1,
+  "lines": 256,
+  "source": "pronouns"
+ },
+ "JAIME": {
+  "gender": "M",
+  "she": 0,
+  "he": 10,
+  "lines": 20,
+  "source": "pronouns"
+ },
+ "JANET": {
+  "gender": "F",
+  "she": 90,
+  "he": 6,
+  "lines": 197,
+  "source": "pronouns"
+ },
+ "JEAN-NOËL": {
+  "gender": "M",
+  "she": 0,
+  "he": 68,
+  "lines": 35,
+  "source": "pronouns"
+ },
+ "JEROME": {
+  "gender": "M",
+  "she": 0,
+  "he": 0,
+  "lines": 2,
+  "source": "manual",
+  "note": "variante de JÉRÔME"
+ },
+ "JERÔME": {
+  "gender": "M",
+  "she": 0,
+  "he": 0,
+  "lines": 2,
+  "source": "manual",
+  "note": "variante de JÉRÔME"
+ },
+ "JIM": {
+  "gender": "M",
+  "she": 1,
+  "he": 37,
+  "lines": 44,
+  "source": "pronouns"
+ },
+ "JONAS": {
+  "gender": "M",
+  "she": 0,
+  "he": 54,
+  "lines": 89,
+  "source": "pronouns"
+ },
+ "JULIAN": {
+  "gender": "M",
+  "she": 0,
+  "he": 56,
+  "lines": 71,
+  "source": "pronouns"
+ },
+ "JÉROME": {
+  "gender": "M",
+  "she": 0,
+  "he": 0,
+  "lines": 5,
+  "source": "manual",
+  "note": "variante de JÉRÔME"
+ },
+ "JÉRÔME": {
+  "gender": "M",
+  "she": 0,
+  "he": 181,
+  "lines": 316,
+  "source": "pronouns"
+ },
+ "KADER": {
+  "gender": "M",
+  "she": 0,
+  "he": 54,
+  "lines": 68,
+  "source": "pronouns"
+ },
+ "LEIA": {
+  "gender": "F",
+  "she": 269,
+  "he": 10,
+  "lines": 490,
+  "source": "pronouns"
+ },
+ "LOLA": {
+  "gender": "F",
+  "she": 68,
+  "he": 0,
+  "lines": 154,
+  "source": "pronouns"
+ },
+ "LUCIE": {
+  "gender": "F",
+  "she": 27,
+  "he": 0,
+  "lines": 123,
+  "source": "pronouns"
+ },
+ "LUDIVINE": {
+  "gender": "F",
+  "she": 56,
+  "he": 1,
+  "lines": 97,
+  "source": "pronouns"
+ },
+ "LUDWIG": {
+  "gender": "M",
+  "she": 0,
+  "he": 79,
+  "lines": 290,
+  "source": "pronouns"
+ },
+ "LÉONIE": {
+  "gender": "F",
+  "she": 67,
+  "he": 0,
+  "lines": 116,
+  "source": "pronouns"
+ },
+ "MADAME BROCHANT": {
+  "gender": "F",
+  "she": 22,
+  "he": 0,
+  "lines": 21,
+  "source": "pronouns"
+ },
+ "MARC": {
+  "gender": "M",
+  "she": 0,
+  "he": 8,
+  "lines": 31,
+  "source": "pronouns"
+ },
+ "MARCO": {
+  "gender": "M",
+  "she": 0,
+  "he": 67,
+  "lines": 99,
+  "source": "pronouns"
+ },
+ "MATHIEU": {
+  "gender": "M",
+  "she": 2,
+  "he": 266,
+  "lines": 275,
+  "source": "pronouns"
+ },
+ "MELCHIOR": {
+  "gender": "M",
+  "she": 4,
+  "he": 108,
+  "lines": 209,
+  "source": "pronouns"
+ },
+ "MILO": {
+  "gender": "M",
+  "she": 1,
+  "he": 77,
+  "lines": 156,
+  "source": "pronouns"
+ },
+ "MIREILLE": {
+  "gender": "F",
+  "she": 78,
+  "he": 3,
+  "lines": 108,
+  "source": "pronouns"
+ },
+ "MYRIAM": {
+  "gender": "F",
+  "she": 153,
+  "he": 3,
+  "lines": 182,
+  "source": "pronouns"
+ },
+ "MYRTILLE": {
+  "gender": "F",
+  "she": 111,
+  "he": 1,
+  "lines": 182,
+  "source": "pronouns"
+ },
+ "NADIA": {
+  "gender": "F",
+  "she": 41,
+  "he": 7,
+  "lines": 52,
+  "source": "pronouns"
+ },
+ "NATHALIE": {
+  "gender": "F",
+  "she": 38,
+  "he": 4,
+  "lines": 86,
+  "source": "pronouns"
+ },
+ "NINA": {
+  "gender": "F",
+  "she": 56,
+  "he": 0,
+  "lines": 57,
+  "source": "pronouns"
+ },
+ "PATRICIA": {
+  "gender": "F",
+  "she": 44,
+  "he": 0,
+  "lines": 107,
+  "source": "pronouns"
+ },
+ "PATRONNE": {
+  "gender": "F",
+  "she": 0,
+  "he": 0,
+  "lines": 1,
+  "source": "manual",
+  "note": "\"patronne\" es femenino en francés; traducido \"la dueña\""
+ },
+ "PAUL": {
+  "gender": "M",
+  "she": 0,
+  "he": 20,
+  "lines": 29,
+  "source": "pronouns"
+ },
+ "PAULINE": {
+  "gender": "F",
+  "she": 69,
+  "he": 0,
+  "lines": 99,
+  "source": "pronouns"
+ },
+ "PETER": {
+  "gender": "M",
+  "she": 0,
+  "he": 36,
+  "lines": 47,
+  "source": "pronouns"
+ },
+ "PHIL": {
+  "gender": "M",
+  "she": 0,
+  "he": 39,
+  "lines": 77,
+  "source": "pronouns"
+ },
+ "PIERRE": {
+  "gender": "M",
+  "she": 8,
+  "he": 18,
+  "lines": 210,
+  "source": "manual",
+  "note": "\"Pierre holds out his hand\" (066_tps)"
+ },
+ "PIERRETTE": {
+  "gender": "F",
+  "she": 66,
+  "he": 0,
+  "lines": 81,
+  "source": "pronouns"
+ },
+ "PIERROT": {
+  "gender": "M",
+  "she": 0,
+  "he": 114,
+  "lines": 174,
+  "source": "pronouns"
+ },
+ "PURVA": {
+  "gender": "F",
+  "she": 29,
+  "he": 1,
+  "lines": 31,
+  "source": "pronouns"
+ },
+ "PÈRE": {
+  "gender": "M",
+  "she": 0,
+  "he": 12,
+  "lines": 15,
+  "source": "pronouns"
+ },
+ "RADIO": {
+  "gender": "N",
+  "she": 0,
+  "he": 0,
+  "lines": 1,
+  "source": "manual",
+  "note": "objeto"
+ },
+ "ROKSANA": {
+  "gender": "F",
+  "she": 22,
+  "he": 1,
+  "lines": 37,
+  "source": "pronouns"
+ },
+ "SALIM": {
+  "gender": "M",
+  "she": 0,
+  "he": 55,
+  "lines": 91,
+  "source": "pronouns"
+ },
+ "SANTA": {
+  "gender": "M",
+  "she": 0,
+  "he": 66,
+  "lines": 100,
+  "source": "pronouns"
+ },
+ "SEAN": {
+  "gender": "M",
+  "she": 0,
+  "he": 34,
+  "lines": 62,
+  "source": "pronouns"
+ },
+ "SHAÏNE": {
+  "gender": "F",
+  "she": 19,
+  "he": 4,
+  "lines": 296,
+  "source": "pronouns"
+ },
+ "SHINJI": {
+  "gender": "M",
+  "she": 0,
+  "he": 62,
+  "lines": 63,
+  "source": "pronouns"
+ },
+ "SHOHREH": {
+  "gender": "F",
+  "she": 25,
+  "he": 0,
+  "lines": 44,
+  "source": "pronouns"
+ },
+ "SONNY": {
+  "gender": "M",
+  "she": 0,
+  "he": 18,
+  "lines": 43,
+  "source": "pronouns"
+ },
+ "SOPHIE": {
+  "gender": "F",
+  "she": 6,
+  "he": 0,
+  "lines": 35,
+  "source": "pronouns"
+ },
+ "SYLVAIN": {
+  "gender": "M",
+  "she": 0,
+  "he": 0,
+  "lines": 28,
+  "source": "manual",
+  "note": "hijo de Sylvie (\"no doubt a mother and son\")"
+ },
+ "SYLVIE": {
+  "gender": "F",
+  "she": 4,
+  "he": 1,
+  "lines": 37,
+  "source": "pronouns"
+ },
+ "ULTRA GREEN": {
+  "gender": "M",
+  "she": 1,
+  "he": 1,
+  "lines": 43,
+  "source": "manual",
+  "note": "\"a deep, male voice\""
+ },
+ "ULTRA PINK": {
+  "gender": "M",
+  "she": 0,
+  "he": 8,
+  "lines": 59,
+  "source": "pronouns"
+ },
+ "ULTRA RED": {
+  "gender": "N",
+  "she": 2,
+  "he": 1,
+  "lines": 26,
+  "source": "manual",
+  "note": "el juego lo deja neutro a propósito (\"raises their head\"); usar formas neutras"
+ },
+ "VINCENT": {
+  "gender": "M",
+  "she": 0,
+  "he": 27,
+  "lines": 42,
+  "source": "pronouns"
+ },
+ "VÉRONIQUE": {
+  "gender": "F",
+  "she": 39,
+  "he": 0,
+  "lines": 47,
+  "source": "pronouns"
+ },
+ "XAVIER": {
+  "gender": "M",
+  "she": 0,
+  "he": 91,
+  "lines": 163,
+  "source": "pronouns"
+ },
+ "ÉMILIA": {
+  "gender": "F",
+  "she": 66,
+  "he": 0,
+  "lines": 90,
+  "source": "pronouns"
+ },
+ "ÉMILIE": {
+  "gender": "F",
+  "she": 11,
+  "he": 0,
+  "lines": 124,
+  "source": "pronouns"
+ },
+ "ÉTIENNE": {
+  "gender": "M",
+  "she": 0,
+  "he": 22,
+  "lines": 35,
+  "source": "pronouns"
+ }
+}

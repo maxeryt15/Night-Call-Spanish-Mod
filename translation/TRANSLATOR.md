@@ -19,6 +19,7 @@ Tono literario, contenido, humano.
 - Conservar `{variables}`, `<tags>`, `%x%`, `\n` exactamente.
 - Español neutro. Evitar: coger, vale, guay, che, ahorita, tío (=amigo), "vosotros", "apuro" (usar prisa), "contextura" (usar complexión).
 - El protagonista (el jugador, "you") es hombre: concordar en masculino ("estás cansado").
+- Género de cada personaje: `translation/characters.json` (M/F/N). "Your passenger" = "tu pasajero" o "tu pasajera" según quién sea. Ultra Rojo es neutro a propósito: evitar marcarle género. Verificar con `python tools/check_gender.py`.
 - Opciones entre paréntesis en infinitivo: (Say nothing.) → (No decir nada.), (Wait.) → (Esperar.).
 - Opciones cortas: no mucho más largas que el inglés.
 - UI y pistas (clues) en estilo telegráfico como el original: sin agregar artículos ("Victims = wealthy" → "Víctimas = adineradas").
