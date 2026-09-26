@@ -1,0 +1,34 @@
+Night Call - Traducción al español (no oficial)
+=================================================
+
+CÓMO INSTALAR (opción recomendada)
+1. Ejecutá NightCallEspanol_Setup.exe (Windows).
+2. Seguí el asistente: Siguiente → elegir carpeta → Instalar → Finalizar.
+   Detecta tu instalación de Night Call sola (Steam); si no la
+   encuentra, elegí la carpeta a mano en esa misma pantalla.
+3. Si no tenés BepInEx instalado, el instalador lo instala solo
+   junto con la traducción — no hace falta bajarlo aparte.
+4. Abrí el juego y elegí español en el menú de idioma.
+
+¿Preferís texto en vez de ventanas? Usá
+NightCallEspanol_Instalador_Consola.exe en su lugar — mismo resultado,
+sin gráficos.
+
+No hace falta ningún otro archivo: los instaladores ya tienen todo
+adentro (el plugin, los textos traducidos y BepInEx).
+
+CÓMO DESINSTALAR
+Si usaste NightCallEspanol_Setup.exe: desde "Agregar o quitar
+programas" de Windows, buscá "Night Call - Traducción al español".
+También podés correr "unins000.exe" directamente en la carpeta del
+juego. No toca tus partidas guardadas.
+
+Si usaste el instalador de consola: corré
+"Desinstalar traduccion al espanol.bat", que deja en la carpeta del
+juego.
+
+AVISOS DE TERCEROS
+Ver NOTICE.md (incluye BepInEx, LGPL-2.1, sin modificar).
+
+Traducción fan, no oficial. Night Call pertenece a Monkey Moon /
+BlackMuffin y Raw Fury.

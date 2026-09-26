@@ -160,7 +160,9 @@ def main():
         game = ask_game_folder()
 
     plugins = os.path.join(game, "BepInEx", "plugins")
-    had_bepinex = os.path.isfile(os.path.join(game, "winhttp.dll")) and os.path.isdir(os.path.join(game, "BepInEx", "core"))
+    # BepInEx completo = loader + config + preloader; un winhttp.dll suelto o core/ vacío no cuenta
+    had_bepinex = all(os.path.isfile(os.path.join(game, *p)) for p in (
+        ("winhttp.dll",), ("doorstop_config.ini",), ("BepInEx", "core", "BepInEx.Preloader.dll")))
 
     if not had_bepinex:
         print("\nBepInEx no está instalado: lo instalo junto con la traducción...")

@@ -5,7 +5,7 @@
 ; No se versiona el .exe resultante: se genera en dist/.
 
 #define MyAppName "Night Call - Traducción al español"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "Traducción fan (no oficial)"
 #define Payload "payload"
 
@@ -60,9 +60,16 @@ begin
   Result := FileExists2(Dir + '\Night Call.exe');
 end;
 
+// BepInEx solo está completo si están las tres piezas: el loader (winhttp.dll), su config
+// y el preloader. Un winhttp.dll suelto (resto de una desinstalación) NO cuenta.
 function NeedsBepInEx: Boolean;
+var
+  App: String;
 begin
-  Result := not FileExists2(ExpandConstant('{app}') + '\winhttp.dll');
+  App := ExpandConstant('{app}');
+  Result := not (FileExists2(App + '\winhttp.dll')
+             and FileExists2(App + '\doorstop_config.ini')
+             and FileExists2(App + '\BepInEx\core\BepInEx.Preloader.dll'));
 end;
 
 // Busca "Night Call.exe" en las bibliotecas de Steam leyendo el registro y
