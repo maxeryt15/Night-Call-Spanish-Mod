@@ -49,6 +49,7 @@ namespace NightCallSpanish.Dumper
             try { l = DumpLocalization(); } catch (Exception e) { Logger.LogError("Localization: " + e); }
             try { t = DumpTextAssets(); } catch (Exception e) { Logger.LogError("TextAssets: " + e); }
             try { DumpReveals(); } catch (Exception e) { Logger.LogError("Reveals: " + e); }
+            try { DumpDeepStrings(); } catch (Exception e) { Logger.LogError("DeepStrings: " + e); }
             Logger.LogInfo(string.Format("[{0}] nuevos: dialogos={1} idiomas UI={2} textassets={3} | totales: {4}/{5}/{6}",
                 reason, d, l, t, _dumpedDialogs.Count, _dumpedLoc.Count, _dumpedAssets.Count));
         }
@@ -205,6 +206,59 @@ namespace NightCallSpanish.Dumper
             File.WriteAllText(Path.Combine(_out, "reveals.json"), sb.ToString(), new UTF8Encoding(false));
             _dumpedReveals = true;
             Logger.LogInfo("Reveals volcadas: " + n);
+        }
+
+        // ---------- Volcado genérico: todos los strings de ciertos ScriptableObjects ----------
+        static readonly string[] DeepTypes = {
+            "NC.Investigation.InvestigationScript", "NC.Investigation.InvestigationProperties",
+            "NC.Passengers.RevealScript", "NC.Passengers.PassengerObjectScript" };
+        readonly HashSet<string> _dumpedDeep = new HashSet<string>();
+
+        void DumpDeepStrings()
+        {
+            var sb = new StringBuilder();
+            int n = 0;
+            foreach (var tn in DeepTypes)
+            {
+                var type = FindType(tn);
+                if (ReferenceEquals(type, null)) continue;
+                foreach (var obj in Resources.FindObjectsOfTypeAll(type))
+                {
+                    if (obj == null || !_dumpedDeep.Add(tn + "/" + obj.name)) continue;
+                    Walk(obj, tn + "/" + obj.name, 0, sb, ref n, new HashSet<object>());
+                }
+            }
+            if (n == 0) return;
+            File.AppendAllText(Path.Combine(_out, "strings.jsonl"), sb.ToString(), new UTF8Encoding(false));
+            Logger.LogInfo("Strings de assets volcados: " + n);
+        }
+
+        void Walk(object o, string path, int depth, StringBuilder sb, ref int n, HashSet<object> seen)
+        {
+            if (o == null || depth > 5) return;
+            var s = o as string;
+            if (s != null)
+            {
+                if (s.Trim().Length > 0)
+                {
+                    sb.Append("{\"path\":").Append(J(path)).Append(",\"value\":").Append(J(s)).Append("}\n");
+                    n++;
+                }
+                return;
+            }
+            var t = o.GetType();
+            if (t.IsPrimitive || t.IsEnum || t == typeof(decimal)) return;
+            if (depth > 0 && o is UnityEngine.Object) return;   // no seguir referencias a otros assets
+            if (!t.IsValueType && !seen.Add(o)) return;
+            var list = o as IList;
+            if (list != null)
+            {
+                for (int i = 0; i < list.Count; i++) Walk(list[i], path + "[" + i + "]", depth + 1, sb, ref n, seen);
+                return;
+            }
+            for (var bt = t; !ReferenceEquals(bt, null) && bt.Namespace != "UnityEngine" && bt != typeof(object); bt = bt.BaseType)
+                foreach (var f in bt.GetFields(BF | BindingFlags.DeclaredOnly))
+                    Walk(f.GetValue(o), path + "." + f.Name, depth + 1, sb, ref n, seen);
         }
 
         static string JList(IList list)
