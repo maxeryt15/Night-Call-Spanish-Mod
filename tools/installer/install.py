@@ -186,7 +186,7 @@ def main():
     write_uninstaller(game, not had_bepinex)
 
     print("\n¡Listo! La traducción quedó instalada.")
-    print("Abrí el juego y elegí español en el menú de idioma.")
+    print("Abrí el juego. La traducción reemplaza al inglés: dejá el idioma del juego en English (el que viene por defecto).")
     print(f'Para desinstalarla, corré "{UNINSTALL_NAME}" en la carpeta del juego.')
     pause_exit(0)
 

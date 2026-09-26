@@ -8,7 +8,8 @@ CÓMO INSTALAR (opción recomendada)
    encuentra, elegí la carpeta a mano en esa misma pantalla.
 3. Si no tenés BepInEx instalado, el instalador lo instala solo
    junto con la traducción — no hace falta bajarlo aparte.
-4. Abrí el juego y elegí español en el menú de idioma.
+4. Abrí el juego. La traducción reemplaza al inglés: dejá el
+   idioma del juego en English (el que viene por defecto).
 
 ¿Preferís texto en vez de ventanas? Usá
 NightCallEspanol_Instalador_Consola.exe en su lugar — mismo resultado,

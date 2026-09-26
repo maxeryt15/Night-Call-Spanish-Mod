@@ -62,14 +62,27 @@ end;
 
 // BepInEx solo está completo si están las tres piezas: el loader (winhttp.dll), su config
 // y el preloader. Un winhttp.dll suelto (resto de una desinstalación) NO cuenta.
+// IMPORTANTE: Inno evalúa Check: archivo por archivo DURANTE la copia; si se recalculara
+// en cada llamada, al copiar la primera pieza las demás se saltearían (bug de v1.0.0:
+// quedaba winhttp.dll sin doorstop_config.ini ni BepInEx\core). Se calcula una sola vez.
+var
+  BepInExState: Integer; // 0 = sin calcular, 1 = hay que instalarlo, 2 = ya estaba completo
+
 function NeedsBepInEx: Boolean;
 var
   App: String;
 begin
-  App := ExpandConstant('{app}');
-  Result := not (FileExists2(App + '\winhttp.dll')
-             and FileExists2(App + '\doorstop_config.ini')
-             and FileExists2(App + '\BepInEx\core\BepInEx.Preloader.dll'));
+  if BepInExState = 0 then
+  begin
+    App := ExpandConstant('{app}');
+    if FileExists2(App + '\winhttp.dll')
+       and FileExists2(App + '\doorstop_config.ini')
+       and FileExists2(App + '\BepInEx\core\BepInEx.Preloader.dll') then
+      BepInExState := 2
+    else
+      BepInExState := 1;
+  end;
+  Result := BepInExState = 1;
 end;
 
 // Busca "Night Call.exe" en las bibliotecas de Steam leyendo el registro y

@@ -7,7 +7,7 @@ Localización fan, no oficial, de **Night Call** (Monkey Moon / BlackMuffin, pub
 1. Descargá `NightCallEspanol_Setup.exe` desde la [última versión (Releases)](../../releases/latest) de este repositorio.
 2. Ejecutalo y seguí el asistente (Siguiente → elegir carpeta → Instalar → Finalizar). Detecta tu instalación de Night Call sola (Steam); si no la encuentra, te deja elegir la carpeta a mano.
 3. Si no tenés [BepInEx](https://github.com/BepInEx/BepInEx) instalado, el instalador lo instala solo junto con la traducción, no hace falta instalarlo por separado.
-4. Abrí el juego y elegí español en el menú de idioma.
+4. Abrí el juego. La traducción reemplaza al inglés: dejá el idioma del juego en English (el que viene por defecto).
 
 **Para desinstalar:** desde "Agregar o quitar programas" de Windows, buscá "Night Call - Traducción al español" (o corré `unins000.exe` en la carpeta del juego). Saca la traducción sin tocar tus partidas guardadas.
 
