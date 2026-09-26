@@ -1,0 +1,481 @@
+{"id": "000_00", "type": "REVEAL", "en": "You came out of your coma.", "passenger": "H.", "es": "Saliste del coma.", "status": "TRANSLATED", "locked": false}
+{"id": "000_01", "type": "REVEAL", "en": "You have discovered 2% of the Passidex (base game).", "passenger": "H.", "es": "Descubriste el 2% del Passidex (juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_02", "type": "REVEAL", "en": "You have discovered 10% of the Passidex (base game).", "passenger": "H.", "es": "Descubriste el 10% del Passidex (juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_03", "type": "REVEAL", "en": "You have discovered 25% of the Passidex (base game).", "passenger": "H.", "es": "Descubriste el 25% del Passidex (juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_04", "type": "REVEAL", "en": "You have discovered 50% of the Passidex (base game).", "passenger": "H.", "es": "Descubriste el 50% del Passidex (juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_05", "type": "REVEAL", "en": "You have discovered 75% of the Passidex (base game).", "passenger": "H.", "es": "Descubriste el 75% del Passidex (juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_06", "type": "REVEAL", "en": "You have discovered 98% of the Passidex (base game).", "passenger": "H.", "es": "Descubriste el 98% del Passidex (juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_07", "type": "REVEAL", "en": "You woke up in your car.", "passenger": "H.", "es": "Despertaste en tu auto.", "status": "TRANSLATED", "locked": false}
+{"id": "000_08", "type": "REVEAL", "en": "You hit the jackpot.", "passenger": "H.", "es": "Te sacaste el premio gordo.", "status": "TRANSLATED", "locked": false}
+{"id": "000_09", "type": "REVEAL", "en": "You do cry sometimes.", "passenger": "H.", "es": "A veces sí lloras.", "status": "TRANSLATED", "locked": false}
+{"id": "000_10", "type": "REVEAL", "en": "You ran out of gas.", "passenger": "H.", "es": "Te quedaste sin gasolina.", "status": "TRANSLATED", "locked": false}
+{"id": "000_11", "type": "REVEAL", "en": "You have met all the passengers (base game only).", "passenger": "H.", "es": "Conociste a todos los pasajeros (solo juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_12", "type": "REVEAL", "en": "You have arrested all the killers (base game only).", "passenger": "H.", "es": "Hiciste arrestar a todos los asesinos (solo juego base).", "status": "TRANSLATED", "locked": false}
+{"id": "000_13", "type": "REVEAL", "en": "You drove all night without picking up a single passenger.", "passenger": "H.", "es": "Manejaste toda la noche sin recoger a un solo pasajero.", "status": "TRANSLATED", "locked": false}
+{"id": "000_14", "type": "REVEAL", "en": "You haven’t read a single newspaper.", "passenger": "H.", "es": "No leíste ni un solo diario.", "status": "TRANSLATED", "locked": false}
+{"id": "000_15", "type": "REVEAL", "en": "You haven’t listened to the radio even once.", "passenger": "H.", "es": "No escuchaste la radio ni una sola vez.", "status": "TRANSLATED", "locked": false}
+{"id": "000_16", "type": "REVEAL", "en": "You had a nightmare.", "passenger": "H.", "es": "Tuviste una pesadilla.", "status": "TRANSLATED", "locked": false}
+{"id": "000_20", "type": "REVEAL", "en": "You’ve been to all the locations linked to the Judge.", "passenger": "H.", "es": "Estuviste en todos los lugares vinculados al Juez.", "status": "TRANSLATED", "locked": false}
+{"id": "000_21", "type": "REVEAL", "en": "You’ve been to all the locations linked to the Angel of Death.", "passenger": "H.", "es": "Estuviste en todos los lugares vinculados al Ángel de la Muerte.", "status": "TRANSLATED", "locked": false}
+{"id": "000_22", "type": "REVEAL", "en": "You’ve been to all the locations linked to the Sandman.", "passenger": "H.", "es": "Estuviste en todos los lugares vinculados al Hombre de Arena.", "status": "TRANSLATED", "locked": false}
+{"id": "001_00", "type": "REVEAL", "en": "You have met Patricia.", "passenger": "Patricia", "es": "Conociste a Patricia.", "status": "TRANSLATED", "locked": false}
+{"id": "001_01", "type": "REVEAL", "en": "Patricia gave you her number.", "passenger": "Patricia", "es": "Patricia te dio su número.", "status": "TRANSLATED", "locked": false}
+{"id": "001_02", "type": "REVEAL", "en": "You got her number.", "passenger": "Patricia", "es": "Conseguiste su número.", "status": "TRANSLATED", "locked": false}
+{"id": "002_00", "type": "REVEAL", "en": "You have met Purva.", "passenger": "Purva", "es": "Conociste a Purva.", "status": "TRANSLATED", "locked": false}
+{"id": "002_01", "type": "REVEAL", "en": "Purva talked about her husband-to-be.", "passenger": "Purva", "es": "Purva habló de su futuro esposo.", "status": "TRANSLATED", "locked": false}
+{"id": "003_00", "type": "REVEAL", "en": "You have met Alaric.", "passenger": "Alaric", "es": "Conociste a Alaric.", "status": "TRANSLATED", "locked": false}
+{"id": "003_01", "type": "REVEAL", "en": "You thought about when you met Alaric.", "passenger": "Alaric", "es": "Pensaste en cuando conociste a Alaric.", "status": "TRANSLATED", "locked": false}
+{"id": "003_02", "type": "REVEAL", "en": "You told Alaric about your father.", "passenger": "Alaric", "es": "Le contaste a Alaric sobre tu padre.", "status": "TRANSLATED", "locked": false}
+{"id": "004_00", "type": "REVEAL", "en": "You have met Jean-Noël.", "passenger": "Jean-Noël", "es": "Conociste a Jean-Noël.", "status": "TRANSLATED", "locked": false}
+{"id": "004_01", "type": "REVEAL", "en": "You took advantage of Jean-Noël.", "passenger": "Jean-Noël", "es": "Te aprovechaste de Jean-Noël.", "status": "TRANSLATED", "locked": false}
+{"id": "004_02", "type": "REVEAL", "en": "You saw Jean-Noël again. He was doing better.", "passenger": "Jean-Noël", "es": "Volviste a ver a Jean-Noël. Estaba mejor.", "status": "TRANSLATED", "locked": false}
+{"id": "005_00", "type": "REVEAL", "en": "You have met Hugo.", "passenger": "Hugo", "es": "Conociste a Hugo.", "status": "TRANSLATED", "locked": false}
+{"id": "005_01", "type": "REVEAL", "en": "You cheered Hugo up.", "passenger": "Hugo", "es": "Animaste a Hugo.", "status": "TRANSLATED", "locked": false}
+{"id": "006_00", "type": "REVEAL", "en": "You have met Esmeralda.", "passenger": "Esmeralda", "es": "Conociste a Esmeralda.", "status": "TRANSLATED", "locked": false}
+{"id": "006_01", "type": "REVEAL", "en": "You lied to Esmeralda.", "passenger": "Esmeralda", "es": "Le mentiste a Esmeralda.", "status": "TRANSLATED", "locked": false}
+{"id": "006_02", "type": "REVEAL", "en": "You said something really uncool.", "passenger": "Esmeralda", "es": "Dijiste algo realmente feo.", "status": "TRANSLATED", "locked": false}
+{"id": "007_00", "type": "REVEAL", "en": "You have met Salim.", "passenger": "Salim", "es": "Conociste a Salim.", "status": "TRANSLATED", "locked": false}
+{"id": "007_01", "type": "REVEAL", "en": "You said nothing.", "passenger": "Salim", "es": "No dijiste nada.", "status": "TRANSLATED", "locked": false}
+{"id": "007_02", "type": "REVEAL", "en": "You stole his documents.", "passenger": "Salim", "es": "Le robaste sus documentos.", "status": "TRANSLATED", "locked": false}
+{"id": "008_00", "type": "REVEAL", "en": "You have met Vincent.", "passenger": "Vincent", "es": "Conociste a Vincent.", "status": "TRANSLATED", "locked": false}
+{"id": "008_01", "type": "REVEAL", "en": "You said nothing.", "passenger": "Vincent", "es": "No dijiste nada.", "status": "TRANSLATED", "locked": false}
+{"id": "009_00", "type": "REVEAL", "en": "You have met Ludwig.", "passenger": "Ludwig", "es": "Conociste a Ludwig.", "status": "TRANSLATED", "locked": false}
+{"id": "009_01", "type": "REVEAL", "en": "You saw Ludwig again.", "passenger": "Ludwig", "es": "Volviste a ver a Ludwig.", "status": "TRANSLATED", "locked": false}
+{"id": "009_02", "type": "REVEAL", "en": "You heard all his stories.", "passenger": "Ludwig", "es": "Escuchaste todas sus historias.", "status": "TRANSLATED", "locked": false}
+{"id": "009_03", "type": "REVEAL", "en": "Ludwig helped you with your investigation.", "passenger": "Ludwig", "es": "Ludwig te ayudó con tu investigación.", "status": "TRANSLATED", "locked": false}
+{"id": "009_04", "type": "REVEAL", "en": "Now, you know who Guy Môquet is.", "passenger": "Ludwig", "es": "Ahora sabés quién es Guy Môquet.", "status": "TRANSLATED", "locked": false}
+{"id": "009_05", "type": "REVEAL", "en": "Now, you know that human zoos exist.", "passenger": "Ludwig", "es": "Ahora sabés que existieron los zoológicos humanos.", "status": "TRANSLATED", "locked": false}
+{"id": "009_06", "type": "REVEAL", "en": "Now, you know who Little Louis is.", "passenger": "Ludwig", "es": "Ahora sabés quién es el Pequeño Louis.", "status": "TRANSLATED", "locked": false}
+{"id": "009_07", "type": "REVEAL", "en": "Now, you know a French president died at the Élysée Palace.", "passenger": "Ludwig", "es": "Ahora sabés que un presidente francés murió en el Palacio del Elíseo.", "status": "TRANSLATED", "locked": false}
+{"id": "009_08", "type": "REVEAL", "en": "Now, you know what garum is.", "passenger": "Ludwig", "es": "Ahora sabés qué es el garum.", "status": "TRANSLATED", "locked": false}
+{"id": "009_09", "type": "REVEAL", "en": "Now, you know what happened in the rue des Rosiers.", "passenger": "Ludwig", "es": "Ahora sabés qué pasó en la rue des Rosiers.", "status": "TRANSLATED", "locked": false}
+{"id": "009_10", "type": "REVEAL", "en": "Now, you know where this ghost comes from.", "passenger": "Ludwig", "es": "Ahora sabés de dónde viene este fantasma.", "status": "TRANSLATED", "locked": false}
+{"id": "009_11", "type": "REVEAL", "en": "Now, you know what happened in the rue des Marmousiers.", "passenger": "Ludwig", "es": "Ahora sabés qué pasó en la rue des Marmousiers.", "status": "TRANSLATED", "locked": false}
+{"id": "009_12", "type": "REVEAL", "en": "Ludwig helped you with your investigation.", "passenger": "Ludwig", "es": "Ludwig te ayudó con tu investigación.", "status": "TRANSLATED", "locked": false}
+{"id": "009_13", "type": "REVEAL", "en": "You thought back to when you met Ludwig.", "passenger": "Ludwig", "es": "Recordaste cuando conociste a Ludwig.", "status": "TRANSLATED", "locked": false}
+{"id": "010_00", "type": "REVEAL", "en": "You have met Camille & Antoine.", "passenger": "Camille & Antoine", "es": "Conociste a Camille y Antoine.", "status": "TRANSLATED", "locked": false}
+{"id": "010_01", "type": "REVEAL", "en": "You made Camille & Antoine uncomfortable.", "passenger": "Camille & Antoine", "es": "Incomodaste a Camille y Antoine.", "status": "TRANSLATED", "locked": false}
+{"id": "010_02", "type": "REVEAL", "en": "You were cool with Camille & Antoine.", "passenger": "Camille & Antoine", "es": "Te llevaste bien con Camille y Antoine.", "status": "TRANSLATED", "locked": false}
+{"id": "011_00", "type": "REVEAL", "en": "You have met Ariane.", "passenger": "Ariane", "es": "Conociste a Ariane.", "status": "TRANSLATED", "locked": false}
+{"id": "011_01", "type": "REVEAL", "en": "You kept calm for as long as possible", "passenger": "Ariane", "es": "Te mantuviste tranquilo todo el tiempo que pudiste", "status": "TRANSLATED", "locked": false}
+{"id": "011_02", "type": "REVEAL", "en": "You ran a red light for Ariane.", "passenger": "Ariane", "es": "Te pasaste un semáforo en rojo por Ariane.", "status": "TRANSLATED", "locked": false}
+{"id": "012_00", "type": "REVEAL", "en": "You have met Christophe.", "passenger": "Christophe", "es": "Conociste a Christophe.", "status": "TRANSLATED", "locked": false}
+{"id": "012_01", "type": "REVEAL", "en": "You confessed.", "passenger": "Christophe", "es": "Confesaste.", "status": "TRANSLATED", "locked": false}
+{"id": "012_02", "type": "REVEAL", "en": "You found out his secret.", "passenger": "Christophe", "es": "Descubriste su secreto.", "status": "TRANSLATED", "locked": false}
+{"id": "012_03", "type": "REVEAL", "en": "You found out his other secret.", "passenger": "Christophe", "es": "Descubriste su otro secreto.", "status": "TRANSLATED", "locked": false}
+{"id": "012_04", "type": "REVEAL", "en": "You helped Christophe.", "passenger": "Christophe", "es": "Ayudaste a Christophe.", "status": "TRANSLATED", "locked": false}
+{"id": "012_05", "type": "REVEAL", "en": "You thought about when you met Christophe.", "passenger": "Christophe", "es": "Pensaste en cuando conociste a Christophe.", "status": "TRANSLATED", "locked": false}
+{"id": "013_00", "type": "REVEAL", "en": "You have met Leïa.", "passenger": "Leïa", "es": "Conociste a Leïa.", "status": "TRANSLATED", "locked": false}
+{"id": "013_01", "type": "REVEAL", "en": "You have heard all her stories.", "passenger": "Leïa", "es": "Escuchaste todas sus historias.", "status": "TRANSLATED", "locked": false}
+{"id": "013_02", "type": "REVEAL", "en": "You told Leia about Ludwig.", "passenger": "Leïa", "es": "Le contaste a Leia sobre Ludwig.", "status": "TRANSLATED", "locked": false}
+{"id": "013_03", "type": "REVEAL", "en": "You told Leia about Crouky.", "passenger": "Leïa", "es": "Le contaste a Leia sobre Crouky.", "status": "TRANSLATED", "locked": false}
+{"id": "013_04", "type": "REVEAL", "en": "You told Leia about Fragonard.", "passenger": "Leïa", "es": "Le contaste a Leia sobre Fragonard.", "status": "TRANSLATED", "locked": false}
+{"id": "013_05", "type": "REVEAL", "en": "Out of people!", "passenger": "Leïa", "es": "¡Se te acabó la gente!", "status": "TRANSLATED", "locked": false}
+{"id": "013_06", "type": "REVEAL", "en": "You introduced Leïa to Ethiopian jazz.", "passenger": "Leïa", "es": "Le hiciste conocer a Leïa el jazz etíope.", "status": "TRANSLATED", "locked": false}
+{"id": "013_07", "type": "REVEAL", "en": "You told Leïa about the Japanese movie you saw at the hospital.", "passenger": "Leïa", "es": "Le contaste a Leïa sobre la película japonesa que viste en el hospital.", "status": "TRANSLATED", "locked": false}
+{"id": "013_08", "type": "REVEAL", "en": "You shared a childhood memory with Leïa.", "passenger": "Leïa", "es": "Compartiste un recuerdo de infancia con Leïa.", "status": "TRANSLATED", "locked": false}
+{"id": "013_09", "type": "REVEAL", "en": "You thought about when you met Leïa.", "passenger": "Leia", "es": "Pensaste en cuando conociste a Leïa.", "status": "TRANSLATED", "locked": false}
+{"id": "014_00", "type": "REVEAL", "en": "You have met Fragonard.", "passenger": "Fragonard", "es": "Conociste a Fragonard.", "status": "TRANSLATED", "locked": false}
+{"id": "014_01", "type": "REVEAL", "en": "You have heard all his stories.", "passenger": "Fragonard", "es": "Escuchaste todas sus historias.", "status": "TRANSLATED", "locked": false}
+{"id": "014_02", "type": "REVEAL", "en": "You do cry sometimes.", "passenger": "Fragonard", "es": "A veces sí lloras.", "status": "TRANSLATED", "locked": false}
+{"id": "014_03", "type": "REVEAL", "en": "Fragonard told you about a serial killer.", "passenger": "Fragonard", "es": "Fragonard te habló de un asesino serial.", "status": "TRANSLATED", "locked": false}
+{"id": "014_04", "type": "REVEAL", "en": "Fragonard admitted to having vomited.", "passenger": "Fragonard", "es": "Fragonard admitió haber vomitado.", "status": "TRANSLATED", "locked": false}
+{"id": "014_05", "type": "REVEAL", "en": "Fragonard told you about the hostage situation in a sex shop.", "passenger": "Fragonard", "es": "Fragonard te contó sobre la toma de rehenes en un sex shop.", "status": "TRANSLATED", "locked": false}
+{"id": "014_06", "type": "REVEAL", "en": "Fragonard hunted a tiger.", "passenger": "Fragonard", "es": "Fragonard cazó un tigre.", "status": "TRANSLATED", "locked": false}
+{"id": "014_07", "type": "REVEAL", "en": "Fragonard was married to a judge.", "passenger": "Fragonard", "es": "Fragonard estuvo casado con una jueza.", "status": "TRANSLATED", "locked": false}
+{"id": "014_08", "type": "REVEAL", "en": "You lied to Fragonard.", "passenger": "Fragonard", "es": "Le mentiste a Fragonard.", "status": "TRANSLATED", "locked": false}
+{"id": "014_09", "type": "REVEAL", "en": "Fragonard told you about one of his female colleagues.", "passenger": "Fragonard", "es": "Fragonard te habló de una de sus colegas.", "status": "TRANSLATED", "locked": false}
+{"id": "014_10", "type": "REVEAL", "en": "Fragonard told you about the jewelry store heist.", "passenger": "Fragonard", "es": "Fragonard te contó sobre el robo a la joyería.", "status": "TRANSLATED", "locked": false}
+{"id": "014_11", "type": "REVEAL", "en": "Fragonard told you about a crime scene.", "passenger": "Fragonard", "es": "Fragonard te habló de una escena del crimen.", "status": "TRANSLATED", "locked": false}
+{"id": "014_12", "type": "REVEAL", "en": "You found the murder weapon.", "passenger": "Fragonard", "es": "Encontraste el arma homicida.", "status": "TRANSLATED", "locked": false}
+{"id": "014_13", "type": "REVEAL", "en": "You thought about when you met Fragonard.", "passenger": "Fragonard", "es": "Pensaste en cuando conociste a Fragonard.", "status": "TRANSLATED", "locked": false}
+{"id": "015_00", "type": "REVEAL", "en": "You have met Alicia.", "passenger": "Alicia", "es": "Conociste a Alicia.", "status": "TRANSLATED", "locked": false}
+{"id": "015_01", "type": "REVEAL", "en": "You have heard all her poems.", "passenger": "Alicia", "es": "Escuchaste todos sus poemas.", "status": "TRANSLATED", "locked": false}
+{"id": "015_02", "type": "REVEAL", "en": "Alicia taught you what a billabong is.", "passenger": "Alicia", "es": "Alicia te enseñó qué es un billabong.", "status": "TRANSLATED", "locked": false}
+{"id": "015_03", "type": "REVEAL", "en": "Alicia finished her poem ‘Billabong’.", "passenger": "Alicia", "es": "Alicia terminó su poema ‘Billabong’.", "status": "TRANSLATED", "locked": false}
+{"id": "015_04", "type": "REVEAL", "en": "Alicia finished her poem ‘Truffle’.", "passenger": "Alicia", "es": "Alicia terminó su poema ‘Trufa’.", "status": "TRANSLATED", "locked": false}
+{"id": "015_05", "type": "REVEAL", "en": "Alicia finished her poem ‘Fragile’.", "passenger": "Alicia", "es": "Alicia terminó su poema ‘Frágil’.", "status": "TRANSLATED", "locked": false}
+{"id": "016_00", "type": "REVEAL", "en": "You have met Gérard.", "passenger": "Gérard", "es": "Conociste a Gérard.", "status": "TRANSLATED", "locked": false}
+{"id": "016_01", "type": "REVEAL", "en": "You lied to Gérard.", "passenger": "Gérard", "es": "Le mentiste a Gérard.", "status": "TRANSLATED", "locked": false}
+{"id": "016_02", "type": "REVEAL", "en": "You were honest with Gérard.", "passenger": "Gérard", "es": "Fuiste honesto con Gérard.", "status": "TRANSLATED", "locked": false}
+{"id": "016_03", "type": "REVEAL", "en": "You agreed with Gérard: when the city doesn’t want it, it’s not happening.", "passenger": "Gérard", "es": "Estuviste de acuerdo con Gérard: si la ciudad no quiere, no pasa.", "status": "TRANSLATED", "locked": false}
+{"id": "016_04", "type": "REVEAL", "en": "You thought about when you met Gérard.", "passenger": "Gérard", "es": "Pensaste en cuando conociste a Gérard.", "status": "TRANSLATED", "locked": false}
+{"id": "017_00", "type": "REVEAL", "en": "You have met Grace.", "passenger": "Grace", "es": "Conociste a Grace.", "status": "TRANSLATED", "locked": false}
+{"id": "017_01", "type": "REVEAL", "en": "You helped Grace to hang up the phone.", "passenger": "Grace", "es": "Ayudaste a Grace a colgar el teléfono.", "status": "TRANSLATED", "locked": false}
+{"id": "017_02", "type": "REVEAL", "en": "Grace told you about Delibes’‘Lakmé’.", "passenger": "Grace", "es": "Grace te habló del ‘Lakmé’ de Delibes.", "status": "TRANSLATED", "locked": false}
+{"id": "017_03", "type": "REVEAL", "en": "Grace admitted she wanted to be a dancer.", "passenger": "Grace", "es": "Grace admitió que quería ser bailarina.", "status": "TRANSLATED", "locked": false}
+{"id": "018_00", "type": "REVEAL", "en": "You have met François.", "passenger": "François", "es": "Conociste a François.", "status": "TRANSLATED", "locked": false}
+{"id": "018_01", "type": "REVEAL", "en": "You have heard all his chronicles.", "passenger": "François", "es": "Escuchaste todas sus crónicas.", "status": "TRANSLATED", "locked": false}
+{"id": "018_02", "type": "REVEAL", "en": "You handed a certain game back to François.", "passenger": "François", "es": "Le devolviste cierto juego a François.", "status": "TRANSLATED", "locked": false}
+{"id": "018_03", "type": "REVEAL", "en": "François wrote a book called ‘France in Submission’.", "passenger": "François", "es": "François escribió un libro llamado ‘Francia sumisa’.", "status": "TRANSLATED", "locked": false}
+{"id": "018_04", "type": "REVEAL", "en": "François wrote a book called ‘I’m a Monarchist, what of it?’", "passenger": "François", "es": "François escribió un libro llamado ‘¿Y qué si soy monárquico?’", "status": "TRANSLATED", "locked": false}
+{"id": "018_05", "type": "REVEAL", "en": "You chose to ignore François’s comments about the internet.", "passenger": "François", "es": "Elegiste ignorar los comentarios de François sobre internet.", "status": "TRANSLATED", "locked": false}
+{"id": "018_06", "type": "REVEAL", "en": "You chose to ignore François’s comments about the justice system.", "passenger": "François", "es": "Elegiste ignorar los comentarios de François sobre el sistema judicial.", "status": "TRANSLATED", "locked": false}
+{"id": "018_07", "type": "REVEAL", "en": "You chose to ignore François’s comments about the strikes.", "passenger": "François", "es": "Elegiste ignorar los comentarios de François sobre las huelgas.", "status": "TRANSLATED", "locked": false}
+{"id": "018_08", "type": "REVEAL", "en": "You followed François to a New York Pizza Pizza.", "passenger": "François", "es": "Seguiste a François a un New York Pizza Pizza.", "status": "TRANSLATED", "locked": false}
+{"id": "018_09", "type": "REVEAL", "en": "You stood up to François.", "passenger": "François", "es": "Le hiciste frente a François.", "status": "TRANSLATED", "locked": false}
+{"id": "018_10", "type": "REVEAL", "en": "You chose to ignore François.", "passenger": "François", "es": "Elegiste ignorar a François.", "status": "TRANSLATED", "locked": false}
+{"id": "018_11", "type": "REVEAL", "en": "You think electric cars are good for the environment.", "passenger": "François", "es": "Pensás que los autos eléctricos son buenos para el medioambiente.", "status": "TRANSLATED", "locked": false}
+{"id": "018_12", "type": "REVEAL", "en": "You chose to ignore François’s comments about social networking.", "passenger": "François", "es": "Elegiste ignorar los comentarios de François sobre las redes sociales.", "status": "TRANSLATED", "locked": false}
+{"id": "019_00", "type": "REVEAL", "en": "You have met Hervé.", "passenger": "Hervé", "es": "Conociste a Hervé.", "status": "TRANSLATED", "locked": false}
+{"id": "019_01", "type": "REVEAL", "en": "Hervé helped you with your investigation.", "passenger": "Hervé", "es": "Hervé te ayudó con tu investigación.", "status": "TRANSLATED", "locked": false}
+{"id": "019_03", "type": "REVEAL", "en": "You found out Hervé was once married.", "passenger": "Hervé", "es": "Descubriste que Hervé estuvo casado alguna vez.", "status": "TRANSLATED", "locked": false}
+{"id": "019_04", "type": "REVEAL", "en": "You found out how Hervé got his scar.", "passenger": "Hervé", "es": "Descubriste cómo Hervé se hizo la cicatriz.", "status": "TRANSLATED", "locked": false}
+{"id": "019_05", "type": "REVEAL", "en": "You thought about when you met Hervé.", "passenger": "Hervé", "es": "Pensaste en cuando conociste a Hervé.", "status": "TRANSLATED", "locked": false}
+{"id": "020_00", "type": "REVEAL", "en": "You have met Jacquie.", "passenger": "Jacquie", "es": "Conociste a Jacquie.", "status": "TRANSLATED", "locked": false}
+{"id": "020_01", "type": "REVEAL", "en": "Jacquie helped you with your investigation.", "passenger": "Jacquie", "es": "Jacquie te ayudó con tu investigación.", "status": "TRANSLATED", "locked": false}
+{"id": "020_02", "type": "REVEAL", "en": "You told Jacquie about your first time.", "passenger": "Jacquie", "es": "Le contaste a Jacquie sobre tu primera vez.", "status": "TRANSLATED", "locked": false}
+{"id": "020_03", "type": "REVEAL", "en": "You didn’t want to tell Jacquie about your first time.", "passenger": "Jacquie", "es": "No quisiste contarle a Jacquie sobre tu primera vez.", "status": "TRANSLATED", "locked": false}
+{"id": "020_04", "type": "REVEAL", "en": "Jacquie told you about her neighbor.", "passenger": "Jacquie", "es": "Jacquie te habló de su vecino.", "status": "TRANSLATED", "locked": false}
+{"id": "020_05", "type": "REVEAL", "en": "Jacquie told you about her dream.", "passenger": "Jacquie", "es": "Jacquie te habló de su sueño.", "status": "TRANSLATED", "locked": false}
+{"id": "020_06", "type": "REVEAL", "en": "Jacquie told you about her client who’s a politician.", "passenger": "Jacquie", "es": "Jacquie te habló de su cliente político.", "status": "TRANSLATED", "locked": false}
+{"id": "021_00", "type": "REVEAL", "en": "You have met Carlo.", "passenger": "Carlo", "es": "Conociste a Carlo.", "status": "TRANSLATED", "locked": false}
+{"id": "021_01", "type": "REVEAL", "en": "You helped Carlo lie to his wife.", "passenger": "Carlo", "es": "Ayudaste a Carlo a mentirle a su esposa.", "status": "TRANSLATED", "locked": false}
+{"id": "021_02", "type": "REVEAL", "en": "You refused to help Carlo.", "passenger": "Carlo", "es": "Te negaste a ayudar a Carlo.", "status": "TRANSLATED", "locked": false}
+{"id": "021_03", "type": "REVEAL", "en": "You helped Carlo construct the perfect lie.", "passenger": "Carlo", "es": "Ayudaste a Carlo a armar la mentira perfecta.", "status": "TRANSLATED", "locked": false}
+{"id": "022_00", "type": "REVEAL", "en": "You have met Claudia.", "passenger": "Claudia", "es": "Conociste a Claudia.", "status": "TRANSLATED", "locked": false}
+{"id": "022_01", "type": "REVEAL", "en": "You thought about when you met Claudia.", "passenger": "Claudia", "es": "Pensaste en cuando conociste a Claudia.", "status": "TRANSLATED", "locked": false}
+{"id": "022_02", "type": "REVEAL", "en": "You charmed Claudia.", "passenger": "Claudia", "es": "Sedujiste a Claudia.", "status": "TRANSLATED", "locked": false}
+{"id": "022_03", "type": "REVEAL", "en": "Claudia told you about the military coup.", "passenger": "Claudia", "es": "Claudia te habló del golpe militar.", "status": "TRANSLATED", "locked": false}
+{"id": "023_00", "type": "REVEAL", "en": "You have met Apollonie.", "passenger": "Apollonie", "es": "Conociste a Apollonie.", "status": "TRANSLATED", "locked": false}
+{"id": "023_01", "type": "REVEAL", "en": "You drove Apollonie to Furiosa.", "passenger": "Apollonie", "es": "Llevaste a Apollonie a Furiosa.", "status": "TRANSLATED", "locked": false}
+{"id": "023_02", "type": "REVEAL", "en": "You drove Apollonie to Napo.", "passenger": "Apollonie", "es": "Llevaste a Apollonie a Napo.", "status": "TRANSLATED", "locked": false}
+{"id": "023_03", "type": "REVEAL", "en": "You drove Apollonie to Soliles.", "passenger": "Apollonie", "es": "Llevaste a Apollonie a Soliles.", "status": "TRANSLATED", "locked": false}
+{"id": "023_04", "type": "REVEAL", "en": "You drove Apollonie to Carter.", "passenger": "Apollonie", "es": "Llevaste a Apollonie a Carter.", "status": "TRANSLATED", "locked": false}
+{"id": "023_05", "type": "REVEAL", "en": "You drove Apollonie to Belvédère.", "passenger": "Apollonie", "es": "Llevaste a Apollonie a Belvédère.", "status": "TRANSLATED", "locked": false}
+{"id": "024_00", "type": "REVEAL", "en": "You have met Alice & Hyoga.", "passenger": "Alice & Hyoga", "es": "Conociste a Alice y Hyoga.", "status": "TRANSLATED", "locked": false}
+{"id": "024_01", "type": "REVEAL", "en": "You stood up to Alice.", "passenger": "Alice & Hyoga", "es": "Le hiciste frente a Alice.", "status": "TRANSLATED", "locked": false}
+{"id": "024_02", "type": "REVEAL", "en": "You played with Hyoga.", "passenger": "Alice & Hyoga", "es": "Jugaste con Hyoga.", "status": "TRANSLATED", "locked": false}
+{"id": "025_00", "type": "REVEAL", "en": "You have met Ade.", "passenger": "Ade", "es": "Conociste a Ade.", "status": "TRANSLATED", "locked": false}
+{"id": "025_01", "type": "REVEAL", "en": "Ade drew the High Priestess, the Devil, the Tower and Judgment.", "passenger": "Ade", "es": "Ade sacó la Sacerdotisa, el Diablo, la Torre y el Juicio.", "status": "TRANSLATED", "locked": false}
+{"id": "025_02", "type": "REVEAL", "en": "Ade left gazelle horn pastries behind.", "passenger": "Ade", "es": "Ade dejó olvidados unos cuernos de gacela.", "status": "TRANSLATED", "locked": false}
+{"id": "025_03", "type": "REVEAL", "en": "Ade drew Judgment Wheel of Fortune, Strength and the Emperor.", "passenger": "Ade", "es": "Ade sacó el Juicio, la Rueda de la Fortuna, la Fuerza y el Emperador.", "status": "TRANSLATED", "locked": false}
+{"id": "025_04", "type": "REVEAL", "en": "You did not tell Ade about your brother.", "passenger": "Ade", "es": "No le contaste a Ade sobre tu hermano.", "status": "TRANSLATED", "locked": false}
+{"id": "025_05", "type": "REVEAL", "en": "Ade drew the Priestess, the Empress, the Sun and the Moon.", "passenger": "Ade", "es": "Ade sacó la Sacerdotisa, la Emperatriz, el Sol y la Luna.", "status": "TRANSLATED", "locked": false}
+{"id": "025_06", "type": "REVEAL", "en": "Ade drew the Chariot, the Devil, the Magician and the Fool", "passenger": "Ade", "es": "Ade sacó el Carro, el Diablo, el Mago y el Loco", "status": "TRANSLATED", "locked": false}
+{"id": "025_07", "type": "REVEAL", "en": "You started the conversation.", "passenger": "Ade", "es": "Iniciaste la conversación.", "status": "TRANSLATED", "locked": false}
+{"id": "025_08", "type": "REVEAL", "en": "Ade drew Judgment and the Hermit.", "passenger": "Ade", "es": "Ade sacó el Juicio y el Ermitaño.", "status": "TRANSLATED", "locked": false}
+{"id": "025_09", "type": "REVEAL", "en": "Ade drew the Emperess and the Hanged Man.", "passenger": "Ade", "es": "Ade sacó la Emperatriz y el Colgado.", "status": "TRANSLATED", "locked": false}
+{"id": "025_10", "type": "REVEAL", "en": "Ade drew the Sun.", "passenger": "Ade", "es": "Ade sacó el Sol.", "status": "TRANSLATED", "locked": false}
+{"id": "026_00", "type": "REVEAL", "en": "You have met the Ultra Skaterz.", "passenger": "Ultra Skaterz", "es": "Conociste a los Ultra Skaterz.", "status": "TRANSLATED", "locked": false}
+{"id": "026_01", "type": "REVEAL", "en": "You did not help the Ultra Skaterz.", "passenger": "Ultra Skaterz", "es": "No ayudaste a los Ultra Skaterz.", "status": "TRANSLATED", "locked": false}
+{"id": "026_02", "type": "REVEAL", "en": "You found Ultra Yellow in front of the hotel.", "passenger": "Ultra Skaterz", "es": "Encontraste a Ultra Amarillo frente al hotel.", "status": "TRANSLATED", "locked": false}
+{"id": "026_03", "type": "REVEAL", "en": "You found Ultra Yellow at Furiosa.", "passenger": "Ultra Skaterz", "es": "Encontraste a Ultra Amarillo en Furiosa.", "status": "TRANSLATED", "locked": false}
+{"id": "026_04", "type": "REVEAL", "en": "You found Ultra Yellow in the park.", "passenger": "Ultra Skaterz", "es": "Encontraste a Ultra Amarillo en el parque.", "status": "TRANSLATED", "locked": false}
+{"id": "027_00", "type": "REVEAL", "en": "You have met Lucie & Émilie.", "passenger": "Lucie & Émilie", "es": "Conociste a Lucie y Émilie.", "status": "TRANSLATED", "locked": false}
+{"id": "027_01", "type": "REVEAL", "en": "You ran into Lucie & Émilie again.", "passenger": "Lucie & Émilie", "es": "Te volviste a encontrar con Lucie y Émilie.", "status": "TRANSLATED", "locked": false}
+{"id": "027_02", "type": "REVEAL", "en": "You drove Lucie & Émilie a third time.", "passenger": "Lucie & Émilie", "es": "Llevaste a Lucie y Émilie por tercera vez.", "status": "TRANSLATED", "locked": false}
+{"id": "027_03", "type": "REVEAL", "en": "You agreed to think about Lucie & Émilie’s proposal.", "passenger": "Lucie & Émilie", "es": "Aceptaste pensar en la propuesta de Lucie y Émilie.", "status": "TRANSLATED", "locked": false}
+{"id": "027_04", "type": "REVEAL", "en": "You agreed to help Lucie & Émilie.", "passenger": "Lucie & Émilie", "es": "Aceptaste ayudar a Lucie y Émilie.", "status": "TRANSLATED", "locked": false}
+{"id": "028_00", "type": "REVEAL", "en": "You have met Carolina.", "passenger": "Carolina", "es": "Conociste a Carolina.", "status": "TRANSLATED", "locked": false}
+{"id": "028_01", "type": "REVEAL", "en": "You accepted Carolina’s offer.", "passenger": "Carolina", "es": "Aceptaste la oferta de Carolina.", "status": "TRANSLATED", "locked": false}
+{"id": "029_00", "type": "REVEAL", "en": "You have met Jérôme.", "passenger": "Jérôme", "es": "Conociste a Jérôme.", "status": "TRANSLATED", "locked": false}
+{"id": "029_01", "type": "REVEAL", "en": "You ran into Jérôme again.", "passenger": "Jérôme", "es": "Te volviste a encontrar con Jérôme.", "status": "TRANSLATED", "locked": false}
+{"id": "029_02", "type": "REVEAL", "en": "You drove Jérôme a third time.", "passenger": "Jérôme", "es": "Llevaste a Jérôme por tercera vez.", "status": "TRANSLATED", "locked": false}
+{"id": "029_03", "type": "REVEAL", "en": "You didn’t want to know what trichiasis was.", "passenger": "Jérôme", "es": "No quisiste saber qué era la triquiasis.", "status": "TRANSLATED", "locked": false}
+{"id": "029_04", "type": "REVEAL", "en": "You unfortunately learned what trichiasis was.", "passenger": "Jérôme", "es": "Lamentablemente, te enteraste de qué era la triquiasis.", "status": "TRANSLATED", "locked": false}
+{"id": "029_05", "type": "REVEAL", "en": "Jérôme seemed to know a lot about Formula 1 racing.", "passenger": "Jérôme", "es": "Jérôme parecía saber mucho de Fórmula 1.", "status": "TRANSLATED", "locked": false}
+{"id": "029_06", "type": "REVEAL", "en": "You were too curious.", "passenger": "Jérôme", "es": "Fuiste demasiado curioso.", "status": "TRANSLATED", "locked": false}
+{"id": "029_07", "type": "REVEAL", "en": "You tried to keep Jérôme from doing something stupid.", "passenger": "Jérôme", "es": "Intentaste evitar que Jérôme hiciera una estupidez.", "status": "TRANSLATED", "locked": false}
+{"id": "030_00", "type": "REVEAL", "en": "You have met Peter.", "passenger": "Peter", "es": "Conociste a Peter.", "status": "TRANSLATED", "locked": false}
+{"id": "030_01", "type": "REVEAL", "en": "You fell asleep.", "passenger": "Peter", "es": "Te quedaste dormido.", "status": "TRANSLATED", "locked": false}
+{"id": "031_00", "type": "REVEAL", "en": "You have met Géraldine.", "passenger": "Géraldine", "es": "Conociste a Géraldine.", "status": "TRANSLATED", "locked": false}
+{"id": "031_01", "type": "REVEAL", "en": "You did not pick up Anita.", "passenger": "Géraldine", "es": "No recogiste a Anita.", "status": "TRANSLATED", "locked": false}
+{"id": "031_02", "type": "REVEAL", "en": "Géraldine liked you.", "passenger": "Géraldine", "es": "Le gustaste a Géraldine.", "status": "TRANSLATED", "locked": false}
+{"id": "031_03", "type": "REVEAL", "en": "You spied on Géraldine.", "passenger": "Géraldine", "es": "Espiaste a Géraldine.", "status": "TRANSLATED", "locked": false}
+{"id": "032_00", "type": "REVEAL", "en": "You have met Anita.", "passenger": "Anita", "es": "Conociste a Anita.", "status": "TRANSLATED", "locked": false}
+{"id": "032_01", "type": "REVEAL", "en": "You did not pick up Géraldine.", "passenger": "Anita", "es": "No recogiste a Géraldine.", "status": "TRANSLATED", "locked": false}
+{"id": "032_02", "type": "REVEAL", "en": "You chose to say nothing…", "passenger": "Anita", "es": "Elegiste no decir nada…", "status": "TRANSLATED", "locked": false}
+{"id": "032_03", "type": "REVEAL", "en": "You went too far with Anita.", "passenger": "Anita", "es": "Te pasaste de la raya con Anita.", "status": "TRANSLATED", "locked": false}
+{"id": "032_04", "type": "REVEAL", "en": "You were perfect with Anita.", "passenger": "Anita", "es": "Estuviste perfecto con Anita.", "status": "TRANSLATED", "locked": false}
+{"id": "033_00", "type": "REVEAL", "en": "You have met Chiara.", "passenger": "Chiara", "es": "Conociste a Chiara.", "status": "TRANSLATED", "locked": false}
+{"id": "033_01", "type": "REVEAL", "en": "You paid attention to Chiara.", "passenger": "Chiara", "es": "Le prestaste atención a Chiara.", "status": "TRANSLATED", "locked": false}
+{"id": "033_02", "type": "REVEAL", "en": "Chiara made you hungry.", "passenger": "Chiara", "es": "Chiara te dio hambre.", "status": "TRANSLATED", "locked": false}
+{"id": "034_00", "type": "REVEAL", "en": "You have met Phil.", "passenger": "Phil", "es": "Conociste a Phil.", "status": "TRANSLATED", "locked": false}
+{"id": "034_01", "type": "REVEAL", "en": "You were straight with Phil.", "passenger": "Phil", "es": "Fuiste sincero con Phil.", "status": "TRANSLATED", "locked": false}
+{"id": "034_02", "type": "REVEAL", "en": "You ignored Phil.", "passenger": "Phil", "es": "Ignoraste a Phil.", "status": "TRANSLATED", "locked": false}
+{"id": "035_00", "type": "REVEAL", "en": "You have met Sylvain & Sylvie.", "passenger": "Sylvain & Sylvie", "es": "Conociste a Sylvain y Sylvie.", "status": "TRANSLATED", "locked": false}
+{"id": "035_01", "type": "REVEAL", "en": "You listened to Sylvie.", "passenger": "Sylvain & Sylvie", "es": "Escuchaste a Sylvie.", "status": "TRANSLATED", "locked": false}
+{"id": "036_00", "type": "REVEAL", "en": "You have met Sean.", "passenger": "Sean", "es": "Conociste a Sean.", "status": "TRANSLATED", "locked": false}
+{"id": "036_01", "type": "REVEAL", "en": "You were honest with Sean.", "passenger": "Sean", "es": "Fuiste honesto con Sean.", "status": "TRANSLATED", "locked": false}
+{"id": "036_02", "type": "REVEAL", "en": "You helped Sean.", "passenger": "Sean", "es": "Ayudaste a Sean.", "status": "TRANSLATED", "locked": false}
+{"id": "037_00", "type": "REVEAL", "en": "You have met Shinji.", "passenger": "Shinji", "es": "Conociste a Shinji.", "status": "TRANSLATED", "locked": false}
+{"id": "037_01", "type": "REVEAL", "en": "You thought about when you met Shinji.", "passenger": "Shinji", "es": "Pensaste en cuando conociste a Shinji.", "status": "TRANSLATED", "locked": false}
+{"id": "040_00", "type": "REVEAL", "en": "You have met Crouky.", "passenger": "Crouky", "es": "Conociste a Crouky.", "status": "TRANSLATED", "locked": false}
+{"id": "040_01", "type": "REVEAL", "en": "You drove Crouky to Saint-Lazare station.", "passenger": "Crouky", "es": "Llevaste a Crouky a la estación Saint-Lazare.", "status": "TRANSLATED", "locked": false}
+{"id": "041_00", "type": "REVEAL", "en": "You have met Francine.", "passenger": "Francine", "es": "Conociste a Francine.", "status": "TRANSLATED", "locked": false}
+{"id": "041_01", "type": "REVEAL", "en": "You told Francine the truth about her cat.", "passenger": "Francine", "es": "Le dijiste a Francine la verdad sobre su gato.", "status": "TRANSLATED", "locked": false}
+{"id": "041_02", "type": "REVEAL", "en": "You did not tell Francine the truth about her cat.", "passenger": "Francine", "es": "No le dijiste a Francine la verdad sobre su gato.", "status": "TRANSLATED", "locked": false}
+{"id": "041_03", "type": "REVEAL", "en": "You broke Francine’s heart.", "passenger": "Francine", "es": "Le rompiste el corazón a Francine.", "status": "TRANSLATED", "locked": false}
+{"id": "042_00", "type": "REVEAL", "en": "You have met Djena.", "passenger": "Djena", "es": "Conociste a Djena.", "status": "TRANSLATED", "locked": false}
+{"id": "042_01", "type": "REVEAL", "en": "You made Djena angry.", "passenger": "Djena", "es": "Hiciste enojar a Djena.", "status": "TRANSLATED", "locked": false}
+{"id": "042_02", "type": "REVEAL", "en": "Djena apologized for telling you about the death of her female patient.", "passenger": "Djena", "es": "Djena se disculpó por contarte sobre la muerte de su paciente.", "status": "TRANSLATED", "locked": false}
+{"id": "042_03", "type": "REVEAL", "en": "You thought about when you met Djena.", "passenger": "Djena", "es": "Pensaste en cuando conociste a Djena.", "status": "TRANSLATED", "locked": false}
+{"id": "043_00", "type": "REVEAL", "en": "You have met Jonas.", "passenger": "Jonas", "es": "Conociste a Jonas.", "status": "TRANSLATED", "locked": false}
+{"id": "043_01", "type": "REVEAL", "en": "You understood Jonas was a programmer.", "passenger": "Jonas", "es": "Entendiste que Jonas era programador.", "status": "TRANSLATED", "locked": false}
+{"id": "043_02", "type": "REVEAL", "en": "You were straight with Jonas about your beliefs.", "passenger": "Jonas", "es": "Fuiste sincero con Jonas sobre tus creencias.", "status": "TRANSLATED", "locked": false}
+{"id": "043_03", "type": "REVEAL", "en": "You thought about when you met Jonas.", "passenger": "Jonas", "es": "Pensaste en cuando conociste a Jonas.", "status": "TRANSLATED", "locked": false}
+{"id": "044_00", "type": "REVEAL", "en": "You have met Chris.", "passenger": "Chris", "es": "Conociste a Chris.", "status": "TRANSLATED", "locked": false}
+{"id": "044_01", "type": "REVEAL", "en": "You threw Chris out of your cab.", "passenger": "Chris", "es": "Echaste a Chris de tu taxi.", "status": "TRANSLATED", "locked": false}
+{"id": "044_02", "type": "REVEAL", "en": "Despite everything, you drove Chris to Carolina’s.", "passenger": "Chris", "es": "A pesar de todo, llevaste a Chris a lo de Carolina.", "status": "TRANSLATED", "locked": false}
+{"id": "044_03", "type": "REVEAL", "en": "Despite everything, you drove Chris where he was going.", "passenger": "Chris", "es": "A pesar de todo, llevaste a Chris a donde iba.", "status": "TRANSLATED", "locked": false}
+{"id": "045_00", "type": "REVEAL", "en": "You have met Véronique.", "passenger": "Véronique", "es": "Conociste a Véronique.", "status": "TRANSLATED", "locked": false}
+{"id": "045_01", "type": "REVEAL", "en": "You said nothing during the trip.", "passenger": "Véronique", "es": "No dijiste nada durante el viaje.", "status": "TRANSLATED", "locked": false}
+{"id": "045_02", "type": "REVEAL", "en": "Véronique faced a negative answer during your trip.", "passenger": "Véronique", "es": "Véronique recibió una respuesta negativa durante el viaje.", "status": "TRANSLATED", "locked": false}
+{"id": "046_00", "type": "REVEAL", "en": "You have met Shohreh.", "passenger": "Shohreh", "es": "Conociste a Shohreh.", "status": "TRANSLATED", "locked": false}
+{"id": "046_01", "type": "REVEAL", "en": "You heard nothing on Shohreh’s ghost station.", "passenger": "Shohreh", "es": "No escuchaste nada en la estación fantasma de Shohreh.", "status": "TRANSLATED", "locked": false}
+{"id": "046_02", "type": "REVEAL", "en": "You heard something on Shohreh’s ghost station.", "passenger": "Shohreh", "es": "Escuchaste algo en la estación fantasma de Shohreh.", "status": "TRANSLATED", "locked": false}
+{"id": "046_03", "type": "REVEAL", "en": "You found out Shohreh won the Fields medal.", "passenger": "Shohreh", "es": "Descubriste que Shohreh ganó la medalla Fields.", "status": "TRANSLATED", "locked": false}
+{"id": "047_00", "type": "REVEAL", "en": "You have met Amélie.", "passenger": "Amélie", "es": "Conociste a Amélie.", "status": "TRANSLATED", "locked": false}
+{"id": "047_01", "type": "REVEAL", "en": "You did not so much as glance at Amélie at the beginning of the trip.", "passenger": "Amélie", "es": "Ni siquiera miraste a Amélie al comienzo del viaje.", "status": "TRANSLATED", "locked": false}
+{"id": "047_02", "type": "REVEAL", "en": "You lied to Amélie.", "passenger": "Amélie", "es": "Le mentiste a Amélie.", "status": "TRANSLATED", "locked": false}
+{"id": "047_03", "type": "REVEAL", "en": "You were honest with Amélie.", "passenger": "Amélie", "es": "Fuiste honesto con Amélie.", "status": "TRANSLATED", "locked": false}
+{"id": "047_04", "type": "REVEAL", "en": "You chose not to answer Amélie’s questions.", "passenger": "Amélie", "es": "Elegiste no responder las preguntas de Amélie.", "status": "TRANSLATED", "locked": false}
+{"id": "047_05", "type": "REVEAL", "en": "Amélie helped you with your investigation.", "passenger": "Amélie", "es": "Amélie te ayudó con tu investigación.", "status": "TRANSLATED", "locked": false}
+{"id": "051_00", "type": "REVEAL", "en": "You have met Léonie.", "passenger": "Léonie", "es": "Conociste a Léonie.", "status": "TRANSLATED", "locked": false}
+{"id": "051_01", "type": "REVEAL", "en": "You said nothing during Léonie’s trip.", "passenger": "Léonie", "es": "No dijiste nada durante el viaje de Léonie.", "status": "TRANSLATED", "locked": false}
+{"id": "051_02", "type": "REVEAL", "en": "Léonie doesn’t need your pity.", "passenger": "Léonie", "es": "Léonie no necesita tu lástima.", "status": "TRANSLATED", "locked": false}
+{"id": "051_03", "type": "REVEAL", "en": "You let it show you were bored with Léonie’s thesis topic.", "passenger": "Léonie", "es": "Dejaste ver que te aburría el tema de tesis de Léonie.", "status": "TRANSLATED", "locked": false}
+{"id": "051_04", "type": "REVEAL", "en": "You played Léonie classical music.", "passenger": "Léonie", "es": "Le pusiste música clásica a Léonie.", "status": "TRANSLATED", "locked": false}
+{"id": "051_05", "type": "REVEAL", "en": "You played Léonie jazz.", "passenger": "Léonie", "es": "Le pusiste jazz a Léonie.", "status": "TRANSLATED", "locked": false}
+{"id": "051_06", "type": "REVEAL", "en": "You played Léonie rock music.", "passenger": "Léonie", "es": "Le pusiste rock a Léonie.", "status": "TRANSLATED", "locked": false}
+{"id": "051_07", "type": "REVEAL", "en": "You played Léonie tribal house … and she loved it.", "passenger": "Léonie", "es": "Le pusiste tribal house a Léonie… y le encantó.", "status": "TRANSLATED", "locked": false}
+{"id": "051_08", "type": "REVEAL", "en": "Léonie really appreciated your attitude.", "passenger": "Léonie", "es": "Léonie apreció mucho tu actitud.", "status": "TRANSLATED", "locked": false}
+{"id": "051_09", "type": "REVEAL", "en": "You heard one of the best ’80s songs.", "passenger": "Léonie", "es": "Escuchaste una de las mejores canciones de los 80.", "status": "TRANSLATED", "locked": false}
+{"id": "052_00", "type": "REVEAL", "en": "You have met Childéric.", "passenger": "Childéric", "es": "Conociste a Childéric.", "status": "TRANSLATED", "locked": false}
+{"id": "052_01", "type": "REVEAL", "en": "You did your best to play along with Childéric.", "passenger": "Childéric", "es": "Hiciste lo posible por seguirle la corriente a Childéric.", "status": "TRANSLATED", "locked": false}
+{"id": "052_02", "type": "REVEAL", "en": "You recalled the existence of Gravias.", "passenger": "Childéric", "es": "Recordaste la existencia de Gravias.", "status": "TRANSLATED", "locked": false}
+{"id": "053_00", "type": "REVEAL", "en": "You have met Camille.", "passenger": "Camille", "es": "Conociste a Camille.", "status": "TRANSLATED", "locked": false}
+{"id": "053_01", "type": "REVEAL", "en": "Things didn’t go so well at first with Camille…", "passenger": "Camille", "es": "Las cosas no empezaron muy bien con Camille…", "status": "TRANSLATED", "locked": false}
+{"id": "053_02", "type": "REVEAL", "en": "They didn’t end up so well either.", "passenger": "Camille", "es": "Y tampoco terminaron muy bien.", "status": "TRANSLATED", "locked": false}
+{"id": "053_03", "type": "REVEAL", "en": "You were as patient as possible with Camille.", "passenger": "Camille", "es": "Fuiste lo más paciente posible con Camille.", "status": "TRANSLATED", "locked": false}
+{"id": "053_04", "type": "REVEAL", "en": "You listened to Camille’s pitch.", "passenger": "Camille", "es": "Escuchaste la propuesta de Camille.", "status": "TRANSLATED", "locked": false}
+{"id": "053_05", "type": "REVEAL", "en": "You insulted Camille.", "passenger": "Camille", "es": "Insultaste a Camille.", "status": "TRANSLATED", "locked": false}
+{"id": "054_00", "type": "REVEAL", "en": "You have met Ludivine.", "passenger": "Ludivine", "es": "Conociste a Ludivine.", "status": "TRANSLATED", "locked": false}
+{"id": "054_01", "type": "REVEAL", "en": "Things didn’t go so well at first with Ludivine…", "passenger": "Ludivine", "es": "Las cosas no empezaron muy bien con Ludivine…", "status": "TRANSLATED", "locked": false}
+{"id": "054_02", "type": "REVEAL", "en": "… but they ended up OK.", "passenger": "Ludivine", "es": "… pero terminaron bien.", "status": "TRANSLATED", "locked": false}
+{"id": "054_03", "type": "REVEAL", "en": "You interrupted Ludivine a lot.", "passenger": "Ludivine", "es": "Interrumpiste mucho a Ludivine.", "status": "TRANSLATED", "locked": false}
+{"id": "054_04", "type": "REVEAL", "en": "You confessed to Ludivine you were one of the killer’s victims.", "passenger": "Ludivine", "es": "Le confesaste a Ludivine que fuiste una de las víctimas del asesino.", "status": "TRANSLATED", "locked": false}
+{"id": "055_00", "type": "REVEAL", "en": "You have met Julian.", "passenger": "Julian", "es": "Conociste a Julian.", "status": "TRANSLATED", "locked": false}
+{"id": "055_01", "type": "REVEAL", "en": "You asked Julian to help you.", "passenger": "Julian", "es": "Le pediste ayuda a Julian.", "status": "TRANSLATED", "locked": false}
+{"id": "055_02", "type": "REVEAL", "en": "You told Julian the truth.", "passenger": "Julian", "es": "Le dijiste la verdad a Julian.", "status": "TRANSLATED", "locked": false}
+{"id": "055_03", "type": "REVEAL", "en": "You decided to lie to Julian.", "passenger": "Julian", "es": "Decidiste mentirle a Julian.", "status": "TRANSLATED", "locked": false}
+{"id": "055_04", "type": "REVEAL", "en": "You got documents from Julian.", "passenger": "Julian", "es": "Conseguiste documentos de Julian.", "status": "TRANSLATED", "locked": false}
+{"id": "056_00", "type": "REVEAL", "en": "You have met Kader.", "passenger": "Kader", "es": "Conociste a Kader.", "status": "TRANSLATED", "locked": false}
+{"id": "056_01", "type": "REVEAL", "en": "Kader taught you a very colorful insult.", "passenger": "Kader", "es": "Kader te enseñó un insulto muy pintoresco.", "status": "TRANSLATED", "locked": false}
+{"id": "056_02", "type": "REVEAL", "en": "Kader told you he was dating a cop.", "passenger": "Kader", "es": "Kader te contó que salía con un policía.", "status": "TRANSLATED", "locked": false}
+{"id": "056_03", "type": "REVEAL", "en": "Kader told you he was reading The Count of Monte Cristo.", "passenger": "Kader", "es": "Kader te contó que estaba leyendo El conde de Montecristo.", "status": "TRANSLATED", "locked": false}
+{"id": "057_00", "type": "REVEAL", "en": "You have met Annabelle.", "passenger": "Annabelle", "es": "Conociste a Annabelle.", "status": "TRANSLATED", "locked": false}
+{"id": "057_01", "type": "REVEAL", "en": "Annabelle didn’t appreciate your icebreaker.", "passenger": "Annabelle", "es": "A Annabelle no le gustó tu manera de romper el hielo.", "status": "TRANSLATED", "locked": false}
+{"id": "057_02", "type": "REVEAL", "en": "… and let you know at the end of the ride.", "passenger": "Annabelle", "es": "… y te lo hizo saber al final del viaje.", "status": "TRANSLATED", "locked": false}
+{"id": "057_03", "type": "REVEAL", "en": "You helped Annabelle keep it together.", "passenger": "Annabelle", "es": "Ayudaste a Annabelle a mantener la compostura.", "status": "TRANSLATED", "locked": false}
+{"id": "057_04", "type": "REVEAL", "en": "Annabelle did yoga.", "passenger": "Annabelle", "es": "Annabelle hizo yoga.", "status": "TRANSLATED", "locked": false}
+{"id": "057_05", "type": "REVEAL", "en": "You played Annabelle the ghost station.", "passenger": "Annabelle", "es": "Le pusiste la estación fantasma a Annabelle.", "status": "TRANSLATED", "locked": false}
+{"id": "057_06", "type": "REVEAL", "en": "Annabelle told you about the band that saved her life.", "passenger": "Annabelle", "es": "Annabelle te habló de la banda que le salvó la vida.", "status": "TRANSLATED", "locked": false}
+{"id": "058_00", "type": "REVEAL", "en": "You have met Agnès.", "passenger": "Agnès", "es": "Conociste a Agnès.", "status": "TRANSLATED", "locked": false}
+{"id": "058_01", "type": "REVEAL", "en": "You told Agnès about François de la Nérée.", "passenger": "Agnès", "es": "Le contaste a Agnès sobre François de la Nérée.", "status": "TRANSLATED", "locked": false}
+{"id": "058_02", "type": "REVEAL", "en": "You listened attentively throughout the whole ride.", "passenger": "Agnès", "es": "Escuchaste atentamente durante todo el viaje.", "status": "TRANSLATED", "locked": false}
+{"id": "059_00", "type": "REVEAL", "en": "You have met Pierrot.", "passenger": "Pierrot", "es": "Conociste a Pierrot.", "status": "TRANSLATED", "locked": false}
+{"id": "059_01", "type": "REVEAL", "en": "Pierrot told you he was gay.", "passenger": "Pierrot", "es": "Pierrot te contó que era gay.", "status": "TRANSLATED", "locked": false}
+{"id": "059_02", "type": "REVEAL", "en": "Pierrot told you about James.", "passenger": "Pierrot", "es": "Pierrot te habló de James.", "status": "TRANSLATED", "locked": false}
+{"id": "059_03", "type": "REVEAL", "en": "Pierrot threw up.", "passenger": "Pierrot", "es": "Pierrot vomitó.", "status": "TRANSLATED", "locked": false}
+{"id": "059_04", "type": "REVEAL", "en": "Pierrot threw up again.", "passenger": "Pierrot", "es": "Pierrot volvió a vomitar.", "status": "TRANSLATED", "locked": false}
+{"id": "059_05", "type": "REVEAL", "en": "You advised Pierrot to talk to his colleagues.", "passenger": "Pierrot", "es": "Le aconsejaste a Pierrot hablar con sus colegas.", "status": "TRANSLATED", "locked": false}
+{"id": "059_06", "type": "REVEAL", "en": "You advised Pierrot to change professions.", "passenger": "Pierrot", "es": "Le aconsejaste a Pierrot cambiar de profesión.", "status": "TRANSLATED", "locked": false}
+{"id": "059_07", "type": "REVEAL", "en": "You advised Pierrot to leave.", "passenger": "Pierrot", "es": "Le aconsejaste a Pierrot que se fuera.", "status": "TRANSLATED", "locked": false}
+{"id": "059_08", "type": "REVEAL", "en": "You dropped Pierrot off at his place.", "passenger": "Pierrot", "es": "Dejaste a Pierrot en su casa.", "status": "TRANSLATED", "locked": false}
+{"id": "059_09", "type": "REVEAL", "en": "You dropped Pierrot off with his colleagues.", "passenger": "Pierrot", "es": "Dejaste a Pierrot con sus colegas.", "status": "TRANSLATED", "locked": false}
+{"id": "060_00", "type": "REVEAL", "en": "You have met Mireille.", "passenger": "Mireille", "es": "Conociste a Mireille.", "status": "TRANSLATED", "locked": false}
+{"id": "060_01", "type": "REVEAL", "en": "You stopped on the Pont Mirabeau.", "passenger": "Mireille", "es": "Te detuviste en el Pont Mirabeau.", "status": "TRANSLATED", "locked": false}
+{"id": "060_02", "type": "REVEAL", "en": "She recited a line of an Apollinaire poem.", "passenger": "Mireille", "es": "Ella recitó un verso de un poema de Apollinaire.", "status": "TRANSLATED", "locked": false}
+{"id": "060_03", "type": "REVEAL", "en": "You stopped at the Montparnasse cemetery.", "passenger": "Mireille", "es": "Te detuviste en el cementerio de Montparnasse.", "status": "TRANSLATED", "locked": false}
+{"id": "060_04", "type": "REVEAL", "en": "She told you about her husband and her lover.", "passenger": "Mireille", "es": "Ella te habló de su esposo y de su amante.", "status": "TRANSLATED", "locked": false}
+{"id": "060_05", "type": "REVEAL", "en": "You asked Mireille a question about one of your suspects.", "passenger": "Mireille", "es": "Le hiciste a Mireille una pregunta sobre uno de tus sospechosos.", "status": "TRANSLATED", "locked": false}
+{"id": "060_06", "type": "REVEAL", "en": "You got to the train station at the very last minute.", "passenger": "Mireille", "es": "Llegaste a la estación a último momento.", "status": "TRANSLATED", "locked": false}
+{"id": "060_07", "type": "REVEAL", "en": "You got to the train station ahead of time.", "passenger": "Mireille", "es": "Llegaste a la estación con tiempo de sobra.", "status": "TRANSLATED", "locked": false}
+{"id": "061_00", "type": "REVEAL", "en": "You have met Denis.", "passenger": "Denis", "es": "Conociste a Denis.", "status": "TRANSLATED", "locked": false}
+{"id": "061_01", "type": "REVEAL", "en": "Denis knew you’d recognized him.", "passenger": "Denis", "es": "Denis supo que lo habías reconocido.", "status": "TRANSLATED", "locked": false}
+{"id": "061_02", "type": "REVEAL", "en": "You wished Denis luck.", "passenger": "Denis", "es": "Le deseaste suerte a Denis.", "status": "TRANSLATED", "locked": false}
+{"id": "061_03", "type": "REVEAL", "en": "Denis tried to explain why he’s not racist.", "passenger": "Denis", "es": "Denis intentó explicar por qué no es racista.", "status": "TRANSLATED", "locked": false}
+{"id": "063_00", "type": "REVEAL", "en": "You have met Pauline.", "passenger": "Pauline", "es": "Conociste a Pauline.", "status": "TRANSLATED", "locked": false}
+{"id": "063_01", "type": "REVEAL", "en": "You chose romance.", "passenger": "Pauline", "es": "Elegiste el romance.", "status": "TRANSLATED", "locked": false}
+{"id": "063_02", "type": "REVEAL", "en": "You knew where Reunion Island was.", "passenger": "Pauline", "es": "Sabías dónde quedaba la Isla Reunión.", "status": "TRANSLATED", "locked": false}
+{"id": "063_03", "type": "REVEAL", "en": "Pauline asked you to turn around.", "passenger": "Pauline", "es": "Pauline te pidió que dieras la vuelta.", "status": "TRANSLATED", "locked": false}
+{"id": "063_04", "type": "REVEAL", "en": "You asked Pauline to help you with your investigation.", "passenger": "Pauline", "es": "Le pediste a Pauline que te ayudara con tu investigación.", "status": "TRANSLATED", "locked": false}
+{"id": "064_00", "type": "REVEAL", "en": "You have met Janet.", "passenger": "Janet", "es": "Conociste a Janet.", "status": "TRANSLATED", "locked": false}
+{"id": "064_01", "type": "REVEAL", "en": "You thought about when you met Janet.", "passenger": "Janet", "es": "Pensaste en cuando conociste a Janet.", "status": "TRANSLATED", "locked": false}
+{"id": "064_02", "type": "REVEAL", "en": "You saw Janet again.", "passenger": "Janet", "es": "Volviste a ver a Janet.", "status": "TRANSLATED", "locked": false}
+{"id": "064_03", "type": "REVEAL", "en": "You thought you’d heard all of Janet’s story.", "passenger": "Janet", "es": "Creíste haber escuchado toda la historia de Janet.", "status": "TRANSLATED", "locked": false}
+{"id": "064_04", "type": "REVEAL", "en": "Hyoga … the name rings a bell…", "passenger": "Janet", "es": "Hyoga… ese nombre te suena…", "status": "TRANSLATED", "locked": false}
+{"id": "064_05", "type": "REVEAL", "en": "Sean … the name rings a bell…", "passenger": "Janet", "es": "Sean… ese nombre te suena…", "status": "TRANSLATED", "locked": false}
+{"id": "064_06", "type": "REVEAL", "en": "Annabelle…?", "passenger": "Janet", "es": "¿Annabelle…?", "status": "TRANSLATED", "locked": false}
+{"id": "064_07", "type": "REVEAL", "en": "Pauline…?", "passenger": "Janet", "es": "¿Pauline…?", "status": "TRANSLATED", "locked": false}
+{"id": "064_08", "type": "REVEAL", "en": "You found Janet’s station.", "passenger": "Janet", "es": "Encontraste la estación de Janet.", "status": "TRANSLATED", "locked": false}
+{"id": "064_09", "type": "REVEAL", "en": "Janet gave you a clue.", "passenger": "Janet", "es": "Janet te dio una pista.", "status": "TRANSLATED", "locked": false}
+{"id": "065_00", "type": "REVEAL", "en": "You have met Nina.", "passenger": "Nina", "es": "Conociste a Nina.", "status": "TRANSLATED", "locked": false}
+{"id": "065_01", "type": "REVEAL", "en": "You let Nina be.", "passenger": "Nina", "es": "Dejaste tranquila a Nina.", "status": "TRANSLATED", "locked": false}
+{"id": "065_02", "type": "REVEAL", "en": "Nina ran out of the cab.", "passenger": "Nina", "es": "Nina salió corriendo del taxi.", "status": "TRANSLATED", "locked": false}
+{"id": "065_03", "type": "REVEAL", "en": "You brought Nina back to the restaurant…", "passenger": "Nina", "es": "Llevaste a Nina de vuelta al restaurante…", "status": "TRANSLATED", "locked": false}
+{"id": "065_04", "type": "REVEAL", "en": "… and it was too late.", "passenger": "Nina", "es": "… y ya era tarde.", "status": "TRANSLATED", "locked": false}
+{"id": "065_05", "type": "REVEAL", "en": "… and she got there in time.", "passenger": "Nina", "es": "… y llegó a tiempo.", "status": "TRANSLATED", "locked": false}
+{"id": "066_00", "type": "REVEAL", "en": "You have met Pierre & Shaïne.", "passenger": "Pierre & Shaïne", "es": "Conociste a Pierre y Shaïne.", "status": "TRANSLATED", "locked": false}
+{"id": "066_01", "type": "REVEAL", "en": "You agreed to play with Pierre & Shaïne.", "passenger": "Pierre & Shaïne", "es": "Aceptaste jugar con Pierre y Shaïne.", "status": "TRANSLATED", "locked": false}
+{"id": "066_02", "type": "REVEAL", "en": "You refused to play with Pierre & Shaïne.", "passenger": "Pierre & Shaïne", "es": "Te negaste a jugar con Pierre y Shaïne.", "status": "TRANSLATED", "locked": false}
+{"id": "066_03", "type": "REVEAL", "en": "You floored Xenofex.", "passenger": "Pierre & Shaïne", "es": "Aplastaste a Xenofex.", "status": "TRANSLATED", "locked": false}
+{"id": "066_04", "type": "REVEAL", "en": "You got killed by Xenofex.", "passenger": "Pierre & Shaïne", "es": "Xenofex te mató.", "status": "TRANSLATED", "locked": false}
+{"id": "066_05", "type": "REVEAL", "en": "You thought about your brother.", "passenger": "Pierre & Shaïne", "es": "Pensaste en tu hermano.", "status": "TRANSLATED", "locked": false}
+{"id": "067_00", "type": "REVEAL", "en": "You have met Mathieu.", "passenger": "Mathieu", "es": "Conociste a Mathieu.", "status": "TRANSLATED", "locked": false}
+{"id": "067_01", "type": "REVEAL", "en": "You thought about when you met Mathieu.", "passenger": "Mathieu", "es": "Pensaste en cuando conociste a Mathieu.", "status": "TRANSLATED", "locked": false}
+{"id": "067_02", "type": "REVEAL", "en": "Mathieu talked about his father…", "passenger": "Mathieu", "es": "Mathieu habló de su padre…", "status": "TRANSLATED", "locked": false}
+{"id": "067_03", "type": "REVEAL", "en": "… and about his pain…", "passenger": "Mathieu", "es": "… y de su dolor…", "status": "TRANSLATED", "locked": false}
+{"id": "067_04", "type": "REVEAL", "en": "… and you dropped him off in front of a bar.", "passenger": "Mathieu", "es": "… y lo dejaste frente a un bar.", "status": "TRANSLATED", "locked": false}
+{"id": "067_05", "type": "REVEAL", "en": "… and you dropped him off at home.", "passenger": "Mathieu", "es": "… y lo dejaste en su casa.", "status": "TRANSLATED", "locked": false}
+{"id": "067_06", "type": "REVEAL", "en": "Mathieu talked about his wife…", "passenger": "Mathieu", "es": "Mathieu habló de su esposa…", "status": "TRANSLATED", "locked": false}
+{"id": "067_07", "type": "REVEAL", "en": "… and you found out the truth.", "passenger": "Mathieu", "es": "… y descubriste la verdad.", "status": "TRANSLATED", "locked": false}
+{"id": "067_08", "type": "REVEAL", "en": "… and he disappeared with his baby.", "passenger": "Mathieu", "es": "… y desapareció con su bebé.", "status": "TRANSLATED", "locked": false}
+{"id": "068_00", "type": "REVEAL", "en": "You have met Sonny.", "passenger": "Sonny", "es": "Conociste a Sonny.", "status": "TRANSLATED", "locked": false}
+{"id": "068_01", "type": "REVEAL", "en": "Sonny thinks you’re a swell guy.", "passenger": "Sonny", "es": "Sonny piensa que sos un tipo genial.", "status": "TRANSLATED", "locked": false}
+{"id": "070_00", "type": "REVEAL", "en": "You have met Antoine.", "passenger": "Antoine", "es": "Conociste a Antoine.", "status": "TRANSLATED", "locked": false}
+{"id": "070_01", "type": "REVEAL", "en": "You thought about when you met Antoine.", "passenger": "Antoine", "es": "Pensaste en cuando conociste a Antoine.", "status": "TRANSLATED", "locked": false}
+{"id": "070_02", "type": "REVEAL", "en": "Antoine won the lottery.", "passenger": "Antoine", "es": "Antoine ganó la lotería.", "status": "TRANSLATED", "locked": false}
+{"id": "070_03", "type": "REVEAL", "en": "Antoine won 434 million euros playing the lottery.", "passenger": "Antoine", "es": "Antoine ganó 434 millones de euros en la lotería.", "status": "TRANSLATED", "locked": false}
+{"id": "070_04", "type": "REVEAL", "en": "Well now, is he crazy?", "passenger": "Antoine", "es": "Y bueno, ¿está loco?", "status": "TRANSLATED", "locked": false}
+{"id": "070_05", "type": "REVEAL", "en": "Holy crap … 434 million euros!", "passenger": "Antoine", "es": "Mierda… ¡434 millones de euros!", "status": "TRANSLATED", "locked": false}
+{"id": "070_06", "type": "REVEAL", "en": "Antoine helped you with your investigation.", "passenger": "Antoine", "es": "Antoine te ayudó con tu investigación.", "status": "TRANSLATED", "locked": false}
+{"id": "071_00", "type": "REVEAL", "en": "You have met Marc & Sophie.", "passenger": "Marc & Sophie", "es": "Conociste a Marc y Sophie.", "status": "TRANSLATED", "locked": false}
+{"id": "071_01", "type": "REVEAL", "en": "You dropped Marc off.", "passenger": "Marc & Sophie", "es": "Dejaste a Marc.", "status": "TRANSLATED", "locked": false}
+{"id": "071_02", "type": "REVEAL", "en": "You dropped Sophie off.", "passenger": "Marc & Sophie", "es": "Dejaste a Sophie.", "status": "TRANSLATED", "locked": false}
+{"id": "072_00", "type": "REVEAL", "en": "You have met Pierrette.", "passenger": "Pierrette", "es": "Conociste a Pierrette.", "status": "TRANSLATED", "locked": false}
+{"id": "072_01", "type": "REVEAL", "en": "You thought about when you met Pierrette.", "passenger": "Pierrette", "es": "Pensaste en cuando conociste a Pierrette.", "status": "TRANSLATED", "locked": false}
+{"id": "072_02", "type": "REVEAL", "en": "You already knew ‘La Pierre.’", "passenger": "Pierrette", "es": "Ya conocías ‘La Pierre.’", "status": "TRANSLATED", "locked": false}
+{"id": "072_03", "type": "REVEAL", "en": "You told Pierrette the truth.", "passenger": "Pierrette", "es": "Le dijiste la verdad a Pierrette.", "status": "TRANSLATED", "locked": false}
+{"id": "072_04", "type": "REVEAL", "en": "You lied to Pierrette.", "passenger": "Pierrette", "es": "Le mentiste a Pierrette.", "status": "TRANSLATED", "locked": false}
+{"id": "072_05", "type": "REVEAL", "en": "Pierrette invited you up…", "passenger": "Pierrette", "es": "Pierrette te invitó a subir…", "status": "TRANSLATED", "locked": false}
+{"id": "072_06", "type": "REVEAL", "en": "… and you accepted.", "passenger": "Pierrette", "es": "… y aceptaste.", "status": "TRANSLATED", "locked": false}
+{"id": "072_07", "type": "REVEAL", "en": "… and you refused.", "passenger": "Pierrette", "es": "… y te negaste.", "status": "TRANSLATED", "locked": false}
+{"id": "072_08", "type": "REVEAL", "en": "Your head is spinning.", "passenger": "Pierrette", "es": "Te da vueltas la cabeza.", "status": "TRANSLATED", "locked": false}
+{"id": "073_00", "type": "REVEAL", "en": "You have met Myriam.", "passenger": "Myriam", "es": "Conociste a Myriam.", "status": "TRANSLATED", "locked": false}
+{"id": "073_01", "type": "REVEAL", "en": "You don’t remember Myriam at all.", "passenger": "Myriam", "es": "No te acordás para nada de Myriam.", "status": "TRANSLATED", "locked": false}
+{"id": "073_02", "type": "REVEAL", "en": "Myriam tells you the story about the little boy who was beaten…", "passenger": "Myriam", "es": "Myriam te cuenta la historia del niño al que golpeaban…", "status": "TRANSLATED", "locked": false}
+{"id": "073_03", "type": "REVEAL", "en": "… and she went to the police station.", "passenger": "Myriam", "es": "… y ella fue a la comisaría.", "status": "TRANSLATED", "locked": false}
+{"id": "073_04", "type": "REVEAL", "en": "… and she decides not to say anything.", "passenger": "Myriam", "es": "… y decide no decir nada.", "status": "TRANSLATED", "locked": false}
+{"id": "073_05", "type": "REVEAL", "en": "Myriam told you about her crush on the dad…", "passenger": "Myriam", "es": "Myriam te habló de que le gustaba el papá…", "status": "TRANSLATED", "locked": false}
+{"id": "073_06", "type": "REVEAL", "en": "… and you got involved.", "passenger": "Myriam", "es": "… y te metiste.", "status": "TRANSLATED", "locked": false}
+{"id": "073_07", "type": "REVEAL", "en": "… and you kept your distance.", "passenger": "Myriam", "es": "… y mantuviste la distancia.", "status": "TRANSLATED", "locked": false}
+{"id": "073_08", "type": "REVEAL", "en": "Myriam told you about the freaky boy she sits for…", "passenger": "Myriam", "es": "Myriam te habló del chico raro al que cuida…", "status": "TRANSLATED", "locked": false}
+{"id": "073_09", "type": "REVEAL", "en": "… and you told her about your brother.", "passenger": "Myriam", "es": "… y le contaste sobre tu hermano.", "status": "TRANSLATED", "locked": false}
+{"id": "073_10", "type": "REVEAL", "en": "… and you decided to lie.", "passenger": "Myriam", "es": "… y decidiste mentir.", "status": "TRANSLATED", "locked": false}
+{"id": "074_00", "type": "REVEAL", "en": "You have met Émilia.", "passenger": "Emilia", "es": "Conociste a Émilia.", "status": "TRANSLATED", "locked": false}
+{"id": "074_01", "type": "REVEAL", "en": "You thought about when you met Émilia.", "passenger": "Émilia", "es": "Pensaste en cuando conociste a Émilia.", "status": "TRANSLATED", "locked": false}
+{"id": "074_02", "type": "REVEAL", "en": "You took care of Émilia’s problem.", "passenger": "Émilia", "es": "Te encargaste del problema de Émilia.", "status": "TRANSLATED", "locked": false}
+{"id": "074_03", "type": "REVEAL", "en": "You let Émilia take care of her problem by herself.", "passenger": "Émilia", "es": "Dejaste que Émilia se encargara sola de su problema.", "status": "TRANSLATED", "locked": false}
+{"id": "074_04", "type": "REVEAL", "en": "You showed Émilia no pity.", "passenger": "Émilia", "es": "No tuviste piedad de Émilia.", "status": "TRANSLATED", "locked": false}
+{"id": "075_00", "type": "REVEAL", "en": "You have met Henri.", "passenger": "Henri", "es": "Conociste a Henri.", "status": "TRANSLATED", "locked": false}
+{"id": "075_01", "type": "REVEAL", "en": "You threw Henri and Mouillette out of your cab.", "passenger": "Henri", "es": "Echaste a Henri y a Mouillette de tu taxi.", "status": "TRANSLATED", "locked": false}
+{"id": "075_02", "type": "REVEAL", "en": "You got Henri to like you.", "passenger": "Henri", "es": "Lograste caerle bien a Henri.", "status": "TRANSLATED", "locked": false}
+{"id": "076_00", "type": "REVEAL", "en": "You have met Angélique.", "passenger": "Angélique", "es": "Conociste a Angélique.", "status": "TRANSLATED", "locked": false}
+{"id": "076_01", "type": "REVEAL", "en": "You have heard all of her stories.", "passenger": "Angélique", "es": "Escuchaste todas sus historias.", "status": "TRANSLATED", "locked": false}
+{"id": "076_02", "type": "REVEAL", "en": "‘HAMSTER UP YOUR ASS!’", "passenger": "Angélique", "es": "‘¡HÁMSTER EN EL CULO!’", "status": "TRANSLATED", "locked": false}
+{"id": "076_03", "type": "REVEAL", "en": "‘FELCHES!’", "passenger": "Angélique", "es": "‘¡BOLSA DE SEMEN!’", "status": "TRANSLATED", "locked": false}
+{"id": "076_04", "type": "REVEAL", "en": "‘PISS-FILLED WATERSKIN!’", "passenger": "Angélique", "es": "‘¡ODRE LLENO DE MEADOS!’", "status": "TRANSLATED", "locked": false}
+{"id": "076_05", "type": "REVEAL", "en": "‘ROTTEN PHALLUS!’", "passenger": "Angélique", "es": "‘¡FALO PODRIDO!’", "status": "TRANSLATED", "locked": false}
+{"id": "077_00", "type": "REVEAL", "en": "You have met Santa.", "passenger": "Santa", "es": "Conociste a Santa.", "status": "TRANSLATED", "locked": false}
+{"id": "077_01", "type": "REVEAL", "en": "You thought about when you met Santa.", "passenger": "Santa", "es": "Pensaste en cuando conociste a Santa.", "status": "TRANSLATED", "locked": false}
+{"id": "077_02", "type": "REVEAL", "en": "Santa talked about your brother.", "passenger": "Santa", "es": "Santa habló de tu hermano.", "status": "TRANSLATED", "locked": false}
+{"id": "077_03", "type": "REVEAL", "en": "You found Santa’s sleigh.", "passenger": "Santa", "es": "Encontraste el trineo de Santa.", "status": "TRANSLATED", "locked": false}
+{"id": "077_04", "type": "REVEAL", "en": "You did not find Santa’s sleigh.", "passenger": "Santa", "es": "No encontraste el trineo de Santa.", "status": "TRANSLATED", "locked": false}
+{"id": "090_00", "type": "REVEAL", "en": "You have met Houssine.", "passenger": "Houssine", "es": "Conociste a Houssine.", "status": "TRANSLATED", "locked": false}
+{"id": "090_01", "type": "REVEAL", "en": "You thought about when you met Houssine.", "passenger": "Houssine", "es": "Pensaste en cuando conociste a Houssine.", "status": "TRANSLATED", "locked": false}
+{"id": "090_02", "type": "REVEAL", "en": "The Angel of Death?", "passenger": "Houssine", "es": "¿El Ángel de la Muerte?", "status": "TRANSLATED", "locked": false}
+{"id": "090_03", "type": "REVEAL", "en": "The Sandman?", "passenger": "Houssine", "es": "¿El Hombre de Arena?", "status": "TRANSLATED", "locked": false}
+{"id": "090_04", "type": "REVEAL", "en": "The Judge?", "passenger": "Houssine", "es": "¿El Juez?", "status": "TRANSLATED", "locked": false}
+{"id": "090_05", "type": "REVEAL", "en": "The Devil?", "passenger": "Houssine", "es": "¿El Diablo?", "status": "TRANSLATED", "locked": false}
+{"id": "090_06", "type": "REVEAL", "en": "Busset?", "passenger": "Houssine", "es": "¿Busset?", "status": "TRANSLATED", "locked": false}
+{"id": "090_07", "type": "REVEAL", "en": "Julie?", "passenger": "Houssine", "es": "¿Julie?", "status": "TRANSLATED", "locked": false}
+{"id": "096_00", "type": "REVEAL", "en": "You have met Gilda.", "passenger": "Gilda", "es": "Conociste a Gilda.", "status": "TRANSLATED", "locked": false}
+{"id": "096_01", "type": "REVEAL", "en": "You have met Jesus Christ.", "passenger": "Gilda", "es": "Conociste a Jesucristo.", "status": "TRANSLATED", "locked": false}
+{"id": "096_02", "type": "REVEAL", "en": "Gilda told you about the City of God.", "passenger": "Gilda", "es": "Gilda te habló de Ciudad de Dios.", "status": "TRANSLATED", "locked": false}
+{"id": "096_03", "type": "REVEAL", "en": "To each their own visions…", "passenger": "Gilda", "es": "Cada uno con sus propias visiones…", "status": "TRANSLATED", "locked": false}
+{"id": "097_00", "type": "REVEAL", "en": "You have met Alexandre.", "passenger": "Alexandre", "es": "Conociste a Alexandre.", "status": "TRANSLATED", "locked": false}
+{"id": "097_01", "type": "REVEAL", "en": "You thought about when you met Alexandre.", "passenger": "Alexandre", "es": "Pensaste en cuando conociste a Alexandre.", "status": "TRANSLATED", "locked": false}
+{"id": "097_02", "type": "REVEAL", "en": "You warmed Alexandre up.", "passenger": "Alexandre", "es": "Hiciste entrar en confianza a Alexandre.", "status": "TRANSLATED", "locked": false}
+{"id": "097_03", "type": "REVEAL", "en": "Alexandre told you about Dan.", "passenger": "Alexandre", "es": "Alexandre te habló de Dan.", "status": "TRANSLATED", "locked": false}
+{"id": "099_00", "type": "REVEAL", "en": "You saw your boss.", "passenger": "Boss", "es": "Viste a tu jefe.", "status": "TRANSLATED", "locked": false}
+{"id": "099_01", "type": "REVEAL", "en": "You said nothing to your boss.", "passenger": "Boss", "es": "No le dijiste nada a tu jefe.", "status": "TRANSLATED", "locked": false}
+{"id": "099_02", "type": "REVEAL", "en": "You listened to your boss’s explanations.", "passenger": "Boss", "es": "Escuchaste las explicaciones de tu jefe.", "status": "TRANSLATED", "locked": false}
+{"id": "099_03", "type": "REVEAL", "en": "You refused to listen to your boss’s explanations.", "passenger": "Boss", "es": "Te negaste a escuchar las explicaciones de tu jefe.", "status": "TRANSLATED", "locked": false}
+{"id": "099_04", "type": "REVEAL", "en": "You got a warning from your boss.", "passenger": "Boss", "es": "Recibiste una advertencia de tu jefe.", "status": "TRANSLATED", "locked": false}
+{"id": "100_00", "type": "REVEAL", "en": "You have met Lieutenant Busset.", "passenger": "Lieutenant Busset", "es": "Conociste a la teniente Busset.", "status": "TRANSLATED", "locked": false}
+{"id": "100_01", "type": "REVEAL", "en": "You did not answer the phone when Busset called.", "passenger": "Lieutenant Busset", "es": "No atendiste el teléfono cuando llamó Busset.", "status": "TRANSLATED", "locked": false}
+{"id": "100_02", "type": "REVEAL", "en": "The first time you met, you said nothing.", "passenger": "Lieutenant Busset", "es": "La primera vez que se encontraron, no dijiste nada.", "status": "TRANSLATED", "locked": false}
+{"id": "100_03", "type": "REVEAL", "en": "‘Fucking bitch.’", "passenger": "Lieutenant Busset", "es": "‘Maldita perra.’", "status": "TRANSLATED", "locked": false}
+{"id": "100_04", "type": "REVEAL", "en": "You informed Busset the Judge told you about her.", "passenger": "Lieutenant Busset", "es": "Le contaste a Busset que el Juez te había hablado de ella.", "status": "TRANSLATED", "locked": false}
+{"id": "100_05", "type": "REVEAL", "en": "‘You’re all pigs.’", "passenger": "Lieutenant Busset", "es": "‘Son todos unos cerdos.’", "status": "TRANSLATED", "locked": false}
+{"id": "100_06", "type": "REVEAL", "en": "Busset called you Gandhi.", "passenger": "Lieutenant Busset", "es": "Busset te llamó Gandhi.", "status": "TRANSLATED", "locked": false}
+{"id": "100_07", "type": "REVEAL", "en": "‘Go fuck yourself.’", "passenger": "Lieutenant Busset", "es": "‘Andate a la mierda.’", "status": "TRANSLATED", "locked": false}
+{"id": "100_08", "type": "REVEAL", "en": "You did not respond when Busset provoked you.", "passenger": "Lieutenant Busset", "es": "No respondiste cuando Busset te provocó.", "status": "TRANSLATED", "locked": false}
+{"id": "200_00", "type": "REVEAL", "en": "You have met Ada.", "passenger": "Ada", "es": "Conociste a Ada.", "status": "TRANSLATED", "locked": false}
+{"id": "200_01", "type": "REVEAL", "en": "You had an argument with Ada.", "passenger": "Ada", "es": "Discutiste con Ada.", "status": "TRANSLATED", "locked": false}
+{"id": "203_00", "type": "REVEAL", "en": "You have met Milo.", "passenger": "Milo", "es": "Conociste a Milo.", "status": "TRANSLATED", "locked": false}
+{"id": "203_01", "type": "REVEAL", "en": "Milo told you about Cuba.", "passenger": "Milo", "es": "Milo te habló de Cuba.", "status": "TRANSLATED", "locked": false}
+{"id": "203_02", "type": "REVEAL", "en": "Milo told you about Africa.", "passenger": "Milo", "es": "Milo te habló de África.", "status": "TRANSLATED", "locked": false}
+{"id": "203_03", "type": "REVEAL", "en": "Milo told you about Poland.", "passenger": "Milo", "es": "Milo te habló de Polonia.", "status": "TRANSLATED", "locked": false}
+{"id": "205_00", "type": "REVEAL", "en": "You have met Chantal.", "passenger": "Chantal", "es": "Conociste a Chantal.", "status": "TRANSLATED", "locked": false}
+{"id": "205_01", "type": "REVEAL", "en": "You guessed Chantal's work.", "passenger": "Chantal", "es": "Adivinaste el trabajo de Chantal.", "status": "TRANSLATED", "locked": false}
+{"id": "206_00", "type": "REVEAL", "en": "You have met Amira.", "passenger": "Amira", "es": "Conociste a Amira.", "status": "TRANSLATED", "locked": false}
+{"id": "206_01", "type": "REVEAL", "en": "Amira left the cab angry.", "passenger": "Amira", "es": "Amira se bajó del taxi enojada.", "status": "TRANSLATED", "locked": false}
+{"id": "207_00", "type": "REVEAL", "en": "You have met Lola.", "passenger": "Lola", "es": "Conociste a Lola.", "status": "TRANSLATED", "locked": false}
+{"id": "208_00", "type": "REVEAL", "en": "You have met Myrtille.", "passenger": "Myrtille", "es": "Conociste a Myrtille.", "status": "TRANSLATED", "locked": false}
+{"id": "208_01", "type": "REVEAL", "en": "A secret.", "passenger": "Myrtille", "es": "Un secreto.", "status": "TRANSLATED", "locked": false}
+{"id": "208_02", "type": "REVEAL", "en": "Emptiness.", "passenger": "Myrtille", "es": "Vacío.", "status": "TRANSLATED", "locked": false}
+{"id": "208_03", "type": "REVEAL", "en": "A hole.", "passenger": "Myrtille", "es": "Un agujero.", "status": "TRANSLATED", "locked": false}
+{"id": "208_04", "type": "REVEAL", "en": "The horizon.", "passenger": "Myrtille", "es": "El horizonte.", "status": "TRANSLATED", "locked": false}
+{"id": "210_00", "type": "REVEAL", "en": "You have met Xavier.", "passenger": "Xavier", "es": "Conociste a Xavier.", "status": "TRANSLATED", "locked": false}
+{"id": "210_01", "type": "REVEAL", "en": "You met Xavier again.", "passenger": "Xavier", "es": "Volviste a ver a Xavier.", "status": "TRANSLATED", "locked": false}
+{"id": "210_02", "type": "REVEAL", "en": "You helped Xavier.", "passenger": "Xavier", "es": "Ayudaste a Xavier.", "status": "TRANSLATED", "locked": false}
+{"id": "210_03", "type": "REVEAL", "en": "You had an accident.", "passenger": "Xavier", "es": "Tuviste un accidente.", "status": "TRANSLATED", "locked": false}
+{"id": "213_00", "type": "REVEAL", "en": "You have met Claudine.", "passenger": "Claudine", "es": "Conociste a Claudine.", "status": "TRANSLATED", "locked": false}
+{"id": "213_01", "type": "REVEAL", "en": "You met Claudine again.", "passenger": "Claudine", "es": "Volviste a ver a Claudine.", "status": "TRANSLATED", "locked": false}
+{"id": "213_02", "type": "REVEAL", "en": "Claudine told you about the pyramids.", "passenger": "Claudine", "es": "Claudine te habló de las pirámides.", "status": "TRANSLATED", "locked": false}
+{"id": "213_03", "type": "REVEAL", "en": "Claudine told you about the flat Earth.", "passenger": "Claudine", "es": "Claudine te habló de la Tierra plana.", "status": "TRANSLATED", "locked": false}
+{"id": "213_04", "type": "REVEAL", "en": "Claudine told you about the vaccines.", "passenger": "Claudine", "es": "Claudine te habló de las vacunas.", "status": "TRANSLATED", "locked": false}
+{"id": "213_05", "type": "REVEAL", "en": "Claudine told you about the President's secret.", "passenger": "Claudine", "es": "Claudine te habló del secreto del presidente.", "status": "TRANSLATED", "locked": false}
+{"id": "214_00", "type": "REVEAL", "en": "You have met Roksana.", "passenger": "Roksana", "es": "Conociste a Roksana.", "status": "TRANSLATED", "locked": false}
+{"id": "217_00", "type": "REVEAL", "en": "You have met Alph.", "passenger": "Alph", "es": "Conociste a Alph.", "status": "TRANSLATED", "locked": false}
+{"id": "219_00", "type": "REVEAL", "en": "Nathalie was your cab driver.", "passenger": "Nathalie", "es": "Nathalie fue tu taxista.", "status": "TRANSLATED", "locked": false}
+{"id": "221_00", "type": "REVEAL", "en": "You have met Jim.", "passenger": "Jim", "es": "Conociste a Jim.", "status": "TRANSLATED", "locked": false}
+{"id": "221_01", "type": "REVEAL", "en": "You had dinner with Jim.", "passenger": "Jim", "es": "Cenaste con Jim.", "status": "TRANSLATED", "locked": false}
+{"id": "221_02", "type": "REVEAL", "en": "You have been… attacked by Jim?", "passenger": "Jim", "es": "Fuiste… ¿atacado por Jim?", "status": "TRANSLATED", "locked": false}
+{"id": "221_03", "type": "REVEAL", "en": "Jim escaped.", "passenger": "Jim", "es": "Jim escapó.", "status": "TRANSLATED", "locked": false}
+{"id": "222_00", "type": "REVEAL", "en": "You have met Melchior.", "passenger": "Melchior", "es": "Conociste a Melchior.", "status": "TRANSLATED", "locked": false}
+{"id": "222_01", "type": "REVEAL", "en": "You met Melchior again.", "passenger": "Melchior", "es": "Volviste a ver a Melchior.", "status": "TRANSLATED", "locked": false}
+{"id": "222_02", "type": "REVEAL", "en": "You spied on someone else's life.", "passenger": "Melchior", "es": "Espiaste la vida de otra persona.", "status": "TRANSLATED", "locked": false}
+{"id": "223_00", "type": "REVEAL", "en": "You have met Bérénice.", "passenger": "Bérénice", "es": "Conociste a Bérénice.", "status": "TRANSLATED", "locked": false}
+{"id": "224_00", "type": "REVEAL", "en": "You have met Nadia & Yves.", "passenger": "Nadia & Yves", "es": "Conociste a Nadia y Yves.", "status": "TRANSLATED", "locked": false}
+{"id": "224_01", "type": "REVEAL", "en": "Nadia left Yves behind.", "passenger": "Nadia & Yves", "es": "Nadia dejó atrás a Yves.", "status": "TRANSLATED", "locked": false}
+{"id": "224_02", "type": "REVEAL", "en": "Nadia changed her mind.", "passenger": "Nadia & Yves", "es": "Nadia cambió de opinión.", "status": "TRANSLATED", "locked": false}
+{"id": "997_00", "type": "REVEAL", "en": "You were attacked by the Angel of Death.", "passenger": "L'Ange de la Mort", "es": "Fuiste atacado por el Ángel de la Muerte.", "status": "TRANSLATED", "locked": false}
+{"id": "997_01", "type": "REVEAL", "en": "You discovered the Angel of Death’s identity.", "passenger": "L'Ange de la Mort", "es": "Descubriste la identidad del Ángel de la Muerte.", "status": "TRANSLATED", "locked": false}
+{"id": "997_02", "type": "REVEAL", "en": "You helped the Angel of Death get arrested.", "passenger": "L'Ange de la Mort", "es": "Ayudaste a que arrestaran al Ángel de la Muerte.", "status": "TRANSLATED", "locked": false}
+{"id": "997_03", "type": "REVEAL", "en": "The Angel of Death killed you.", "passenger": "L'Ange de la Mort", "es": "El Ángel de la Muerte te mató.", "status": "TRANSLATED", "locked": false}
+{"id": "997_04", "type": "REVEAL", "en": "Jesus is the … real killer?", "passenger": "L'Ange de la Mort", "es": "¿Jesús es … el verdadero asesino?", "status": "TRANSLATED", "locked": false}
+{"id": "997_05", "type": "REVEAL", "en": "You told the Angel of Death about your mother.", "passenger": "L'Ange de la Mort", "es": "Le contaste al Ángel de la Muerte sobre tu madre.", "status": "TRANSLATED", "locked": false}
+{"id": "997_06", "type": "REVEAL", "en": "You got to the meeting point as quickly as possible.", "passenger": "L'Ange de la Mort", "es": "Llegaste al punto de encuentro lo más rápido posible.", "status": "TRANSLATED", "locked": false}
+{"id": "998_00", "type": "REVEAL", "en": "You were attacked by the Sandman.", "passenger": "Le Marchand de Sable", "es": "Fuiste atacado por el Hombre de Arena.", "status": "TRANSLATED", "locked": false}
+{"id": "998_01", "type": "REVEAL", "en": "You discovered the Sandman’s identity.", "passenger": "Le Marchand de Sable", "es": "Descubriste la identidad del Hombre de Arena.", "status": "TRANSLATED", "locked": false}
+{"id": "998_02", "type": "REVEAL", "en": "You helped the Sandman get arrested.", "passenger": "Le Marchand de Sable", "es": "Ayudaste a que arrestaran al Hombre de Arena.", "status": "TRANSLATED", "locked": false}
+{"id": "998_03", "type": "REVEAL", "en": "The Sandman killed you.", "passenger": "Le Marchand de Sable", "es": "El Hombre de Arena te mató.", "status": "TRANSLATED", "locked": false}
+{"id": "998_04", "type": "REVEAL", "en": "You were straight with the Sandman.", "passenger": "Le Marchand de Sable", "es": "Fuiste sincero con el Hombre de Arena.", "status": "TRANSLATED", "locked": false}
+{"id": "998_05", "type": "REVEAL", "en": "You led the Sandman to believe you were driving to Anita Ventimiglia’s home.", "passenger": "Le Marchand de Sable", "es": "Hiciste creer al Hombre de Arena que ibas camino a la casa de Anita Ventimiglia.", "status": "TRANSLATED", "locked": false}
+{"id": "998_06", "type": "REVEAL", "en": "You convinced the Sandman to turn himself in.", "passenger": "Le Marchand de Sable", "es": "Convenciste al Hombre de Arena de entregarse.", "status": "TRANSLATED", "locked": false}
+{"id": "998_07", "type": "REVEAL", "en": "The Sandman tried to take his own life.", "passenger": "Le Marchand de Sable", "es": "El Hombre de Arena intentó quitarse la vida.", "status": "TRANSLATED", "locked": false}
+{"id": "998_08", "type": "REVEAL", "en": "The police opened fire at the Sandman.", "passenger": "Le Marchand de Sable", "es": "La policía abrió fuego contra el Hombre de Arena.", "status": "TRANSLATED", "locked": false}
+{"id": "999_00", "type": "REVEAL", "en": "You were attacked by the Judge.", "passenger": "Le Juge", "es": "Fuiste atacado por el Juez.", "status": "TRANSLATED", "locked": false}
+{"id": "999_01", "type": "REVEAL", "en": "You discovered the Judge’s identity.", "passenger": "Le Juge", "es": "Descubriste la identidad del Juez.", "status": "TRANSLATED", "locked": false}
+{"id": "999_02", "type": "REVEAL", "en": "You helped the Judge get arrested.", "passenger": "Le Juge", "es": "Ayudaste a que arrestaran al Juez.", "status": "TRANSLATED", "locked": false}
+{"id": "999_03", "type": "REVEAL", "en": "The Judge killed you.", "passenger": "Le Juge", "es": "El Juez te mató.", "status": "TRANSLATED", "locked": false}
+{"id": "999_04", "type": "REVEAL", "en": "You lied to the Judge.", "passenger": "Le Juge", "es": "Le mentiste al Juez.", "status": "TRANSLATED", "locked": false}
+{"id": "999_05", "type": "REVEAL", "en": "You told the Judge what Busset said about him.", "passenger": "Le Juge", "es": "Le contaste al Juez lo que Busset dijo de él.", "status": "TRANSLATED", "locked": false}
+{"id": "999_06", "type": "REVEAL", "en": "The Judge sat on the bench…", "passenger": "Le Juge", "es": "El Juez se sentó en el banquillo…", "status": "TRANSLATED", "locked": false}
+{"id": "999_07", "type": "REVEAL", "en": "… and escaped his responsibilities.", "passenger": "Le Juge", "es": "… y eludió sus responsabilidades.", "status": "TRANSLATED", "locked": false}
+{"id": "999_08", "type": "REVEAL", "en": "… and decided to turn himself in.", "passenger": "Le Juge", "es": "… y decidió entregarse.", "status": "TRANSLATED", "locked": false}

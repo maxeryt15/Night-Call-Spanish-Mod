@@ -11,12 +11,12 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from nc.common import DB, DB_DIALOGS, REF_RU, ROOT, norm, read_json, read_jsonl, split_line
+from nc.common import all_db_files, DB, DB_DIALOGS, REF_RU, ROOT, norm, read_json, read_jsonl, split_line
 
 
 def known_texts():
     known = set()
-    for f in glob.glob(os.path.join(DB_DIALOGS, "*.jsonl")) + [os.path.join(DB, "ui.jsonl")]:
+    for f in all_db_files():
         for r in read_jsonl(f):
             known.add(norm(r["en"]))
     names = read_json(os.path.join(ROOT, "translation", "characters.json"))

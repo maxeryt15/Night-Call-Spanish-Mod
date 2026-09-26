@@ -8,12 +8,12 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from nc.common import DB, DB_DIALOGS, read_jsonl
+from nc.common import all_db_files, DB, DB_DIALOGS, read_jsonl
 
 if __name__ == "__main__":
     total = collections.Counter()
     per_file = []
-    for f in sorted(glob.glob(os.path.join(DB_DIALOGS, "*.jsonl"))) + [os.path.join(DB, "ui.jsonl")]:
+    for f in all_db_files():
         rows = read_jsonl(f)
         c = collections.Counter(r["status"] for r in rows)
         c["hint"] = sum(1 for r in rows if r.get("hint"))

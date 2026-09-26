@@ -4,6 +4,7 @@ db/dialogs/<objeto>.jsonl  filas de narración, diálogo y choices
                            (diálogos compilados: id objeto|passage|L<i> / C<i>;
                             guiones TextAsset *_eng: id objeto|passage|T<nº de línea>)
 db/ui.jsonl                claves de LocalizationManager
+db/reveals.jsonl           descripciones del Passidex (source/reveals.json)
 
 Re-ejecutable: conserva es/status/locked/notes de filas existentes cuyo inglés no cambió.
 Uso: python tools/extract.py
@@ -82,6 +83,19 @@ def extract_textasset(path):
     return len(rows)
 
 
+def extract_reveals():
+    """Passidex: source/reveals.json (volcado de RevealScript). text[1] es el inglés
+    (orden de idiomas del juego: fra, eng, jap, ger). "title" es un indicador interno."""
+    path = os.path.join(SOURCE, "reveals.json")
+    if not os.path.exists(path):
+        return 0
+    rows = [row(r["reveal_id"], "REVEAL", r["text"][1].strip(), passenger=r["passenger"])
+            for r in read_json(path) if len(r["text"]) > 1 and r["text"][1].strip()]
+    out = os.path.join(DB, "reveals.jsonl")
+    write_jsonl(out, merge(rows, out))
+    return len(rows)
+
+
 def extract_ui():
     loc = read_json(os.path.join(SOURCE, "localization_eng.json"))
     rows = [row(k, "UI", v) for k, v in loc.items() if v and v.strip()]
@@ -106,3 +120,4 @@ if __name__ == "__main__":
     print(f"dialogos: {len(files)} archivos, {total} filas")
     print(f"guiones textasset: {len(tas)} archivos, {sum(extract_textasset(f) for f in tas)} filas")
     print(f"ui: {extract_ui()} filas")
+    print(f"passidex (reveals): {extract_reveals()} filas")

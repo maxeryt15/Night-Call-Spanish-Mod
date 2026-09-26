@@ -14,13 +14,13 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from nc.common import DB, DB_DIALOGS, read_jsonl, write_jsonl
+from nc.common import all_db_files, DB, DB_DIALOGS, read_jsonl, write_jsonl
 
 APPROVED = ("TRANSLATED", "TESTED")
 
 
 def db_files():
-    return sorted(glob.glob(os.path.join(DB_DIALOGS, "*.jsonl"))) + [os.path.join(DB, "ui.jsonl")]
+    return all_db_files()
 
 
 def build_memory():

@@ -15,7 +15,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from nc.common import (DB, DB_DIALOGS, ROOT, SOURCE, is_structural, parse_choice, read_json,
+from nc.common import (all_db_files, DB, DB_DIALOGS, ROOT, SOURCE, is_structural, parse_choice, read_json,
                        read_jsonl, read_textasset, split_line)
 
 OUT = os.path.join(ROOT, "build", "data")
@@ -123,7 +123,7 @@ def check_file(path, errors):
 
 def main():
     errors, warns = [], []
-    for f in sorted(glob.glob(os.path.join(DB_DIALOGS, "*.jsonl"))) + [os.path.join(DB, "ui.jsonl")]:
+    for f in all_db_files():
         for r in read_jsonl(f):
             check_row(r, errors, warns, r["id"])
     # sin source/ (p. ej. sesión en la nube) solo se validan filas de db/

@@ -23,15 +23,15 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from nc.common import DB, DB_DIALOGS, ROOT, read_jsonl, write_jsonl
+from nc.common import EXTRA_DBS, DB, DB_DIALOGS, ROOT, read_jsonl, write_jsonl
 
 WORK = os.path.join(ROOT, "work")
 EMOTE = re.compile(r"^:[a-z0-9_\-]+:\s*")  # el emote vive en el original; nunca en "es"
 
 
 def db_path(obj):
-    if obj == "ui":
-        return os.path.join(DB, "ui.jsonl")
+    if obj in EXTRA_DBS:
+        return os.path.join(DB, obj + ".jsonl")
     return os.path.join(DB_DIALOGS, obj + ".jsonl")
 
 

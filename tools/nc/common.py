@@ -10,6 +10,14 @@ DB_DIALOGS = os.path.join(DB, "dialogs")
 REF_RU = os.path.join(ROOT, "ref-russian", "data")
 
 STATUSES = ("TODO", "TRANSLATED", "REVIEW", "TESTED")
+EXTRA_DBS = ("ui", "reveals")  # db/<nombre>.jsonl fuera de dialogs/ (claves de UI, Passidex)
+
+
+def all_db_files():
+    """Todos los archivos de la base: db/dialogs/*.jsonl + db/ui.jsonl + db/reveals.jsonl."""
+    import glob
+    files = sorted(glob.glob(os.path.join(DB_DIALOGS, "*.jsonl")))
+    return files + [p for p in (os.path.join(DB, n + ".jsonl") for n in EXTRA_DBS) if os.path.exists(p)]
 
 # Línea de diálogo: "NOMBRE: texto" / "NOMBRE : texto" (mayúsculas latinas o cirílicas)
 _SPEAKER = re.compile(r"^([^\W\da-zа-яё][^:\"“«]{0,40}?)\s*:\s+(.+)$", re.S)
