@@ -29,21 +29,21 @@ body:
   - type: textarea
     attributes:
       label: Texto en español que viste
-      description: Copiá el texto tal cual aparece en el juego (o transcribilo si no podés copiarlo).
+      description: Copia el texto tal cual aparece en el juego (o transcríbelo si no puedes copiarlo).
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Captura de pantalla
-      description: Arrastrá una imagen acá si podés. Ayuda muchísimo a encontrar la fila exacta.
+      description: Arrastra una imagen aquí si puedes. Ayuda muchísimo a encontrar la fila exacta.
 
   - type: textarea
     attributes:
       label: ¿Qué esperabas en vez de eso?
-      description: Opcional. Si tenés una sugerencia de cómo debería decir, dejala acá.
+      description: Opcional. Si tienes una sugerencia de cómo debería decir, déjala aquí.
 
   - type: input
     attributes:
       label: Versión del instalador
-      description: El nombre del .exe que usaste (Setup o Consola) y, si lo sabés, la versión (ej. v1.0.0).
+      description: El nombre del .exe que usaste (Setup o Consola) y, si la sabes, la versión (ej. v1.0.2).

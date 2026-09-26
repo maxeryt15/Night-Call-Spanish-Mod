@@ -208,5 +208,11 @@ if __name__ == "__main__":
                         "<GenerateAssemblyInfo>false</GenerateAssemblyInfo>\n    <NoWarn>CS0162</NoWarn>")
     with open(os.path.join(DST, "NightCallSpanish.csproj"), "w", encoding="utf-8", newline="\n") as f:
         f.write(proj)
-    shutil.copy(os.path.join(SRC, "Properties", "AssemblyInfo.cs"), os.path.join(DST, "Properties", "AssemblyInfo.cs"))
+    # AssemblyInfo: nombres en español y la versión real (el ruso traía 6.1.0.0, que se veía
+    # en Propiedades de la DLL). Mantener igual a la versión del BepInPlugin y del instalador.
+    with open(os.path.join(SRC, "Properties", "AssemblyInfo.cs"), encoding="utf-8-sig") as f:
+        info = f.read().replace("Russian", "Spanish")
+    info = re.sub(r'(Assembly(?:File)?Version\(")[\d.]+("\))', r"\g<1>1.0.2.0\g<2>", info)
+    with open(os.path.join(DST, "Properties", "AssemblyInfo.cs"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(info)
     print("port listo: src/Mod/SpanishLocalization.cs")
