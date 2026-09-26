@@ -33,12 +33,18 @@ namespace NightCallSpanish.Dumper
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.F9)) DumpAll("F9");
+            if (Input.GetKeyDown(KeyCode.F9))
+            {
+                DumpAll("F9");
+                try { DumpSceneTexts(SceneManager.GetActiveScene().name + "_F9"); } catch (Exception e) { Logger.LogError("SceneTexts: " + e); }
+            }
         }
 
         IEnumerator DumpLater(string scene)
         {
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(1f);
+            try { DumpSceneTexts(scene); } catch (Exception e) { Logger.LogError("SceneTexts: " + e); }
+            yield return new WaitForSeconds(1f);
             DumpAll(scene);
         }
 
@@ -206,6 +212,53 @@ namespace NightCallSpanish.Dumper
             File.WriteAllText(Path.Combine(_out, "reveals.json"), sb.ToString(), new UTF8Encoding(false));
             _dumpedReveals = true;
             Logger.LogInfo("Reveals volcadas: " + n);
+        }
+
+        // ---------- Diagnóstico: todos los textos de la escena (TMP y UI.Text) ----------
+        // Escribe scene_texts_<escena>.jsonl: ruta del objeto, componente, texto, tamaño,
+        // autosize, estilo y, si tiene LocalizedText, su clave y si fuerza mayúsculas.
+        void DumpSceneTexts(string scene)
+        {
+            var tmpType = FindType("TMPro.TMP_Text");
+            var ltType = FindType("NC.I18N.LocalizedText");
+            var uiTextType = FindType("UnityEngine.UI.Text");
+            var sb = new StringBuilder();
+            int n = 0;
+            foreach (var comp in Resources.FindObjectsOfTypeAll<Component>())
+            {
+                if (comp == null || !comp.gameObject.scene.IsValid()) continue;
+                var ct = comp.GetType();
+                bool isTmp = !ReferenceEquals(tmpType, null) && tmpType.IsAssignableFrom(ct);
+                bool isUi = !ReferenceEquals(uiTextType, null) && uiTextType.IsAssignableFrom(ct);
+                if (!isTmp && !isUi) continue;
+                string path = comp.name;
+                for (var tr = comp.transform.parent; tr != null; tr = tr.parent) path = tr.name + "/" + path;
+                sb.Append("{\"path\":").Append(J(path))
+                  .Append(",\"type\":").Append(J(ct.Name))
+                  .Append(",\"active\":").Append(comp.gameObject.activeInHierarchy ? "true" : "false")
+                  .Append(",\"text\":").Append(J(Convert.ToString(GetProp(comp, "text"))))
+                  .Append(",\"fontSize\":").Append(J(Convert.ToString(GetProp(comp, "fontSize"))))
+                  .Append(",\"autoSize\":").Append(J(Convert.ToString(GetProp(comp, isTmp ? "enableAutoSizing" : "resizeTextForBestFit"))))
+                  .Append(",\"fontStyle\":").Append(J(Convert.ToString(GetProp(comp, "fontStyle"))));
+                if (!ReferenceEquals(ltType, null))
+                {
+                    var lt = comp.GetComponent(ltType);
+                    if (lt != null)
+                        sb.Append(",\"lt_key\":").Append(J(Convert.ToString(Get(lt, "_key"))))
+                          .Append(",\"lt_upper\":").Append(J(Convert.ToString(Get(lt, "_uppercase"))));
+                }
+                sb.Append("}\n");
+                n++;
+            }
+            if (n == 0) return;
+            File.WriteAllText(Path.Combine(_out, "scene_texts_" + Safe(scene) + ".jsonl"), sb.ToString(), new UTF8Encoding(false));
+            Logger.LogInfo("Textos de escena '" + scene + "': " + n);
+        }
+
+        static object GetProp(object o, string name)
+        {
+            var p = o.GetType().GetProperty(name, BindingFlags.Public | BindingFlags.Instance);
+            try { return ReferenceEquals(p, null) ? null : p.GetValue(o, null); } catch { return null; }
         }
 
         // ---------- Volcado genérico: todos los strings de ciertos ScriptableObjects ----------
