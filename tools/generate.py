@@ -38,6 +38,9 @@ def gen_dialog(src_path, mapping):
     d = read_json(src_path)
     obj = d["object"]
     rows = {r["id"]: r for r in read_jsonl(os.path.join(DB_DIALOGS, obj + ".jsonl"))}
+    for r in rows.values():  # peticiones del mapa (passengercall): se muestran en TMP
+        if r["type"] == "CALL" and usable(r):
+            mapping.setdefault(r["en"], r["es"])
     out, n_pass = [], 0
     for p in d["passages"]:
         title = p["title"]

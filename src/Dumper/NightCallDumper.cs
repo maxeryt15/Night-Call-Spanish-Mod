@@ -140,6 +140,9 @@ namespace NightCallSpanish.Dumper
                     sb.Append("{\"object\":").Append(J(obj.name))
                       .Append(",\"title\":").Append(J(Convert.ToString(Get(obj, "title"))))
                       .Append(",\"lang\":").Append(J(lang))
+                      // _user_datas: metadatos del diálogo; "passengercall : «…»" es la petición
+                      // que se muestra en el mapa (DialogEncounter.GetPassengerDestinationCall)
+                      .Append(",\"user_datas\":").Append(JList(Get(dialog, "_user_datas") as IList))
                       .Append(",\"passages\":[\n");
                     for (int p = 0; p < passages.Count; p++)
                     {

@@ -13,12 +13,14 @@ Uso: python tools/extract.py
 """
 import glob
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from nc.common import (DB, DB_DIALOGS, SOURCE, is_structural, parse_choice, read_json,
                        read_jsonl, read_textasset, split_line, write_jsonl)
 
+PASSENGERCALL = re.compile(r"^\s*passengercall\s*:\s*(.+?)\s*$", re.S)
 KEEP = ("es", "status", "locked", "notes", "hint", "hint_origin", "hint_alt")
 
 
@@ -66,6 +68,11 @@ def extract_dialog(path):
             _, emote, body = split_line(c["text"])
             rows.append(row(f"{obj}|{title}|C{i}", "CHOICE", body,
                             passage=title, emote=emote, link=c["link"]))
+    # peticiones del mapa: user_datas "passengercall : «…»" (DialogEncounter.GetPassengerDestinationCall)
+    for i, ud in enumerate(d.get("user_datas") or []):
+        m = PASSENGERCALL.match(ud or "")
+        if m:
+            rows.append(row(f"{obj}|userdata|U{i}", "CALL", m.group(1).strip(), passage="userdata"))
     out = os.path.join(DB_DIALOGS, obj + ".jsonl")
     PENDING.append((out, merge(rows, out)))
     return len(rows)
