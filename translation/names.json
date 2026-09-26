@@ -1,0 +1,16 @@
+{
+ "_nota": "Nombre de hablante (inglés, como en el juego) -> nombre que se MUESTRA en español. Solo cargos/roles; los nombres propios no se traducen. El género sale de los pronombres del original.",
+ "BOSS": "JEFE",
+ "DOCTOR": "DOCTORA",
+ "BARMAID": "CAMARERA",
+ "CARETAKER": "CUIDADOR",
+ "CLERK": "EMPLEADO",
+ "CONCIERGE": "CONSERJE",
+ "GUARD": "GUARDIA",
+ "ANSWERING MACHINE": "CONTESTADOR",
+ "PATRONNE": "DUEÑA",
+ "PÈRE": "PADRE",
+ "ULTRA GREEN": "ULTRA VERDE",
+ "ULTRA PINK": "ULTRA ROSA",
+ "ULTRA RED": "ULTRA ROJO"
+}

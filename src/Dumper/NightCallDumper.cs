@@ -48,6 +48,7 @@ namespace NightCallSpanish.Dumper
             try { d = DumpDialogs(); } catch (Exception e) { Logger.LogError("Dialogs: " + e); }
             try { l = DumpLocalization(); } catch (Exception e) { Logger.LogError("Localization: " + e); }
             try { t = DumpTextAssets(); } catch (Exception e) { Logger.LogError("TextAssets: " + e); }
+            try { DumpReveals(); } catch (Exception e) { Logger.LogError("Reveals: " + e); }
             Logger.LogInfo(string.Format("[{0}] nuevos: dialogos={1} idiomas UI={2} textassets={3} | totales: {4}/{5}/{6}",
                 reason, d, l, t, _dumpedDialogs.Count, _dumpedLoc.Count, _dumpedAssets.Count));
         }
@@ -172,6 +173,49 @@ namespace NightCallSpanish.Dumper
         }
 
         // ---------- TextAssets ----------
+        // ---------- Passidex: reveals (descripciones de cada pasajero) ----------
+        bool _dumpedReveals;
+
+        void DumpReveals()
+        {
+            if (_dumpedReveals) return;
+            var type = FindType("NC.Passengers.RevealScript");
+            if (ReferenceEquals(type, null)) return;
+            var sb = new StringBuilder("[\n");
+            int n = 0;
+            foreach (var script in Resources.FindObjectsOfTypeAll(type))
+            {
+                var reveals = Get(script, "reveals") as IList;
+                if (reveals == null) continue;
+                foreach (var r in reveals)
+                {
+                    if (r == null) continue;
+                    sb.Append(n++ > 0 ? ",\n" : "")
+                      .Append("{\"script\":").Append(J(script.name))
+                      .Append(",\"passenger\":").Append(J(Convert.ToString(Get(r, "passenger_name"))))
+                      .Append(",\"passenger_id\":").Append(Convert.ToString(Get(r, "passenger_id")))
+                      .Append(",\"reveal_id\":").Append(J(Convert.ToString(Get(r, "reveal_id"))))
+                      .Append(",\"title\":").Append(JList(Get(r, "title") as IList))
+                      .Append(",\"text\":").Append(JList(Get(r, "text") as IList))
+                      .Append("}");
+                }
+            }
+            if (n == 0) return;
+            sb.Append("\n]\n");
+            File.WriteAllText(Path.Combine(_out, "reveals.json"), sb.ToString(), new UTF8Encoding(false));
+            _dumpedReveals = true;
+            Logger.LogInfo("Reveals volcadas: " + n);
+        }
+
+        static string JList(IList list)
+        {
+            if (list == null) return "[]";
+            var sb = new StringBuilder("[");
+            for (int i = 0; i < list.Count; i++)
+                sb.Append(i > 0 ? "," : "").Append(J(Convert.ToString(list[i])));
+            return sb.Append("]").ToString();
+        }
+
         int DumpTextAssets()
         {
             string dir = Path.Combine(_out, "textassets");

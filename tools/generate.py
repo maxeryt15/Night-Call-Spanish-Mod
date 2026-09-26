@@ -5,7 +5,7 @@
                                    misma cantidad) y solo reemplaza el cuerpo visible.
                                    guiones TextAsset: archivo completo (el mod lo reemplaza entero).
   Spanish_UI/key_based_translations.json    clave de UI -> español
-  Spanish_UI/full_translation_mapping.json  inglés -> español (fallback TMP)
+  Spanish_UI/full_translation_mapping.json  inglés -> español (fallback TMP) + nombres de translation/names.json
 
 Solo usa filas TRANSLATED/REVIEW/TESTED con 'es'. Termina ejecutando validate.
 Uso: python tools/generate.py
@@ -114,6 +114,11 @@ if __name__ == "__main__":
         if usable(r):
             mapping.setdefault(r["en"], r["es"])
     write_json(os.path.join(OUT, "Spanish_UI", "key_based_translations.json"), ui)
+    # nombres de hablante que se muestran en pantalla (cargos/roles): translation/names.json
+    names = read_json(os.path.join(ROOT, "translation", "names.json"))
+    for en, es in names.items():
+        if not en.startswith("_") and en != es:
+            mapping[en] = es
     write_json(os.path.join(OUT, "Spanish_UI", "full_translation_mapping.json"), mapping)
     print(f"passages generados: {n_pass} | guiones textasset: {n_ta} | claves UI: {len(ui)} | mapping TMP: {len(mapping)}")
 
