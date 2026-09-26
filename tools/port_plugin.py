@@ -116,6 +116,38 @@ def port_cs(s):
     s = sub(s, "                ReplaceTextAssetContents();", "                if (LayerTextAssets) ReplaceTextAssetContents();")
     s = sub(s, "                PatchTMPText();", "                if (LayerTMP) PatchTMPText();")
     s = sub(s, "                PatchLocalizationManager(HarmonyInstance);", "                if (LayerUIKeys) PatchLocalizationManager(HarmonyInstance);")
+    # --- refrescar LocalizedText ya dibujados (p. ej. la pantalla de aviso del inicio lee el
+    #     texto antes de que se inyecten las traducciones y nunca lo vuelve a leer) ---
+    s = sub(s, "                injectedByKey, injectedByValue, injectedByKey + injectedByValue, dict.Count, uninjected));\n            TranslationsInjected = true;",
+            "                injectedByKey, injectedByValue, injectedByKey + injectedByValue, dict.Count, uninjected));\n"
+            "            TranslationsInjected = true;\n"
+            "            RefreshLocalizedTexts();")
+    s = sub(s, "        void BuildSpanishValues()",
+            "        static Type LocalizedTextType;\n"
+            "        static void RefreshLocalizedTexts()\n"
+            "        {\n"
+            "            try\n"
+            "            {\n"
+            "                if (object.ReferenceEquals(LocalizedTextType, null))\n"
+            "                    foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())\n"
+            "                    {\n"
+            "                        LocalizedTextType = asm.GetType(\"NC.I18N.LocalizedText\");\n"
+            "                        if (!object.ReferenceEquals(LocalizedTextType, null)) break;\n"
+            "                    }\n"
+            "                if (object.ReferenceEquals(LocalizedTextType, null)) return;\n"
+            "                MethodInfo update = LocalizedTextType.GetMethod(\"UpdateTextContent\", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);\n"
+            "                if (object.ReferenceEquals(update, null)) return;\n"
+            "                int n = 0;\n"
+            "                foreach (var lt in Resources.FindObjectsOfTypeAll(LocalizedTextType))\n"
+            "                {\n"
+            "                    try { update.Invoke(lt, null); n++; } catch { }\n"
+            "                }\n"
+            "                Log.LogInfo(string.Format(\"LocalizedText refrescados: {0}\", n));\n"
+            "            }\n"
+            "            catch (Exception e) { Log.LogWarning(\"RefreshLocalizedTexts: \" + e.Message); }\n"
+            "        }\n\n"
+            "        void BuildSpanishValues()")
+
     # --- F5: recargar traducciones sin reiniciar el juego ---
     s = sub(s, "        private static Dictionary<string, string> TranslationsLower = null;",
             "        internal static Dictionary<string, string> TranslationsLower = null;")

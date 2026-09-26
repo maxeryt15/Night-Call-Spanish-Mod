@@ -247,7 +247,7 @@ namespace NightCallSpanish.Dumper
                 return;
             }
             var t = o.GetType();
-            if (t.IsPrimitive || t.IsEnum || t == typeof(decimal)) return;
+            if (t.IsPrimitive || t.IsEnum || ReferenceEquals(t, typeof(decimal))) return;
             if (depth > 0 && o is UnityEngine.Object) return;   // no seguir referencias a otros assets
             if (!t.IsValueType && !seen.Add(o)) return;
             var list = o as IList;
@@ -256,7 +256,7 @@ namespace NightCallSpanish.Dumper
                 for (int i = 0; i < list.Count; i++) Walk(list[i], path + "[" + i + "]", depth + 1, sb, ref n, seen);
                 return;
             }
-            for (var bt = t; !ReferenceEquals(bt, null) && bt.Namespace != "UnityEngine" && bt != typeof(object); bt = bt.BaseType)
+            for (var bt = t; !ReferenceEquals(bt, null) && bt.Namespace != "UnityEngine" && !ReferenceEquals(bt, typeof(object)); bt = bt.BaseType)
                 foreach (var f in bt.GetFields(BF | BindingFlags.DeclaredOnly))
                     Walk(f.GetValue(o), path + "." + f.Name, depth + 1, sb, ref n, seen);
         }

@@ -3571,6 +3571,7 @@ namespace NightCallSpanish
             Log.LogInfo(string.Format("Injected {0} by KEY + {1} by VALUE = {2} total ({3} dict entries, {4} still English)",
                 injectedByKey, injectedByValue, injectedByKey + injectedByValue, dict.Count, uninjected));
             TranslationsInjected = true;
+            RefreshLocalizedTexts();
         }
 
         void ExploreLocalizationData(object locData)
@@ -3760,6 +3761,30 @@ namespace NightCallSpanish
             {
                 Log.LogError(string.Format("Error loading translations: {0}", e.Message));
             }
+        }
+
+        static Type LocalizedTextType;
+        static void RefreshLocalizedTexts()
+        {
+            try
+            {
+                if (object.ReferenceEquals(LocalizedTextType, null))
+                    foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
+                    {
+                        LocalizedTextType = asm.GetType("NC.I18N.LocalizedText");
+                        if (!object.ReferenceEquals(LocalizedTextType, null)) break;
+                    }
+                if (object.ReferenceEquals(LocalizedTextType, null)) return;
+                MethodInfo update = LocalizedTextType.GetMethod("UpdateTextContent", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                if (object.ReferenceEquals(update, null)) return;
+                int n = 0;
+                foreach (var lt in Resources.FindObjectsOfTypeAll(LocalizedTextType))
+                {
+                    try { update.Invoke(lt, null); n++; } catch { }
+                }
+                Log.LogInfo(string.Format("LocalizedText refrescados: {0}", n));
+            }
+            catch (Exception e) { Log.LogWarning("RefreshLocalizedTexts: " + e.Message); }
         }
 
         void ReloadAll()
